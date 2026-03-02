@@ -1,5 +1,5 @@
-.tt-content:hover .tt-text {
-    display: block;
+.tt-content:hover img {
+  filter: grayscale(50%);
 }
 
 .tt-text {
@@ -8,14 +8,20 @@
     border: 1px dashed gray;
     background: #000000;
     margin-left: 28px;
-    padding: 10px;
+    padding: 2px;
     position: absolute;
     z-index: 1000;
     max-width:200px;
-    max-height:100px;
+    max-height:1000px;
+    white-space: wrap;
 }
 
 .tt-content {
-    margin:100px;
     cursor: crosshair;
+    width:0%; /**idk why this works it just does**/
+}
+
+.tt-content:hover .tt-text {
+    display: block;
+    position:absolute;
 }

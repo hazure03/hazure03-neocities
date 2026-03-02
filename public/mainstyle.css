@@ -1,0 +1,199 @@
+/* COLORS */
+:root {
+    --main-color: black;
+    --second-color: rgb(70, 70, 70);
+    --accent-color: greenyellow;
+    --text-color: white;
+    --link-color: greenyellow;
+    --link-hover-color: white;
+}
+
+::selection {
+  color: black;
+  background: white;
+}
+
+/* SCROLL WIDTH */
+::-webkit-scrollbar {
+  width: 2px;
+  padding:0px;
+  margin:0px;
+}
+
+/* SCROLL TRACK */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px var(--main-color); 
+  border-radius: 10px;
+}
+ 
+/* SCROLL HANDLE */
+::-webkit-scrollbar-thumb {
+  background: var(--main-color); 
+  border: 1px solid var(--second-color);
+}
+
+/* SCROLL HANDLE HOVER */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+}
+
+/* MAIN FONT*/
+@font-face {
+    font-family: 'MainFont'; /*a name to be used later*/
+    src: url('main-assets/main-fonts/OnliLight.woff'); /*URL to font*/
+}
+
+ /* ACCENT FONT */
+@font-face {
+    font-family: 'AccentFont'; /*a name to be used later*/
+    src: url('main-assets/main-fonts/1942-report.ttf'); /*URL to font*/
+}
+
+ /* EVERYTHING */
+html {
+    background-color: black;
+    color: var(--text-color);
+    font-size:12px;
+    font-family: 'MainFont';
+    scrollbar-gutter: both-edges;
+    overflow-x:hidden;
+    border-collapse:collapse;
+}
+
+/* PARAGRAPHS */
+p {
+    padding-left:20px;
+    margin:7px 5px 3px 5px;
+    border-left:1px solid var(--text-color);
+}
+
+/* BIG TITLE HEADERS */
+h1 {
+    font-family: 'AccentFont';
+    letter-spacing: 5px;
+    font-size: 40px;
+    margin:0px;
+    padding:0px;
+    text-align: right;
+    border-bottom: 1px dashed var(--second-color);
+    background: linear-gradient(180deg,rgba(0, 0, 0, 1) 0%, rgb(43, 43, 43) 80%);
+}
+
+/* LINKS */
+a {
+    color: var(--link-color);
+    font-style: italic;
+    text-decoration: none;
+    cursor: crosshair;
+}
+
+/* LINKS HOVER */
+a:hover {
+    color: var(--link-hover-color);
+    text-decoration: underline;
+    font-style:normal;
+}
+
+/* BASIC IMAGE STYLING */
+img {
+    margin: 5px;
+}
+
+/* MAIN TABLE */
+table {
+    background-color: var(--main-color);
+    width: 600px;
+    height: 420px;
+    border:1px solid var(--second-color);
+    table-layout:auto;
+    border-collapse: collapse;
+    overflow:hidden;
+}
+
+/* CUSTOM EASY DIVIDER */
+.divider {
+    border-bottom: 1px dashed var(--second-color)
+}
+/* MAIN HEADER IMAGE */
+#td-header {
+    background-color: var(--main-color);
+    background-image:url(main-assets/main-images/green.jpg);
+    background-position: center;
+    height:100px;
+}
+
+/* MAIN CONTENT */
+td.maincontent {
+    background-color: var(--main-color);
+    overflow-x:hidden;
+    width: 470px;
+    border-right: 1px dashed var(--second-color);
+    
+}
+
+/* SIDE NAV MENU BOX*/
+td.side-box {
+    background-color: var(--main-color);
+    list-style-type: none;
+    text-decoration: none;
+    width: 123px;
+    height: 340px;
+    white-space: nowrap;
+    overflow:hidden;
+    display:block;
+
+}
+
+/* SIDE NAV LISTS */
+td.side-box ul{
+    padding:0px 0px 0px 5px;
+    margin-bottom:0px;
+}
+
+/* SIDE NAV LIST ENTRIES */
+.td-side-list li{
+    list-style-type: none;
+    text-decoration: none;
+    background-image: url('main-assets/main-icons/arrowright.gif'); /* your image */
+    background-size:10%;
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding: 0px 0px 0px 17px; /* Adjust according to image size to push text across. */
+}
+
+/* EMAIL LIST ENTRY */
+#nav-email li{
+    list-style-type: none;
+    text-decoration: none;
+    background-image: url('main-assets/main-icons/email.gif'); /* your image */
+    background-size:10%;
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding: 0px 0px 0px 20px;
+}
+
+/* SIDE NAV HEADER */
+.nav-header {
+    border-bottom:1px solid var(--second-color);
+    border-left: none; /* To avoid confliction with p borders */
+    text-align: right;
+    padding: 0px;
+    margin:0px;
+    background: linear-gradient(180deg,rgba(0, 0, 0, 1) 0%, rgb(43, 43, 43) 80%);
+    letter-spacing: 4px;
+}
+
+/* FOOTER */
+#footer {
+    width: 600px;
+    height:30px;
+}
+
+/* FOOTER TEXT */
+#footer p {
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: gray;
+}

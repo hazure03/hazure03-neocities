@@ -2,27 +2,108 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link href="mainstyle.css" rel="stylesheet" type="text/css" />
         <link href="tooltip.css" rel="stylesheet" type="text/css" />
-
-        <style>
-
-            body {
-                background-image: url("images/backgrounds/green.jpg");
-                color: white;
-            }
-
-        </style>
     </head>
 <body>
 
-    <!--INTRO-->
-    <h1>Testing github and vscodium</h1>
-    <p>Ignore if you somehow stumble across this lol</p>
-    <br>
+    <!--START TABLE-->
+    <table id="master-container">
 
-    <!--TOOLTIP FUCKERY-->
-    <div class="tt-content"><img src="images/Screen_Shot_Horstachio.png">
-    <span class="tt-text">fucking awesome piñata</span>
+        <!--MAIN HEADER BOX-->
+        <tr>
+            <td id="td-header" colspan="2">
+            </td>
+        </tr>
+
+        <!--MAIN CONTENT / SIDE BOX-->
+        <tr>
+            <!--MAIN CONTENT-->
+            <td class="maincontent">
+
+                <!--CONTENT WRAPPER-->
+                <div style="overflow:scroll; width:470px;overflow-x:hidden">
+                <!--INTRO-->
+                <h1>TEST PAGE</h1>
+                <p>Ignore if you somehow stumble across this lol. Everything is very subject to change. 
+                    Downloaded VSCodium and I'm utilizing GitHub forwarding (or however it's called) to make life a LOT easier for me, it's been a dream so far!! 
+                    Being able to work on the whole thing and update it all in one go is AWESOME, so is not relying on the fucking w3 schools code editor to work on my site like a neanderthal.</p>
+                <p>I'm liking how everything's looking so far, I'm gonna try and get fancy w/ it and use a lot of textures n stuff in the background. We'll see!</p>
+                <div class="divider""></div>
+                <p>This is what happens when I make a new paragraph...</p>
+                <p>Here!</p>
+                <div class="divider"></div>
+                <p>This is what happens when I make a break in the text...<br>Here!</p>
+                <div class="divider"></div>
+                <p>Anyways, I have to get to working on finals again. 
+                    Later I'd like to experiment with graphic stuff and figure out how I'll keep a consistant layout across pages. iframes are calling my name again...</p>
+
+                <!--TOOLTIP TESTING-->
+                <div class="tt-content"><img src="images/Screen_Shot_Horstachio.png" style=width:100px;>
+                    <span class="tt-text">fucking awesome piñata</span>
+                </div>
+                <div class="tt-content"><img src="images/Screen_Shot_Horstachio.png" style=width:100px;>
+                    <span class="tt-text">fucking awesome size changing piñata</span>
+                </div>
+                <!--CONTENT WRAPPER END-->
+
+            </td>
+            <!--MAIN CONTENT END-->
+
+            <!--SIDE BOX MENU-->
+            <td class="side-box">
+
+                <!--GIF DECOR-->
+                <div style="background-image:url('main-assets/main-images/eq.gif');background-size:contain;height:15px;""></div>
+
+                <!--INDEX-->
+                <p class="nav-header"><span style="color:gray">www.</span>INDEX<span style="color:gray">/</span></p>
+                <ul class="td-side-list">
+                    <li><div class="tt-content"><a href="example.com">HOME</a><span class="tt-text">Where you began </span></div></li>
+                    <li><div class="tt-content"><a href="example.com">ABOUT</a><span class="tt-text">Who am I?</span></div></li>
+                    <li><div class="tt-content"><a href="example.com">LINKS</a><span class="tt-text">Where will you go next?</span></div></li>
+                    <li><div class="tt-content"><a href="example.com">SPLASH</a><span class="tt-text">Where you ACTUALLY began</span></div></li>
+
+                </ul>
+
+                <!--ARTWORK-->
+                <p class="nav-header"><span style="color:gray">www.</span>ARTWORK<span style="color:gray">/</span></p>
+                <ul class="td-side-list">
+                    <li><div class="tt-content"><a href="example.com">ILLUSTRATION</a><span class="tt-text">*Mostly* digital drawings</span></div></li>
+                    <li><div class="tt-content"><a href="example.com">FURSUITS</a><span class="tt-text">Fursuits I've made and / or am working on</span></div></li>
+                    <li><div class="tt-content"><a href="example.com">BADGES</a><span class="tt-text">Laminated wiggly paperdolls galore</span></div></li>
+                    <li><div class="tt-content"><a href="example.com">COMMISSIONS</a><span class="tt-text">What I offer + TOS</span></div></li>
+                </ul>
+
+                <!--MUSIC-->
+                <p class="nav-header"><span style="color:gray">www.</span>MUSIC<span style="color:gray">/</span></p>
+                <ul class="td-side-list">
+                    <li><div class="tt-content"><a href="example.com"><a href="example.com">DISCOGRAPHY</a><span class="tt-text">Finished songs / EPs / albums</span></div></li>
+                    <li><div class="tt-content"><a href="example.com"><a href="example.com">SCRAPS</a><span class="tt-text">Unfinished work, loops, and other cool sounds</span></div></li>
+                </ul>
+
+                <!--FUN-->
+                <p class="nav-header"><span style="color:gray">www.</span>FUN<span style="color:gray">/</span></p>
+                <ul class="td-side-list">
+                    <li><div class="tt-content"><a href="example.com"><a href="example.com">CONVENTIONS</a><span class="tt-text">Conventions I've been to and where I'll go next</span></div></li>
+                    <li><div class="tt-content"><a href="example.com"><a href="example.com">DRESS.UP_GAME</a><span class="tt-text">HTML / CSS based dress-up game</span></div></li>
+                    <li><div class="tt-content"><a href="example.com"><a href="example.com">F2U_LAYOUTS</a><span class="tt-text">Fun web design ventures that are up for grabs</span></div></li>
+                </ul>
+
+                <!--CONTACT-->
+                <p class="nav-header"><span style="color:gray">www.</span>CONTACT<span style="color:gray">/</span></p>
+                <ul id="nav-email">
+                    <li><div class="tt-content"><a href="example.com"><a href="example.com">e_MAIL</a><span class="tt-text">Need something?</span></div></li>
+                </ul>
+            </td>
+            <!--SIDE BOX MENU END-->
+        </tr>
+        <!--MAIN CONTENT / SIDE BOX END-->
+    </table>
+    <!--TABLE END-->
+
+    <div id="footer">
+        <p>.: hazure03.neocities.org :.<br>.: est. 2024 :.</p>
     </div>
 
 <script src="tooltip.js"></script>
