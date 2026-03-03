@@ -5,6 +5,7 @@
     --accent-color: greenyellow;
     --text-color: honeydew;
     --second-text-color: rgb(156, 156, 156);
+    --third-text-color: rgb(198, 198, 198);
     --p-color: honeydew;
     --link-color: greenyellow;
     --link-hover-color: lightgoldenrodyellow;
@@ -14,27 +15,6 @@
 ::selection {
   color: black;
   background: white;
-}
-
-::-webkit-scrollbar {
-  width: 5px;
-  padding:0px;
-  margin:0px;
-}
-
-::-webkit-scrollbar-track {
-  background-color: black;
-}
- 
-/* SCROLL HANDLE */
-::-webkit-scrollbar-thumb {
-  background: var(--main-color); 
-  border: 1px solid var(--text-color);
-}
-
-/* SCROLL HANDLE HOVER */
-::-webkit-scrollbar-thumb:hover {
-  background: var(--text-color); 
 }
 
 /* MAIN FONT*/
@@ -68,6 +48,11 @@ html {
     padding: 0px;
 }
 
+p {
+    letter-spacing:1px;
+    line-height: 18px;
+}
+
 /* BIG TITLE HEADERS */
 h1 {
     font-family: 'AccentFont';
@@ -78,6 +63,22 @@ h1 {
     text-align: right;
     border-bottom: 1px dashed var(--border-color);
     background: linear-gradient(180deg,rgba(0, 0, 0, 1) 0%, rgb(27, 27, 27) 80%);
+}
+
+h2 {
+    font-family: 'AccentFont';
+    font-size: 18px;
+    margin: 5px;
+    padding: 0px;
+    text-align: left;
+    border-bottom: 1px dashed var(--border-color);
+}
+
+h3 {
+    font-family: 'MainBold';
+    font-size:12px;
+    margin:5px;
+    border-right: 1px solid var(--text-color);
 }
 
 /* BOLD TEXT */
@@ -105,6 +106,10 @@ a:hover {
     font-style:normal;
 }
 
+a img:hover {
+    filter: brightness(125%)
+}
+
 /* LINKS VISITED */
 a:visited {
     color: var(--link-color)
@@ -116,7 +121,24 @@ img {
 }
 
 ul {
+    margin:0px;
+    padding-left:12px;
     margin-top:3px;
+    list-style-image: url('main-assets/main-icons/arrowright.gif');
+    list-style-type: square;
+    color: var(--second-text-color)
+}
+
+li {
+    text-align: left;
+    letter-spacing:1px;
+    line-height: 18px;
+}
+
+li::marker {
+    color: var(--third-text-color);
+    content: ">";
+    
 }
 
 /* SCROLLING TEXT */
@@ -180,12 +202,9 @@ table {
 /* CONTENT PARAGRAPHS */
 .maincontent p {
     color: var(--p-color);
-    padding: 3px 20px;
+    padding: 3px 5px;
     margin:7px 5px 3px 5px;
-    border-left:1px solid var(--border-color);
     background: linear-gradient(90deg,rgba(0, 0, 0, 1) 20%, rgb(27, 27, 27) 100%);
-    letter-spacing:1px;
-    line-height: 18px;
 }
 
 /*STAUTS WRAPPER TEXT*/
@@ -193,6 +212,7 @@ table {
     margin: 3px 3px;
     color: var(--second-text-color);
     vertical-align: middle;
+    letter-spacing: 0px;
 }
 
 /*STAUTS WRAPPER TEXT*/
@@ -214,33 +234,11 @@ td.side-box {
     display:block;
 }
 
-/* SIDE NAV LISTS */
-td.side-box ul{
-    padding:0px 0px 0px 5px;
-    margin-bottom:0px;
-}
-
 /* SIDE NAV LIST ENTRIES */
 .td-side-list li{
-    list-style-type: none;
+    list-style-type: square;
     text-decoration: none;
-    background-image: url('main-assets/main-icons/arrowright.gif'); /* your image */
     background-size:10%;
-  background-position: left center;
-  background-repeat: no-repeat;
-  padding: 0px 0px 2px 17px; /* Adjust according to image size to push text across. */
-}
-
-/* EMAIL LIST ENTRY */
-#nav-email li{
-    list-style-type: none;
-    text-decoration: none;
-    background-image: url('main-assets/main-icons/email.gif'); /* your image */
-    background-size:10%;
-  background-position: left center;
-  background-repeat: no-repeat;
-  padding: 0px 0px 0px 20px;
-  margin-bottom: 5px;
 }
 
 /* SIDE NAV HEADER */

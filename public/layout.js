@@ -114,9 +114,9 @@ const footerEl = `
                 <!--INDEX-->
                 <p class="nav-header"><span style="color:var(--second-text-color)">www.</span>INDEX<span style="color:var(--second-text-color)">/</span></p>
                 <ul class="td-side-list">
-                    <li><div class="tt-content"><a href="/home.html" target="main-iframe">HOME</a><span class="tt-text">Where you began </span></div></li>
-                    <li><div class="tt-content"><a href="/about.html" target="main-iframe">ABOUT</a><span class="tt-text">Who am I?</span></div></li>
-                    <li><div class="tt-content"><a href="/links.html" target="main-iframe">LINKS</a><span class="tt-text">Where will you go next?</span></div></li>
+                    <li><div class="tt-content"><a href="/home.html">HOME</a><span class="tt-text">Where you began </span></div></li>
+                    <li><div class="tt-content"><a href="/about.html">ABOUT</a><span class="tt-text">Who am I?</span></div></li>
+                    <li><div class="tt-content"><a href="/links.html">LINKS</a><span class="tt-text">Where will you go next?</span></div></li>
                     <li><div class="tt-content"><a href="/index.html">SPLASH</a><span class="tt-text">Where you ACTUALLY began</span></div></li>
                     <li><div class="tt-content"><a href="https://hazure03.atabook.org/">GUESTBOOK</a><span class="tt-text">Leave a message!</span></div></li>
 
@@ -145,7 +145,7 @@ const footerEl = `
 
                 <!--CONTACT-->
                 <p class="nav-header"><span style="color:var(--second-text-color)">www.</span>CONTACT<span style="color:var(--second-text-color)">/</span></p>
-                <ul id="nav-email">
+                <ul>
                     <li><div class="tt-content"><a href="example.com"><a href="example.com">e_MAIL</a><span class="tt-text">Need something?</span></div></li>
                 </ul>
             </td>
