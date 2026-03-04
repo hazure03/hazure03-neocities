@@ -34,24 +34,40 @@
             }
 
             #minitable {
+                border: 0px solid var(--border-color);
                 height:140px;
                 width:100%;
                 margin: 10px 0px;
                 padding:0px;
+                background-color: rgba(255, 255, 255, 0);
             }
 
             #minitable td {
-                border: 1px solid var(--border-color);
+                border: 0px solid var(--border-color);
                 width:33%;
                 margin: 0px;
                 padding:0px;
                 vertical-align: top;;
             }
 
-            #longbuttons img {
-                width:278px;
+            #id-buttons {
+                width:16%;
+                padding:0px;
+                margin-right:5px;
+                margin-top:1px;
+                float:left;
+            }
+
+            #id-buttons img {
+                width: 100px;
                 margin: 0px;
-                padding: 0px;
+                padding:0px;
+            }
+
+            .applied-mask {
+                mask-image: url("images/masks/mask-09.png");
+                mask-size: 140% 140%;
+                mask-position: center;
             }
 
         </style>
@@ -64,19 +80,31 @@
 		<h1>ABOUT</h1>
 
         <div class="tt-content">
-		    <img src="images/fursuits/kito-fursuit-01.jpg" alt="kito gif" style="height:200px;float:left;margin:5px;" >
+		    <img src="images/fursuits/kito-fursuit-01.jpg" alt="kito gif" style="height:350px;float:left;margin:5px;" class="applied-mask" >
             <span class="tt-text">me @ Stratosfur '25</span>
         </div>
-        <img src="images/decor/musiclover-button.gif" style="width:400px;margin:0px;padding:0px;">
+
+        <div id="id-buttons">
+            <a style="color:var(--second-text-color);font-size:8px;margin:0px;padding:0px;">id tags</a>
+            <img src="images/id-buttons/id-hehim.png" alt="-">
+            <img src="images/id-buttons/id-timezone.png" alt="-">
+            <img src="images/id-buttons/id-student.png" alt="-">
+            <img src="images/id-buttons/id-macos.png" alt="-">
+            <img src="images/id-buttons/id-artist.png" alt="-">
+            <img src="images/id-buttons/id-edm.png" alt="-">
+            <img src="images/id-buttons/id-deltarune.png" alt="-">
+            <img src="images/id-buttons/id-fnaf.png" alt="-">
+        </div>
+
        	<p>Jack of some trades including drawing, fursuit making, and electronic music! Currently attending community college for IT.
         <br>I have a prissy cat and crested gecko, still mourning my <a href="/memorial.html" target="_blank">sweet old dachshund</a>. I also go through nonograms like nobody's business</p>
         <p>I <b>love</b> music, especially electronic, including<b> hardcore, techno, ukg, electro swing, electronica</b>... and more im likely forgetting.
         <br>I've also been into video games ever since i was little, growing up with my some of my fav titles like Alice: Madness Returns, Spyro Dawn of the Dragon, and Viva Piñata.
-        <br><br>also... my favorite color is <span style="color:greenyellow;"">green, obviously!</span></p>
+        <br><br>oh, and my favorite color is <span style="color:greenyellow;""><a href="https://www.out.com/media-library/cynthia-erivo-as-elphaba-in-wicked.jpg?id=54503106&width=2000&height=1500&coordinates=155%2C0%2C156%2C0" target="_blank">green</a></span>... obviously!</p>
 
-        <p style="text-align:center;font-size:20px;">&star; &star; &star;</p>
+        <div class="divider" style="margin-top:10px;"></div>
 
-        <div class="divider"></div>
+        <p>I might put more in this little in-between section... maybe... more lists...</p>
 
         <table id="minitable">
             <tr>
@@ -85,10 +113,10 @@
                     <h3>&nbsp;Inspirations&nbsp;</h3>
 
                     <ul>
-                        <li>independant music artists</li>
-                        <li>internet history</li>
-                        <li>my awesome friends&#9825;</li>
-                        <li>old furry culture (esp. glamfur)</li>
+                        <li><span style="color: var(--text-color)">></span>&nbsp;independant music artists</li>
+                        <li><span style="color: var(--text-color)">></span>&nbsp;internet history</li>
+                        <li><span style="color: var(--text-color)">></span>&nbsp;my awesome friends&#9825;</li>
+                        <li><span style="color: var(--text-color)">></span>&nbsp;old furry culture (esp. glamfur)</li>
                     </ul>
                 </td>
                 <td>
@@ -96,11 +124,11 @@
                     <h3>&nbsp;Fav. Animals&nbsp;</h3>
 
                     <ul>
-                        <li>dogs</li>
-                        <li>sea lions</li>
-                        <li>pandas</li>
-                        <li>tigers</li>
-                        <li>reindeer / caribou</li>
+                        <li><span style="color: var(--text-color)">></span>&nbsp;dogs</li>
+                        <li><span style="color: var(--text-color)">></span>&nbsp;sea lions</li>
+                        <li><span style="color: var(--text-color)">></span>&nbsp;pandas</li>
+                        <li><span style="color: var(--text-color)">></span>&nbsp;tigers</li>
+                        <li><span style="color: var(--text-color)">></span>&nbsp;reindeer / caribou</li>
                     </ul>
                 </td>
                 <td>
@@ -108,19 +136,20 @@
                     <h3>&nbsp;Media I Love</h3>
 
                     <ul>
-                        <li>Five Nights at Freddy's (esp. the movies)</li>
-                        <li>DELTARUNE</li>
-                        <li>Pikmin</li>
-                        <li>King of the Hill</li>
-                        <li>House M.D.</li>
+                        <li><span style="color: var(--text-color)">></span>&nbsp;Five Nights at Freddy's (esp. the movies)</li>
+                        <li><span style="color: var(--text-color)">></span>&nbsp;DELTARUNE</li>
+                        <li><span style="color: var(--text-color)">></span>&nbsp;Pikmin</li>
+                        <li><span style="color: var(--text-color)">></span>&nbsp;King of the Hill</li>
+                        <li><span style="color: var(--text-color)">></span>&nbsp;House M.D.</li>
                     </ul>
                 </td>
             </tr>
         </table>
+
+        <div class="divider" style="margin-bottom: 10px;"></div>
         
         <!-- FANLISTINGS START-->
         <div class="fan">
-
             <a href="https://siinamota.doqmeat.com/fanlisting" target="_blank"><img src="images/fanlistings/fansiina.png" class="fanbutton"></a>
             <a href="http://www.royal-drama.net/kingofthehill" target="_blank"><img src="images/fanlistings/fankoth.png" class="fanbutton"></a>
             <a href="http://art.iridescently.org" target="_blank"><img src="images/fanlistings/fanart.png" class="fanbutton"></a>
@@ -141,12 +170,8 @@
             <a href="https://glitterskies.org/bg3/index.php" target="_blank"><img src="images/fanlistings/fanbg3.png" class="fanbutton"></a>
             <a href="https://162candles.com/fnaf/index.php" target="_blank"><img src="images/fanlistings/fanfnaf.png" class="fanbutton"></a>
             <a href="http://fan.greenhype.net/gbasp/" target="_blank"><img src="images/fanlistings/fangbasp.gif" class="fanbutton"></a>
-
         </div><!--FANLISTINGS END-->
-        <div id="longbuttons">
-            <img src="images/decor/xbox-button.png">
-            <img src="images/decor/springtrap-button.png">
-        </div>
+
     </div>
     <!--END MAIN CONTENT-->
 

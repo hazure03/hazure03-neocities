@@ -14,7 +14,7 @@
 
 ::selection {
   color: black;
-  background: white;
+  background: var(--accent-color);
 }
 
 /* MAIN FONT*/
@@ -46,6 +46,7 @@ html {
     border-collapse:collapse;
     margin: 0px;
     padding: 0px;
+    image-rendering: pixelated;
 }
 
 p {
@@ -71,14 +72,17 @@ h2 {
     margin: 5px;
     padding: 0px;
     text-align: left;
-    border-bottom: 1px dashed var(--border-color);
 }
 
 h3 {
     font-family: 'MainBold';
     font-size:12px;
     margin:5px;
-    border-right: 1px solid var(--text-color);
+    padding: 0px 3px;
+    border-right: 1px solid var(--border-color);
+    border-top: 1px solid var(--border-color);
+    border-left: 1px solid var(--border-color);
+    text-align: right;
 }
 
 /* BOLD TEXT */
@@ -122,23 +126,18 @@ img {
 
 ul {
     margin:0px;
-    padding-left:12px;
+    padding-left:5px;
     margin-top:3px;
-    list-style-image: url('main-assets/main-icons/arrowright.gif');
-    list-style-type: square;
-    color: var(--second-text-color)
+    color: var(--second-text-color);
 }
 
 li {
     text-align: left;
     letter-spacing:1px;
-    line-height: 18px;
-}
+    margin-bottom:5px;
+    list-style-type: none;
+    background-color:rgba(0, 0, 0, 0.494);
 
-li::marker {
-    color: var(--third-text-color);
-    content: ">";
-    
 }
 
 /* SCROLLING TEXT */
@@ -158,11 +157,11 @@ marquee img {
     vertical-align: middle;
 }
 
-/* MAIN TABLE */
+/* MAIN TABLE - TO FIT A 800w X 600h SCREEN */
 table {
     background-color: var(--main-color);
-    width: 700px;
-    height: 525px;
+    width: 800px;
+    height: 600px;
     border:1px solid var(--border-color);
     table-layout:auto;
     border-collapse: collapse;
@@ -184,15 +183,16 @@ table {
     background-image:url(main-assets/main-images/main-banner-3.0.png);
     background-size:cover;
     background-position: center;
-    height:290px;
-    width:700px
+    height:300px;
 }
 
 /* MAIN CONTENT */
 .maincontent {
     background-color: var(--main-color);
-    overflow-x:hidden;
-    width:560px;
+    background-image: url(main-assets/main-images/maincontent-bg.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width:630px;
     height:100%;
     margin:0px;
     padding:0px;
@@ -204,7 +204,7 @@ table {
     color: var(--p-color);
     padding: 3px 5px;
     margin:7px 5px 3px 5px;
-    background: linear-gradient(90deg,rgba(0, 0, 0, 1) 20%, rgb(27, 27, 27) 100%);
+    background-color:rgba(0, 0, 0, 0.494);
 }
 
 /*STAUTS WRAPPER TEXT*/
@@ -224,11 +224,10 @@ table {
 /* SIDE NAV MENU BOX*/
 td.side-box {
     background-color: var(--main-color);
-        border-left: 1px solid var(--border-color);
-
+    border-left: 1px solid var(--border-color);
     list-style-type: none;
     text-decoration: none;
-    width: 140px;
+    width: 170px;
     height: 100%;
     white-space: wrap;
     display:block;
@@ -236,8 +235,9 @@ td.side-box {
 
 /* SIDE NAV LIST ENTRIES */
 .td-side-list li{
-    list-style-type: square;
+    list-style-type: none;
     text-decoration: none;
+    margin-bottom:0px;
     background-size:10%;
 }
 
@@ -255,8 +255,9 @@ td.side-box {
 
 /* FOOTER */
 #footer {
-    width: 700px;
     height:30px;
+    border-top:1px solid var(--border-color);
+    padding: 5px;
 }
 
 /* FOOTER TEXT */

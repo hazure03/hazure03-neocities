@@ -68,7 +68,6 @@ const nesting = getNestingString();
 // Insert your header HTML inside these ``. You can use HTML as usual. 
 // You don't need to use the <header> element, but I recommend it.
 const headerEl = `
-
     <!--START TABLE-->
     <table id="master-container">
 
@@ -110,54 +109,59 @@ const footerEl = `
 
                 <!--GIF DECOR-->
                 <div style="background-image:url('main-assets/main-images/eq.gif');background-size:contain;height:15px;""></div>
-
                 <!--INDEX-->
                 <p class="nav-header"><span style="color:var(--second-text-color)">www.</span>INDEX<span style="color:var(--second-text-color)">/</span></p>
                 <ul class="td-side-list">
-                    <li><div class="tt-content"><a href="/home.html">HOME</a><span class="tt-text">Where you began </span></div></li>
-                    <li><div class="tt-content"><a href="/about.html">ABOUT</a><span class="tt-text">Who am I?</span></div></li>
-                    <li><div class="tt-content"><a href="/links.html">LINKS</a><span class="tt-text">Where will you go next?</span></div></li>
-                    <li><div class="tt-content"><a href="/index.html">SPLASH</a><span class="tt-text">Where you ACTUALLY began</span></div></li>
-                    <li><div class="tt-content"><a href="https://hazure03.atabook.org/">GUESTBOOK</a><span class="tt-text">Leave a message!</span></div></li>
+                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/home.html">HOME</a><span class="tt-text">Where you began </span></div></li>
+                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/about.html">ABOUT</a><span class="tt-text">Who am I?</span></div></li>
+                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/links.html">LINKS</a><span class="tt-text">Where will you go next?</span></div></li>
+                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/index.html">SPLASH</a><span class="tt-text">Where you ACTUALLY began</span></div></li>
+                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="https://hazure03.atabook.org/">GUESTBOOK_<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">Leave a message!</span></div></li>
 
                 </ul>
 
                 <!--ARTWORK-->
                 <p class="nav-header"><span style="color:var(--second-text-color)">www.</span>ARTWORK<span style="color:var(--second-text-color)">/</span></p>
                 <ul class="td-side-list">
-                    <li><div class="tt-content"><a href="example.com">ILLUSTRATION</a><span class="tt-text">*Mostly* digital drawings</span></div></li>
-                    <li><div class="tt-content"><a href="example.com">FURSUITS</a><span class="tt-text">Fursuits I've made and / or am working on</span></div></li>
+                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="example.com">ILLUSTRATION</a><span class="tt-text">*Mostly* digital drawings</span></div></li>
+                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="example.com">FURSUITS</a><span class="tt-text">Fursuits I've made and / or am working on</span></div></li>
                 </ul>
 
                 <!--MUSIC-->
                 <p class="nav-header"><span style="color:var(--second-text-color)">www.</span>MUSIC<span style="color:var(--second-text-color)">/</span></p>
                 <ul class="td-side-list">
-                    <li><div class="tt-content"><a href="example.com"><a href="example.com">DISCOGRAPHY</a><span class="tt-text">Finished songs / EPs / albums</span></div></li>
-                    <li><div class="tt-content"><a href="example.com"><a href="example.com">SCRAPS</a><span class="tt-text">Unfinished work, loops, and other cool sounds</span></div></li>
+                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="example.com"><a href="example.com">DISCOGRAPHY</a><span class="tt-text">Finished songs / EPs / albums</span></div></li>
+                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="example.com"><a href="example.com">SCRAPS</a><span class="tt-text">Unfinished work, loops, and other cool sounds</span></div></li>
                 </ul>
 
                 <!--FUN-->
                 <p class="nav-header"><span style="color:var(--second-text-color)">www.</span>FUN<span style="color:var(--second-text-color)">/</span></p>
                 <ul class="td-side-list">
-                    <li><div class="tt-content"><a href="example.com"><a href="example.com">DRESS.UP_GAME</a><span class="tt-text">HTML / CSS based dress-up game</span></div></li>
-                    <li><div class="tt-content"><a href="example.com"><a href="example.com">F2U_LAYOUTS</a><span class="tt-text">Fun web design ventures that are up for grabs</span></div></li>
+                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="example.com"><a href="example.com">DRESS.UP_GAME</a><span class="tt-text">HTML / CSS based dress-up game</span></div></li>
+                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="example.com"><a href="example.com">F2U_LAYOUTS</a><span class="tt-text">Fun web design ventures that are up for grabs</span></div></li>
+                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="example.com"><a href="example.com">FAV_CHARACTERS</a><span class="tt-text">Current favorite characters in fiction</span></div></li>
+                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="example.com"><a href="example.com">WEB_COLLECTION</a><span class="tt-text">Collection of cool stuff I find while browsing</span></div></li>
                 </ul>
 
                 <!--CONTACT-->
                 <p class="nav-header"><span style="color:var(--second-text-color)">www.</span>CONTACT<span style="color:var(--second-text-color)">/</span></p>
                 <ul>
-                    <li><div class="tt-content"><a href="example.com"><a href="example.com">e_MAIL</a><span class="tt-text">Need something?</span></div></li>
+                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="example.com"><a href="example.com">e_MAIL<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">Need something?</span></div></li>
                 </ul>
             </td>
             <!--SIDE BOX MENU END-->
         </tr>
         <!--MAIN CONTENT / SIDE BOX END-->
+
+        <tr>
+          <td colspan="2">
+            <div id="footer">
+              <p>.: hazure03.neocities.org :.<br>.: est. 2024 :.</p>
+            </div>
+          </td>
+        </tr>
     </table>
     <!--TABLE END-->
-
-    <div id="footer">
-        <p>.: hazure03.neocities.org :.<br>.: est. 2024 :.</p>
-    </div>
 
 <script src="tooltip.js"></script>
 `;

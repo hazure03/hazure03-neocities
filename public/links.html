@@ -8,38 +8,6 @@
         <link href="tooltip.css" rel="stylesheet" type="text/css" />
         <script src="layout.js"></script>
         <style>
-            #minitable {
-                width:400px;
-                margin: auto;
-                height:80px;
-                padding:0px;
-
-            }
-
-            #med-table {
-                width: 100%;
-                height: 330px;
-                border:0px solid var(--border-color);
-                border-collapse: collapse;
-            }
-
-            #med-table td {
-                border:0px solid var(--border-color);
-                background: linear-gradient(90deg,rgba(0, 0, 0, 1) 0%, rgb(27, 27, 27) 80%);
-            }
-
-            #minitable td {
-                background: linear-gradient(90deg,rgba(0, 0, 0, 1) 0%, rgb(0, 0, 0) 80%);
-            }
-
-            .button-cells {
-                height:40px;
-            }
-
-            .text-cells {
-                text-align:center;
-                padding:5px;
-            }
 
             #my-button {
                 text-align:center;
@@ -47,9 +15,42 @@
             }
 
             textarea {
-                width:100px;
+                width:190px;
                 font-size:9px;
                 padding:3px;
+            }
+
+             .link-list {
+                border-right: 1px dashed var(--border-color);
+                width:340px;
+                top: 360px;
+                left:15px;
+            }
+
+            .link-list li{
+                margin-bottom:10px;
+                background-color:rgba(0, 0, 0, 0.494);
+            }
+
+            .site-buttons {
+                display:block;
+                position: absolute;
+                width:275px;
+                top: 355px;
+                left:360px;
+            }
+
+            .site-buttons img{
+                margin:0px;
+                padding:0px;
+            }
+
+            .my-button {
+                display:block;
+                position: absolute;
+                width:275px;
+                top: 570px;
+                left:360px;
             }
 
         </style>
@@ -58,148 +59,82 @@
 
     <!--CONTENT WRAPPER-->
     <div class="maincontent">
-
         <h1>LINKS</h1>
 
-        <h2>Site Links</h2>
+        <!--LINKS START-->
+        <div class="link-list">
+            <h2>MYSELF</h2>
+            <h3>Where else am I?</h3>
+            <ul>
+                <!-- <li><span style="color: var(--text-color)">></span>&nbsp;<a href="example.com" target="_blank">NAME</a> &crarr; | blah blah blah blah</li> -->
+                <li><span style="color: var(--text-color)">></span>&nbsp;<a href="https://ko-fi.com/hazure03" target="_blank">ko-fi </a> &crarr; | commission me, visit my shop, or leave a tip if you so desire...</li>
+                <li><span style="color: var(--text-color)">></span>&nbsp;<a href="https://toyhou.se/hazure_03" target="_blank">toyhou.se </a> &crarr; | my characters in-depth
+                <li><span style="color: var(--text-color)">></span>&nbsp;<a href="https://h4zur3.bandcamp.com/" target="_blank">bandcamp</a> &crarr; | music I've made</li>
+                <li><span style="color: var(--text-color)">></span>&nbsp;<a href="https://www.youtube.com/@hazure_03" target="_blank">youtube</a> &crarr; | my youtube channel</li>
+                <li><span style="color: var(--text-color)">></span>&nbsp;<a href="https://www.etsy.com/shop/hazure03" target="_blank">etsy</a> &crarr; | my etsy shop</li>
+            </ul>
 
-        <table id="med-table">
-            <tr>
-                <td style="vertical-align:top;">
+            <h2>GRAPHICAL</h2>
+            <h3><i>Mostly</i> focused on collecting older graphic design resources. I <i>highly reccomend using an ad blocker</i>.</h3>
+            <ul>
+                <li><span style="color: var(--text-color)">></span>&nbsp;<a href="https://www.theblackcell.com/" target="_blank">theblackcell.com</a> &crarr; | little bit of everything, a bit of a pain in the ass to use</li>
+                <li><span style="color: var(--text-color)">></span>&nbsp;<a href="https://pspmask.com/" target="_blank">pspmask.com</a> &crarr; | tons of textures / image masks</li>
+            </ul>
 
-                    <h3>Myself</h3>
-                    <p>MAKING A NEW BUTTON SOON I PROMISE!!</p>
-                    <textarea rows="5">&lt;a href=&quot;https://hazure03.neocities.org&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;IMG_LINK_HERE&quot;&gt;&lt;/a&gt;
-                    </textarea>   
-                    <div class="divider"></div>
+            <h2>OLD ART</h2>
+            <h3>Old art / artists that inspire me. Might move this list elsewhere.</h3>
+            <ul>
+                <li><span style="color: var(--text-color)">></span>&nbsp;<a href="https://www.tumblr.com/glamfurarchive?" target="_blank">glamfurarchive on tumblr</a> &crarr; | tumblr glamfur archive (MY ART IS IN HERE??? OMG!!!)</li>
+                <li><span style="color: var(--text-color)">></span>&nbsp;<a href="https://www.furaffinity.net/favorites/glamfur/" target="_blank">glamfur on furaffinity</a> &crarr; | user collecting glamfur art in their favorites</li>
+                <li><span style="color: var(--text-color)">></span>&nbsp;<a href="https://e926.net/posts?tags=glamfur+order%3Aid" target="_blank">glamfur on e926</a> &crarr; | Don't let the title scare you! e926 is a <i>SAFE FOR WORK</i> version of its sister site. Sorted from oldest to newest</li>
+                <li><span style="color: var(--text-color)">></span>&nbsp;<a href="https://www.deviantart.com/assman-buttbag/favourites/98358176/anthro-2000-early-2010s" target="_blank">ASSMAN-BUTTBAG on deviantART</a> &crarr; | their favorites folders contain tons of early anthro / feral / humanoid artwork</li>
+            </ul>
 
-                    <h3>Old Buttons</h3>
-                    <img src="images/site-buttons/hazure-button-v1.gif">
+            <h2>MISC.</h2>
+            <h3>Super neat stuff</h3>
+            <ul>
+                <li><span style="color: var(--text-color)">></span>&nbsp;<a href="https://www.visuallanguagelab.com/jvl" target="_blank">Manga Morphology</a> &crarr; | list of graphical expressions of emotion in Japanese media</li>
+                <li><span style="color: var(--text-color)">></span>&nbsp;<a href="https://mariocube.com/" target="_blank">Mariocube</a> &crarr; | repository revolving around Wii and GameCube media preservation</li>
+                <li><span style="color: var(--text-color)">></span>&nbsp;<a href="https://patorjk.com/" target="_blank">patorjk.com</a> &crarr; | "an array of web apps, programming tutorials, and random projects"</li>
+                <li><span style="color: var(--text-color)">></span>&nbsp;<a href="https://docs.google.com/document/d/1_P6Ng2Swio02c6f827jdFl3DDY_Ga9KmeBfqZtiDy0U/" target="_blank">The DELTARUNE Music Sample List</a> &crarr; | google doc containing sample sources from the DELTARUNE soundtrack</li>
+                <li><span style="color: var(--text-color)">></span>&nbsp;<a href="https://musical-artifacts.com/" target="_blank">Musical Artifacts</a> &crarr; | open resource for musicians to share artifacts they use during music production (soundfonts, presets, etc.)</li>
+            </ul>
+        </div>
+        <!--LINKS END-->
 
-                </td>
-                <td style="vertical-align: top;">
+        <!--SITE BUTTONS START-->
+        <div class="site-buttons">
+            <h2>OTHERS</h2>
+            <h3>Please let me know if there's any edits needed to be made</h3>
+            <a href="https://fr3akz0ne.com/" target="_blank"><img src="images/site-buttons/freakzone-2.gif"></a>
+            <a href="https://clockwork-fairy.haliya.net/" target="_blank"><img src="images/site-buttons/clockworkfairynew.gif"></a>
+            <a href="https://salvaged.nu/" target="_blank"><img src="images/site-buttons/salvagednu.gif"></a>
+            <a href="https://immoral-heart.nekoweb.org/2k2.html" target="_blank"><img src="images/site-buttons/hcitybutton5.png"></a>
+            <a href="https://maimedwolf.neocities.org/" target="_blank"><img src="images/site-buttons/maimedwolf.gif"></a>
+            <a href="https://meowco.neocities.org/" target="_blank"><img src="images/site-buttons/MEOWCO_BUTTON.png"></a>
+            <a href="https://stylrtechnologies.com" target="_blank"><img src="images/site-buttons/renspot.png"></a>
+            <a href="https://virtuagirl.net" target="_blank"><img src="images/site-buttons/virtuagirl.gif"></a>
+            <a href="https://maphren.neocities.org/" target="_blank"><img src="images/site-buttons/maphren.gif"></a>
+            <a href="https://wishy.neocities.org/" target="_blank"><img src="images/site-buttons/Kasumibutton.png"></a>
+            <a href="https://slushiecafe.neocities.org" target="_blank"><img src="images/site-buttons/slushiecafebutton.gif"></a>
+        </div>
+        <div class="my-button">
+            <h2>LINK TO ME?</h2>
+            <h3>Beware of hotlinking in case I change designs in the future!</h3>
+            <a href="https://www.youtube.com/watch?v=KJotmmDJWAg" target="_blank"><img src="images/site-buttons/hazure-button-v2.gif"></a>
 
-                    <h3>Others</h3>
-                    <p>If your site button has changed, please let me know so I can update accordingly!</p>
+            <textarea rows="3" style="width:160px;height:2-px;">
+                <a href="https://hazure03.neocities.org" target="_blank"><img src="IMG_LINK_HERE"></a>
+            </textarea>
 
-                    <!--SITE BUTTONS START-->
-                    <div id="site-buttons">
-
-                        <table id="minitable">
-
-                            <tr class="button-cells">
-                                <td>
-                                    <a href="https://fr3akz0ne.com/">
-                                        <img src="images/site-buttons/freakzone.gif">
-                                    </a>
-                                </td>
-                                <td>
-                                    <a href="https://clockwork-fairy.haliya.net/">
-                                        <img src="images/site-buttons/clockworkfairynew.gif">
-                                    </a>
-                                </td>
-                                <td>
-                                    <a href="https://salvaged.nu/">
-                                        <img src="images/site-buttons/salvagednu.gif">
-                                    </a>
-                                </td>              
-                            </tr>
-
-                            <tr class="text-cells">
-                                <td>fr3akz0ne</td>
-                                <td>clockwork-fairy</td>
-                                <td>salvaged.nu</td>
-
-                            </tr>
-
-                            <tr class="button-cells">
-                                <td>
-                                    <a href="https://immoral-heart.nekoweb.org/2k2.html">
-                                        <img src="images/site-buttons/hcitybutton5.png">
-                                    </a>
-                                </td>
-                                <td>
-                                    <a href="https://maimedwolf.neocities.org/">
-                                        <img src="images/site-buttons/maimedwolf.gif">
-                                    </a>
-                                </td>
-                                <td>
-                                    <a href="https://meowco.neocities.org/">
-                                        <img src="images/site-buttons/MEOWCO_BUTTON.png">
-                                    </a>
-                                </td>                    
-                            </tr>
-
-                            <tr class="text-cells">
-                                <td>immoral-heart</td>
-                                <td>maimedwolf</td>
-                                <td>MEOWCO</td>
-                            </tr>
-
-                            <tr class="button-cells">
-                                <td>
-                                    <a href="https://stylrtechnologies.com">
-                                        <img src="images/site-buttons/renspot.png">
-                                    </a>
-                                </td>
-                                <td>
-                                    <a href="https://virtuagirl.net">
-                                        <img src="images/site-buttons/virtuagirl.gif">
-                                    </a>
-                                </td>
-                                <td>
-                                    <a href="https://maphren.neocities.org/">
-                                        <img src="images/site-buttons/maphren.gif">
-                                    </a>
-                                </td>
-                            </tr>
-
-                            <tr class="text-cells">
-                                <td>stylertechnologies</td>
-                                <td>Virtuagirl</td>
-                                <td>Maphren</td>
-                            </tr>
-
-                            <tr class="button-cells">
-                                <td>
-                                    <a href="https://wishy.neocities.org/">
-                                        <img src="images/site-buttons/Kasumibutton.png">
-                                    </a>
-                                </td>
-                                <td>
-                                    <a href="https://slushiecafe.neocities.org">
-                                        <img src="images/site-buttons/slushiecafebutton.gif">
-                                    </a>
-                                </td>
-                                <td>
-                                    <p>-</p>
-                                </td>
-                            </tr>
-
-                            <tr class="text-cells">
-                                <td>Kasumi</td>
-                                <td>slushiecafe</td>
-                                <td>-</td>
-                            </tr>
-
-                        </table>
-            
-
-                    </div>
-                    <!--SITE BUTTONS END-->
-                </td>
-            </tr>
-        </table>
-
-        <h2>More</h2>
-        <ul>
-            <li>blah</li>
-            <li>blah</li>
-            <li>blah</li>
-        </ul>
+            <h3>Old buttons below!</h3>
+            <a href="https://www.youtube.com/watch?v=KJotmmDJWAg" target="_blank"><img src="images/site-buttons/hazure-button-v1.gif"></a>
+                
+        </div>
+        <!--SITE BUTTONS END-->
 
     </div>
     <!--CONTENT WRAPPER END-->
-
+    
 </body>
 </html>
