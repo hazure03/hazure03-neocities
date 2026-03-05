@@ -191,7 +191,7 @@ table {
 .divider {
     border-bottom: 1px dashed var(--border-color);
     width: 80%;
-    margin:auto;
+    margin:10px auto;
 }
 
 /* MAIN HEADER IMAGE */
@@ -306,8 +306,9 @@ td.side-box {
 
 .subpage-content {
     background-color: var(--main-color);
-    background-image: url(main-assets/main-images/maincontent-bg.png);
-    background-position: bottom;
+    background-image: url(main-assets/main-images/subpage-bg.png);
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     width:20%;
     vertical-align: top;
