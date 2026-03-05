@@ -4,7 +4,7 @@
     --border-color: rgb(67, 67, 67);
     --accent-color: greenyellow;
     --text-color: honeydew;
-    --second-text-color: rgb(156, 156, 156);
+    --second-text-color: rgb(187, 187, 187);
     --third-text-color: rgb(198, 198, 198);
     --p-color: honeydew;
     --link-color: greenyellow;
@@ -15,6 +15,22 @@
 ::selection {
   color: black;
   background: var(--accent-color);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--main-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--border-color);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--text-color);
 }
 
 /* MAIN FONT*/
@@ -46,12 +62,12 @@ html {
     border-collapse:collapse;
     margin: 0px;
     padding: 0px;
-    image-rendering: pixelated;
 }
 
 p {
     letter-spacing:1px;
     line-height: 18px;
+    margin:3px;
 }
 
 /* BIG TITLE HEADERS */
@@ -78,6 +94,7 @@ h3 {
     font-family: 'MainBold';
     font-size:12px;
     margin:5px;
+    margin-top: 15px;
     padding: 0px 3px;
     border-right: 1px solid var(--border-color);
     border-top: 1px solid var(--border-color);
@@ -136,7 +153,7 @@ li {
     letter-spacing:1px;
     margin-bottom:5px;
     list-style-type: none;
-    background-color:rgba(0, 0, 0, 0.494);
+    background-color:rgba(0, 0, 0, 0.50);
 
 }
 
@@ -267,4 +284,37 @@ td.side-box {
     padding: 0px;
     text-align: center;
     color: var(--second-text-color);
+}
+
+/* CLOCK IFRAME */
+.clock {
+    height:11px;
+    width:165px;
+    border:0px solid red;
+    margin: 3px;
+}
+
+.subpage-iframe {
+    height: 600px;
+    width: 500px;
+    border:none;
+}
+
+.subpage-header img {
+    vertical-align: middle;
+}
+
+.subpage-content {
+    background-color: var(--main-color);
+    background-image: url(main-assets/main-images/maincontent-bg.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width:20%;
+    vertical-align: top;
+    border:1px solid var(--border-color);
+}
+
+.link-no-access {
+    text-decoration: line-through;
+    color: var(--border-color)
 }

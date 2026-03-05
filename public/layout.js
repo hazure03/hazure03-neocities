@@ -98,13 +98,15 @@ const footerEl = `
                 <!--STATUS-->
                 <p class="nav-header" style="font-size:11px;"><span style="color:var(--second-text-color)">www.</span><span>WHO AM I</span><span style="color:var(--second-text-color);">/</span></p>
                 <div id="status-wrapper">
-                    <img src="https://f2.toyhou.se/file/f2-toyhou-se/thumbnails/113230950_PHm.png" align="left" style="height:50px;margin-right:3px;""><p>Kito, 22mTX, owner of a cat and crested gecko. I love love love electronic music and fursuit making the most!</p>
+                    <img src="/main-assets/main-images/kito-icon.png" align="left" style="height:50px;margin-right:3px;""><p>Kito, 22mTX, owner of a cat and crested gecko. I love love love electronic music and fursuit making the most!</p>
+                    <iframe src="clock-frame.html" class="clock" title="clock-iframe"></iframe>
                     <div class="divider"></div>
                     <p><b>I am feeling...</b><br><a href="https://www.imood.com/users/hazure03"><img src="https://moods.imood.com/display/uname-hazure03/fg-FFFFFF/bg-000000/imood.gif" alt="The current mood of hazure03 at www.imood.com" border="0""></a></p>
                     <p><b>listening to...</b><br>Parov Stelar</p>
                     <p><b>watching...</b><br>House M.D.</p>
                     <p><b>reading...</b><br>Warriors: Fire and Ice</p>
                     <p><b>playing...</b><br>Viva Piñata</p>
+
                 </div>
 
                 <!--GIF DECOR-->
@@ -116,37 +118,37 @@ const footerEl = `
                     <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/about.html">ABOUT</a><span class="tt-text">Who am I?</span></div></li>
                     <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/links.html">LINKS</a><span class="tt-text">Where will you go next?</span></div></li>
                     <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/index.html">SPLASH</a><span class="tt-text">Where you ACTUALLY began</span></div></li>
-                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="https://hazure03.atabook.org/">GUESTBOOK_<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">Leave a message!</span></div></li>
+                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="https://hazure03.atabook.org/">GUESTBOOK<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">Leave a message!</span></div></li>
 
                 </ul>
 
                 <!--ARTWORK-->
                 <p class="nav-header"><span style="color:var(--second-text-color)">www.</span>ARTWORK<span style="color:var(--second-text-color)">/</span></p>
                 <ul class="td-side-list">
-                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="example.com">ILLUSTRATION</a><span class="tt-text">*Mostly* digital drawings</span></div></li>
-                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="example.com">FURSUITS</a><span class="tt-text">Fursuits I've made and / or am working on</span></div></li>
+                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/art.html">ILLUSTRATION<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">*Mostly* digital drawings</span></div></li>
+                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="example.com"><span class="link-no-access">FURSUITS</span></a><span class="tt-text">Fursuits I've made and / or am working on</span></div></li>
                 </ul>
 
                 <!--MUSIC-->
                 <p class="nav-header"><span style="color:var(--second-text-color)">www.</span>MUSIC<span style="color:var(--second-text-color)">/</span></p>
                 <ul class="td-side-list">
-                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="example.com"><a href="example.com">DISCOGRAPHY</a><span class="tt-text">Finished songs / EPs / albums</span></div></li>
-                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="example.com"><a href="example.com">SCRAPS</a><span class="tt-text">Unfinished work, loops, and other cool sounds</span></div></li>
+                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="example.com"><span class="link-no-access">DISCOGRAPHY</span></a><span class="tt-text">Finished songs / EPs / albums</span></div></li>
+                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="example.com"><span class="link-no-access">SCRAPS</span></a><span class="tt-text">Unfinished work, loops, and other cool sounds</span></div></li>
                 </ul>
 
                 <!--FUN-->
                 <p class="nav-header"><span style="color:var(--second-text-color)">www.</span>FUN<span style="color:var(--second-text-color)">/</span></p>
                 <ul class="td-side-list">
-                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="example.com"><a href="example.com">DRESS.UP_GAME</a><span class="tt-text">HTML / CSS based dress-up game</span></div></li>
-                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="example.com"><a href="example.com">F2U_LAYOUTS</a><span class="tt-text">Fun web design ventures that are up for grabs</span></div></li>
-                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="example.com"><a href="example.com">FAV_CHARACTERS</a><span class="tt-text">Current favorite characters in fiction</span></div></li>
-                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="example.com"><a href="example.com">WEB_COLLECTION</a><span class="tt-text">Collection of cool stuff I find while browsing</span></div></li>
+                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="example.com"><span class="link-no-access">DRESS.UP_GAME</span></a><span class="tt-text">HTML / CSS based dress-up game</span></div></li>
+                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="example.com"><span class="link-no-access">F2U_LAYOUTS</span></a><span class="tt-text">Fun web design ventures that are up for grabs</span></div></li>
+                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="example.com"><span class="link-no-access">FAV_CHARACTERS</span></a><span class="tt-text">Current favorite characters in fiction</span></div></li>
+                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/web-collection.html">WEB_COLLECTION</a><span class="tt-text">Collection of cool stuff I find while browsing</span></div></li>
                 </ul>
 
                 <!--CONTACT-->
                 <p class="nav-header"><span style="color:var(--second-text-color)">www.</span>CONTACT<span style="color:var(--second-text-color)">/</span></p>
                 <ul>
-                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="example.com"><a href="example.com">e_MAIL<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">Need something?</span></div></li>
+                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="mailto:splutterguttss.info@gmail.com">e_MAIL<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">Need something?</span></div></li>
                 </ul>
             </td>
             <!--SIDE BOX MENU END-->
@@ -164,4 +166,21 @@ const footerEl = `
     <!--TABLE END-->
 
 <script src="tooltip.js"></script>
+
+<!-- Clock Part 2 - Put Anywhere AFTER Part 1 -->
+
+<script type="text/javascript">
+// Clock Script Generated By Maxx Blade's Clock v2.0d
+// http://www.maxxblade.co.uk/clock
+function tS(){ x=new Date(); x.setTime(x.getTime()); return x; } 
+function lZ(x){ return (x>9)?x:'0'+x; } 
+function tH(x){ if(x==0){ x=12; } return (x>12)?x-=12:x; } 
+function y2(x){ x=(x<500)?x+1900:x; return String(x).substring(2,4) } 
+function dT(){ window.status=''+eval(oT)+''; document.title=''+eval(oT)+''; document.getElementById('tP').innerHTML=eval(oT); setTimeout('dT()',1000); } 
+function aP(x){ return (x>11)?'pm':'am'; } 
+var dN=new Array('Sun','Mon','Tue','Wed','Thu','Fri','Sat'),mN=new Array('Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'),oT="dN[tS().getDay()]+' '+tS().getDate()+' '+mN[tS().getMonth()]+' '+y2(tS().getYear())+' '+':'+':'+' '+tH(tS().getHours())+':'+lZ(tS().getMinutes())+':'+lZ(tS().getSeconds())+aP(tS().getHours())";
+if(!document.all){ window.onload=dT; }else{ dT(); }
+</script>
+
+<!-- Clock Part 2 - Ends Here  -->
 `;
