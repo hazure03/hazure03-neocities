@@ -140,7 +140,7 @@ const footerEl = `
                 <!--FUN-->
                 <p class="nav-header"><span style="color:var(--second-text-color)">www.</span>FUN<span style="color:var(--second-text-color)">/</span></p>
                 <ul class="td-side-list">
-                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="example.com"><span class="link-no-access">DRESS.UP_GAME</span></a><span class="tt-text">HTML / CSS based dress-up game</span></div></li>
+                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/dressup.html"><span class="link-no-access">DRESS.UP_GAME</span></a><span class="tt-text">HTML / CSS based dress-up game</span></div></li>
                     <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="example.com"><span class="link-no-access">F2U_LAYOUTS</span></a><span class="tt-text">Fun web design ventures that are up for grabs</span></div></li>
                     <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="example.com"><span class="link-no-access">FAV_CHARACTERS</span></a><span class="tt-text">Current favorite characters in fiction</span></div></li>
                     <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/web-collection.html">WEB_COLLECTION</a><span class="tt-text">Collection of cool stuff I find while browsing</span></div></li>
@@ -159,7 +159,7 @@ const footerEl = `
         <tr>
           <td colspan="2">
             <div id="footer">
-              <a href="memorial.html">
+              <a href="memorial.html" target="_blank">
                 <img src="images/memorial/dachshund-letter-01.gif" style="float:right;">
               </a>
               <p>.: hazure03.neocities.org :.<br>.: est. 2024 :.</p>              
