@@ -294,10 +294,15 @@ td.side-box {
     margin: 3px;
 }
 
+.subpage-table {
+    height:700px;
+    border: none;
+}
+
 .subpage-iframe {
-    height: 600px;
+    height: 700px;
     width: 500px;
-    border:none;
+    border:0px solid red;
 }
 
 .subpage-header img {
@@ -307,8 +312,8 @@ td.side-box {
 .subpage-content {
     background-color: var(--main-color);
     background-image: url(main-assets/main-images/subpage-bg.png);
-    background-size: cover;
-    background-position: center;
+    background-size: contain;
+    background-position: bottom;
     background-repeat: no-repeat;
     width:20%;
     vertical-align: top;
@@ -318,4 +323,60 @@ td.side-box {
 .link-no-access {
     text-decoration: line-through;
     color: var(--border-color)
+}
+
+.art-entry {
+    display: inline-block;
+    margin:10px;
+    overflow: hidden;
+    float: none;
+    max-width: 215px;
+}
+
+.art-entry img {
+    max-width: 215px;
+    margin:0px;
+    padding:0px;
+}
+
+.art-entry p {
+    margin:0px;
+    padding:0px;
+}
+
+#art-container {
+    width: 500px;
+    padding: 0px;
+    margin:0px;
+}
+
+.blur {
+    filter: blur(10px);
+}
+
+.blur:hover {
+    filter: blur(5px);
+}
+
+/* NOTE: The old tooltip styling is now ONLY for the sidebar links */
+.hover-text {
+    font-size: 12px;
+    display: none;
+    position: absolute;
+    z-index: 100;
+    overflow-wrap: break-word;
+    max-width: 200px;
+    text-align: left;
+    padding: 5px;
+    background: black;
+    border: 1px dashed var(--border-color);
+    color: white;
+}
+
+.hover-subject:hover span.hover-text {
+    display: block;
+}
+
+.art-entry:hover span.hover-text {
+    display: block;
 }

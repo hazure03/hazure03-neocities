@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  
+<title>&hearts; In Loving Memory &hearts;</title>
+<link rel="icon" type="image/x-icon" href="main-assets/main-images/favicon.ico">
+<meta charset="utf-8" />
+
+<style>
+
+html {
+	cursor: url(https://cur.cursors-4u.net/nature/nat-10/nat905.cur), auto !important;
+  font-family: OnliLight, sans-serif;
+}
+
+body {
+	background-image: url(images/memorial/membg.jpeg);
+  background-size: cover;
+}
+
+#container {
+	display: flex;
+  justify-content: center;
+  width: 850px;
+  height:510px;
+  margin: 50px auto;
+  background-color: white;
+  border: 0px solid red;
+  padding: 0px;
+}
+
+#box {
+	width: 900px;
+    height: 510px;
+  background-color: Linen;
+  position:relative;
+  border: 2px solid olive;
+}
+
+#header {
+	width: 500px;
+    height: 400px;
+  margin: 50px auto 20px auto;
+  position:relative;
+}
+
+ul {
+  list-style-type: none;
+  color: OrangeRed;
+  margin: 5px auto;
+  text-align: center;
+}
+
+li {
+	display: inline-block;
+	float: none;
+    list-style-type: none;
+    color: DarkSalmon;
+    margin:auto;
+}
+
+ul li:after {
+	content: "|";
+}
+
+ul li:last-child:after {
+	content: none; 
+}
+
+a {
+	color: OrangeRed;
+    font-size: 15px;
+    text-decoration-line: none;
+  text-decoration-style: none;
+}
+
+a:visited{
+	color: DarkSalmon;
+}
+ 
+a:hover{
+	color: OrangeRed;
+  font-style: italic;
+  text-decoration-line: none;
+  text-decoration-style: none;
+  cursor: crosshair;
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 8px;
+  position: fixed;
+}
+
+::-webkit-scrollbar-track {
+  background: OliveDrab;
+  padding:10px;
+  position: fixed;
+
+}
+
+::-webkit-scrollbar-thumb {
+  background: LightGoldenRodYellow;
+  position: fixed;
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: White;
+  position: fixed;
+
+}
+
+</style>
+<body>
+
+	<div id="header"><!--HEADER START-->
+    	<img src="images/memorial/header.png">
+    </div><!--HEADER END-->
+
+<div id="container"><!--PAGE START-->
+    
+	<div id="box"><!--BOX START-->
+        
+        <div><!-- MENU CONTENT START-->
+          <ul>
+          <li>
+              <img src="images/memorial/pixeldog1.gif">
+            </li>
+            <li>
+              <a href="memorial-home.html" target="mainframe">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="memorial-photos.html" target="mainframe">
+                Photos
+              </a>
+            </li>
+            <li>
+              <a href="memorial-art.html" target="mainframe">
+                Art
+              </a>
+            </li>
+            <li>
+              <a href="memorial-stories.html" target="mainframe">
+                Stories
+              </a>
+            </li>
+            <li>
+              <img src="images/memorial/pixeldog2.gif">
+            </li>
+          </ul>
+    </div> <!-- MENU END -->
+    
+    	<iframe src="memorial-home.html" name="mainframe" scrolling="yes" overflow-x="hidden" min-height="100%" width="850px" height="475px" frameBorder="0">
+        </iframe>
+        
+    </div>
+  </div><!--BOX END-->
+
+</body>
+</html>

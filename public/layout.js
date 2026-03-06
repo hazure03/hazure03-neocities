@@ -119,6 +119,7 @@ const footerEl = `
                     <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/links.html">LINKS</a><span class="tt-text">Where will you go next?</span></div></li>
                     <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/index.html">SPLASH</a><span class="tt-text">Where you ACTUALLY began</span></div></li>
                     <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="https://hazure03.atabook.org/">GUESTBOOK<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">Leave a message!</span></div></li>
+                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/credits.html">CREDITS</a><span class="tt-text">Credits</span></div></li>
 
                 </ul>
 
@@ -158,7 +159,10 @@ const footerEl = `
         <tr>
           <td colspan="2">
             <div id="footer">
-              <p>.: hazure03.neocities.org :.<br>.: est. 2024 :.</p>
+              <a href="memorial.html">
+                <img src="images/memorial/dachshund-letter-01.gif" style="float:right;">
+              </a>
+              <p>.: hazure03.neocities.org :.<br>.: est. 2024 :.</p>              
             </div>
           </td>
         </tr>
