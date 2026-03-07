@@ -98,7 +98,7 @@ const footerEl = `
                 <!--STATUS-->
                 <p class="nav-header" style="font-size:11px;"><span style="color:var(--second-text-color)">www.</span><span>WHO AM I</span><span style="color:var(--second-text-color);">/</span></p>
                 <div id="status-wrapper">
-                    <img src="/main-assets/main-images/kito-icon.png" align="left" style="height:50px;margin-right:3px;""><p>Kito, 22mTX, owner of a cat and crested gecko. I love love love electronic music and fursuit making the most!</p>
+                    <img src="/main-assets/main-images/kito-icon.png" align="left" style="height:50px;margin-right:3px;""><p>Kito, 22mTX, owner of a cat and crested gecko. I love love love electronic music and fursuit making the most &lt; 3</p>
                     <iframe src="clock-frame.html" class="clock" title="clock-iframe"></iframe>
                     <div class="divider"></div>
                     <p><b>I am feeling...</b><br><a href="https://www.imood.com/users/hazure03"><img src="https://moods.imood.com/display/uname-hazure03/fg-FFFFFF/bg-000000/imood.gif" alt="The current mood of hazure03 at www.imood.com" border="0""></a></p>
@@ -120,13 +120,12 @@ const footerEl = `
                     <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/index.html">SPLASH</a><span class="tt-text">Where you ACTUALLY began</span></div></li>
                     <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="https://hazure03.atabook.org/">GUESTBOOK<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">Leave a message!</span></div></li>
                     <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/credits.html">CREDITS</a><span class="tt-text">Credits</span></div></li>
-
                 </ul>
 
                 <!--ARTWORK-->
                 <p class="nav-header"><span style="color:var(--second-text-color)">www.</span>ARTWORK<span style="color:var(--second-text-color)">/</span></p>
                 <ul class="td-side-list">
-                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/art.html">ILLUSTRATION<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">*Mostly* digital drawings</span></div></li>
+                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/art.html">ILLUSTRATION<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">*Mostly* digital drawings</span><span style="color:red;">NEW!</span></div></li>
                     <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="example.com"><span class="link-no-access">FURSUITS</span></a><span class="tt-text">Fursuits I've made and / or am working on</span></div></li>
                 </ul>
 
@@ -140,10 +139,10 @@ const footerEl = `
                 <!--FUN-->
                 <p class="nav-header"><span style="color:var(--second-text-color)">www.</span>FUN<span style="color:var(--second-text-color)">/</span></p>
                 <ul class="td-side-list">
-                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/dressup.html">DRESS.UP_GAME</a><span class="tt-text">HTML / CSS based dress-up game</span></div></li>
+                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/dressup.html">DRESS.UP_GAME</a><span class="tt-text">Dress-up my fursona!</span></div></li>
                     <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="example.com"><span class="link-no-access">F2U_LAYOUTS</span></a><span class="tt-text">Fun web design ventures that are up for grabs</span></div></li>
                     <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="example.com"><span class="link-no-access">FAV_CHARACTERS</span></a><span class="tt-text">Current favorite characters in fiction</span></div></li>
-                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/web-collection.html">WEB_COLLECTION</a><span class="tt-text">Collection of cool stuff I find while browsing</span></div></li>
+                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/web-collection.html">WEB_COLLECTION.</a><span class="tt-text">Collection of cool stuff I find while browsing</span><span style="color:red;">NEW!</span></div></li>
                 </ul>
 
                 <!--CONTACT-->
