@@ -104,7 +104,7 @@ const footerEl = `
                     <p><b>I am feeling...</b><br><a href="https://www.imood.com/users/hazure03"><img src="https://moods.imood.com/display/uname-hazure03/fg-FFFFFF/bg-000000/imood.gif" alt="The current mood of hazure03 at www.imood.com" border="0""></a></p>
                     <p><b>listening to...</b><br>Parov Stelar</p>
                     <p><b>watching...</b><br>House M.D.</p>
-                    <p><b>reading...</b><br>Warriors: Fire and Ice</p>
+                    <p><b>reading...</b><br>Wings of Fire: The Dragonet Prophecy</p>
                     <p><b>playing...</b><br>Viva Piñata</p>
 
                 </div>
@@ -132,8 +132,12 @@ const footerEl = `
                 <!--MUSIC-->
                 <p class="nav-header"><span style="color:var(--second-text-color)">www.</span>MUSIC<span style="color:var(--second-text-color)">/</span></p>
                 <ul class="td-side-list">
-                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="example.com"><span class="link-no-access">DISCOGRAPHY</span></a><span class="tt-text">Finished songs / EPs / albums</span></div></li>
-                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="example.com"><span class="link-no-access">SCRAPS</span></a><span class="tt-text">Unfinished work, loops, and other cool sounds</span></div></li>
+                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/music-info.html">INFO</a><span class="tt-text">What is Babylon Bicarbonate?</span></div></li>
+                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/music-bios.html">BIOS</a><span class="tt-text">The faces behind the music</span></div></li>
+                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/music-catalog.html"><span class="link-no-access">DISCOGRAPHY</span></a><span class="tt-text">Finished songs / EPs / albums</span></div></li>
+                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/music-extras.html"><span class="link-no-access">SCRAPS</span></a><span class="tt-text">Unfinished work, loops, and other cool sounds</span></div></li>
+                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/music-cds.html"><span class="link-no-access">CDs</span></a><span class="tt-text">Physical CDs</span></div></li>
+
                 </ul>
 
                 <!--FUN-->

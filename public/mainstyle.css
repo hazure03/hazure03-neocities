@@ -33,6 +33,10 @@
     background: var(--text-color);
 }
 
+audio::-webkit-media-controls-panel {
+    background: linear-gradient(0deg,rgb(0, 0, 0) 0%, rgb(103, 103, 103) 100%);
+}
+
 /* MAIN FONT*/
 @font-face {
     font-family: 'MainFont'; /*a name to be used later*/
@@ -86,6 +90,7 @@ h2 {
     font-family: 'AccentFont';
     font-size: 18px;
     margin: 5px;
+    margin-left: 20px;
     padding: 0px;
     text-align: left;
 }
