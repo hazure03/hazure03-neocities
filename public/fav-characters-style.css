@@ -1,0 +1,105 @@
+.character-table {
+    width:600px;
+    margin:auto;
+    margin-top: 5px;
+    border: none;
+    background:none;
+}
+
+.character-desc {
+    border:0px solid red;
+    min-height: 500px;
+    margin:0px;
+}
+
+.title {
+    background-color:none;
+    display:block;
+    margin-bottom: 3px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    border:0px solid red;
+}
+
+.main-pic {
+    background: none;
+    width:200px;
+    overflow:show;
+    height:350px;
+}
+
+.character-pics {
+    border:0px solid red;
+    background:none;
+}
+
+.pic-with-comment {
+    border:0px solid red;
+    text-align: center;
+    display: inline-block;
+    max-width:116px;
+    font-size:10px;
+}
+
+.pic-with-comment img {
+    max-width: 100%;
+    margin:auto;
+    display:block;
+}
+
+.character-quote {
+    border: 0px solid purple;
+    text-align: center;
+}
+
+.character-quote p {
+    background: none;
+    margin-bottom:10px;
+}
+
+.desc-text {
+    position: absolute;
+    top: 350px;
+    left: 250px;
+    text-align: left;
+    border: 0px solid white;
+    width:350px;
+    height:250px;
+    overflow-wrap: normal;
+    text-shadow: black 1px 1px 5px;
+}
+
+.desc-text p {
+    background:none;
+}
+
+.character-desc {
+    overflow: hidden;
+}
+
+.character-desc-bg {
+    mask-size: 120% 120%;
+    mask-position: center;
+    background-size:cover;
+    background-position: center;
+    height:100%;
+    width:100%;
+}
+
+h3 {
+    border:none;
+    margin-top:0px;
+}
+
+.stamps {
+    border: 0px solid red;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.stamps img {
+    margin:0px;
+    padding:0px;
+    width: 99px;
+}

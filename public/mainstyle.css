@@ -385,3 +385,25 @@ td.side-box {
 .art-entry:hover span.hover-text {
     display: block;
 }
+
+.catalog-entry {
+    background: none;
+    width:206px;
+    margin-bottom:20px;
+    display: inline-block;
+    background-color:rgba(0, 0, 0, 0.5)
+}
+
+.catalog-entry img {
+    height: 200px;
+    margin:auto;
+    display: block;
+}
+
+.catalog-container {
+    background: none;
+    width:628px;
+    height: 669px;
+    padding:0px;
+    margin:0px;
+}

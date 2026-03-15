@@ -125,7 +125,7 @@ const footerEl = `
                 <!--ARTWORK-->
                 <p class="nav-header"><span style="color:var(--second-text-color)">www.</span>ARTWORK<span style="color:var(--second-text-color)">/</span></p>
                 <ul class="td-side-list">
-                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/art.html">ILLUSTRATION<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">*Mostly* digital drawings</span><span style="color:red;">NEW!</span></div></li>
+                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/art.html">ILLUSTRATION<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">*Mostly* digital drawings</span></div></li>
                     <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="example.com"><span class="link-no-access">FURSUITS</span></a><span class="tt-text">Fursuits I've made and / or am working on</span></div></li>
                 </ul>
 
@@ -134,9 +134,9 @@ const footerEl = `
                 <ul class="td-side-list">
                     <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/music-info.html">INFO</a><span class="tt-text">What is Babylon Bicarbonate?</span></div></li>
                     <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/music-bios.html">BIOS</a><span class="tt-text">The faces behind the music</span></div></li>
-                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/music-catalog.html"><span class="link-no-access">DISCOGRAPHY</span></a><span class="tt-text">Finished songs / EPs / albums</span></div></li>
+                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/music-catalog.html">DISCOGRAPHY.</a><span class="tt-text">Finished songs / EPs / albums</span><span style="color:red;">NEW!</span></div></li>
                     <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/music-extras.html"><span class="link-no-access">SCRAPS</span></a><span class="tt-text">Unfinished work, loops, and other cool sounds</span></div></li>
-                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/music-cds.html"><span class="link-no-access">CDs</span></a><span class="tt-text">Physical CDs</span></div></li>
+                    <!-- <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/music-cds.html"><span class="link-no-access">CDs</span></a><span class="tt-text">Physical CDs</span></div></li> -->
 
                 </ul>
 
@@ -144,8 +144,7 @@ const footerEl = `
                 <p class="nav-header"><span style="color:var(--second-text-color)">www.</span>FUN<span style="color:var(--second-text-color)">/</span></p>
                 <ul class="td-side-list">
                     <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/dressup.html">DRESS.UP_GAME</a><span class="tt-text">Dress-up my fursona!</span></div></li>
-                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="example.com"><span class="link-no-access">F2U_LAYOUTS</span></a><span class="tt-text">Fun web design ventures that are up for grabs</span></div></li>
-                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="example.com"><span class="link-no-access">FAV_CHARACTERS</span></a><span class="tt-text">Current favorite characters in fiction</span></div></li>
+                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/fav-characters.html">FAV_CHARACTERS.</a><span class="tt-text">Current favorite characters in fiction</span></div></li>
                     <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/web-collection.html">WEB_COLLECTION.</a><span class="tt-text">Collection of cool stuff I find while browsing</span><span style="color:red;">NEW!</span></div></li>
                 </ul>
 
