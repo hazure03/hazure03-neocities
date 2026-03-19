@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  
+<title>.*[Doggy Days Preview]*.</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="style.css">
+  
+  <style>
+  
+li{
+    padding: 3px;
+}
+
+#guide li{
+  padding:10px;
+}
+
+#colors ul {
+  margin: 0;
+  padding: 0;
+  border:0px solid blue;
+  vertical-align: top;
+}
+
+#colors li {
+  border:0px solid green;
+  text-align:left;
+  padding:3px;
+  margin: 0px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+textarea {
+  width: 100%;
+  margin: 5px;
+   resize:none
+}
+         
+         </style>
+<body>
+<!-- MAIN START -->
+<table>
+  
+  <tr> <!-- HEADER START -->
+    <td id="header" colspan="2">
+    </td>
+  </tr> <!-- HEADER END -->
+  
+  <tr> <!-- MIDDLE START -->
+    <td id="content"> <!-- CONTENT START -->
+      <a id="backhome" href="https://hazure03.neocities.org/resources/layout-doggydays/">&lt;--- BACK HOME</a>
+      <div class="divider"></div>
+      
+		<h3>JUMP TO:</h3>
+		<ol class="jump">
+      <li><a href="#GUIDE">Guide</a></li>
+        <ul>
+          <li><a href="#STEP1">Step 1 | Copy &amp; Paste</a></li>
+          <li><a href="#STEP2">Step 2 | Editing the Index</a></li>
+          <li><a href="#STEP3">Step 3 | Editing the Sub-Page</a></li>
+          <li><a href="#STEP4">Step 4 | Understanding CSS</a></li>
+        </ul>
+      <li><a href="#CONT">Continued</a></li>
+        <ul>
+          <li><a href="#MUSIC">Adding Music</a></li>
+          <li><a href="#CODE">Coding Help</a></li>
+          <li><a href="#PAL">Color Palette</a></li>
+        </ul>
+    </ol>
+      
+      <h2 id="GUIDE">Guide</h2>
+      <h3>How to Use</h3>
+      <div id="guide">
+      <ul>
+        <li>DISCLAIMER: I'm writing this using Safari Browser on a MacBook. I'm also writing this <span style="text-decoration:underline;color:#f88000">with Neocities in mind</span>, as it's the only host I have experience with. Apologies if there's any issues &lt;/3</li>
+        <li>I'm also writing this with the assumption that the reader knows hardly anything about Neocities / HTML / CSS.
+      </ul>
+      
+      <ul>
+        <li id="STEP1">STEP 1 | COPY &amp; PASTE
+        	<ol>
+            	<li> Open up "index.html" in your editor of choice. I just use the Neocities editor. If the file doesn't exist, create a new file just titled "index.html".
+            	<li>Copy/Paste the code below into index.html, and save.</li>
+            <textarea rows="5"><!DOCTYPE html>
+
+<!-- 
+
+▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄
+
+Welcome to the index! Here I've tried my best to explain what everything does. If you need more clarity, feel free to contact me or use the resources found in the guide page
+
+▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄
+
+. -->
+
+<html lang="en-US"> <!-- HTML START -->
+  <head> <!-- METADATA START -->
+    <title>EXAMPLE</title> <!-- What will appear in a browser's tab -->
+    <meta charset="utf-8"/> <!-- Specefies character encoding -->
+    <link rel="stylesheet" href="https://temp.com/style.css"> <!-- Links to outside CSS. MAKE SURE IT'S LINKED PROPERLY! -->
+  </head> <!-- METADATA END -->
+  <body> <!-- PAGE START -->
+  
+    <table> <!-- LAYOUT START -->
+    
+      <tr> <!-- HEADER START | tr stands for table row. this layout is made of 3 rows; the top is the header, middle is content, and bottom is footer. --> 
+        <td id="header" colspan="2"></td> <!-- The header image is included via CSS, more on that in the style.css comments. Also, take note of the colspan property. I'll be commenting on it in the footer section after we've established what a 'td' is  -->
+      </tr> <!-- HEADER END -->
+      
+      <tr> <!-- MIDDLE START -->
+        <td id="content"> <!-- CONTENT START | td stands for table data. Here, it declares what kind of content will be going inside of the middle row. To write in your own content, replace the code in between the <td></td> tags here.-->
+          <h2>Introduction</h2>
+          <h3>Welcome!</h3>
+          <p> Welcome to "Doggy Days"! This is a very simple layout inspired by Nintendogs, and is open for anyone to use. I thought it would be really fun to design new layouts and didn't want to keep them to myself :) </p>
+          <p> I've also included a guide for people new to HTML / CSS to follow if desired. It's by no means perfect, but I hope it can help at least one person lol</p>
+          <div class="divider"></div> <!-- I go over these 'divs' in style.css -->
+          <p>If you have any questions at all about how to use this layout, don't hesitate to contact me via e-Mail or on discord &commat;luvpikmin03. Also, please note that I'm still learning HTML/CSS, and this is far from perfect web design! '^^</p>
+          <p>You can use this layout however you want, however I would prefer if the credit is not removed as I work very hard on what I do. I can't stop you, though.</p>
+          <p>Lastly, make sure to check out the guide on the right-side menu to learn how to use this layout correctly. Thank you!</p>
+          <p style="text-align:right;">- Kito &lt;3 <br>
+          <a href=https://hazure03.neocities.org style="font-size:12px;">My Website</a></p>
+        </td> <!-- CONTENT END -->
+        
+        <td id="menu"> <!-- MENU START | Because I declared another 'table data' before ending the 'table row', i've essentially created another column to include the menu.-->
+          <h1>LINKS</h1> <!-- Here, make sure to follow the guide to make sure your links are working properly! This is your menu. Typically the links here will be used for navigating around your site. For simplicity, let's have the first link go to your "examplepage.html" page. You can have as many or as little links you want.-->
+            <ul> <!-- MENU1 START | <ul></ul> specify an "Unordered List", while the <li></li> tags specify the indivisual list entries-->
+              <li><a href="www.temp.com" title="LINK TITLE">LINK</a></li> <!-- This is where you'd insery the example code in Step 2 -->
+              <li><a href="www.temp.com" title="LINK TITLE">LINK</a></li>
+              <li><a href="www.temp.com" title="LINK TITLE">LINK</a></li>
+              <li><a href="www.temp.com" title="LINK TITLE">LINK</a></li>
+              <li><a href="www.temp.com" title="LINK TITLE">LINK</a></li>
+            </ul> <!-- MENU1 END -->
+          <h1>LINKS</h1> <!-- Here I just included a seperate LINKS tab to showcase how to include a different "subset" of links, so to say -->
+          <ul> <!-- MENU2 START -->
+            <li><a href="www.temp.com" title="LINK TITLE">LINK</a></li>
+            <li><a href="www.temp.com" title="LINK TITLE">LINK</a></li>
+            <li><a href="www.temp.com" title="LINK TITLE">LINK</a></li>
+          </ul> <!-- MENU2 END -->
+          <div class="divider"></div>
+          <p>Note: This blank space grows and shrinks depending on how much content is in the 'content' box</p>
+        </td> <!-- MENU END -->
+      </tr> <!-- MIDDLE END -->
+  
+      <tr> <!-- FOOTER START -->
+        <td id="footer" colspan="2"> <!-- So, back in the middle section, I've declared 2 tds, meaning I've basically created 2 columns for the entire table. Because I only want the columns to appear in the middle, and have the header and footer remain one big td, I've declared them both to have their tds span 2 columns. This way, instead of the header and footer having 2 columns along with the middle, they are both their own big td -->
+          Footer stuff goes here 
+        </td>
+      </tr> <!-- FOOTER END -->
+      
+      </table> <!-- LAYOUT END -->
+
+    <div id="credit">Original layout from <a href="https://hazure03.neocities.com">hazure03</a></div> <!-- CREDIT | Feel free to style however you want. Again, I'd prefer if this wasn't deleted entirely though-->
+
+    <div style="position:relative;"> <!-- DOG IMAGE START -->
+      <img src="https://hazure03.neocities.org/resources/layout-doggydays/shiba.png" class="dogimg">
+    </div> <!-- DOG IMAGE END -->
+      
+  </body> <!-- PAGE END -->
+</html> <!-- HTML END --></textarea>
+              <li>Create a new page, for example let's call it "page.html".
+              <li>Copy/Paste this code into your new page, and save.</li>
+            <textarea rows="5"><!DOCTYPE html>
+
+<!-- Welcome to the example page! Most of the stuff from the index page still applies here, so I'll add comments when needed -->
+
+<html lang="en-US"> <!-- HTML START -->
+  <head> <!-- METADATA START -->
+    <title>EXAMPLE</title> <!-- What will appear in a browser's tab -->
+    <meta charset="utf-8"/> <!-- Specefies character encoding -->
+    <link rel="stylesheet" href="https://temp.com/style.css"> <!-- Links to outside CSS. -->
+  </head> <!-- METADATA END -->
+  <body> <!-- PAGE START -->
+  
+    <table> <!-- LAYOUT START -->
+  
+      <tr> <!-- HEADER START -->
+        <td id="header" colspan="2"></td>
+      </tr> <!-- HEADER END -->
+  
+      <tr> <!-- MIDDLE START -->
+        <td id="content"> <!-- CONTENT START -->
+          <a href="www.temp.com" title="LINK TITLE">&lt;--- BACK HOME</a> <!-- An easy link for people to go back to the home page / index -->
+          <div class="divider"></div>
+          
+          <!-- REPLACE START -->
+          
+          <h2>Example</h2>
+          <p> blalbablablahblahblah</p>
+          
+          <!-- REPLACE END -->
+          
+        </td> <!-- CONTENT END -->
+      </tr> <!-- MIDDLE END -->
+      
+      <tr> <!-- FOOTER START -->
+        <td id="footer" colspan="2">
+          Footer stuff goes here 
+        </td>
+      </tr> <!-- FOOTER END -->
+  
+      </table> <!-- LAYOUT END -->
+
+      <div id="credit">Original layout from <a href="https://hazure03.neocities.com">hazure03</a></div>
+
+    <div style="position:relative;"> <!-- DOG IMAGE START -->
+      <img src="https://hazure03.neocities.org/resources/layout-doggydays/shiba.png" class="dogimg">
+    </div> <!-- DOG IMAGE END -->
+    
+  </body> <!-- PAGE END -->
+</html> <!-- HTML END --></textarea>
+              <li>Make sure to replace ALL existing code within the files with the new code</li>
+              <li>Create a new file titled "style.css" if it doesn't already exist.</li>
+              <li>Copy/Paste this code into style.css, and of course, save.</li>
+              <textarea rows="5">/* 
+
+▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄
+
+Welcome to the CSS page! Here I'll include comments going over what each declaration does / how it affects the HTML pages
+
+▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄
+
+*/
+
+/* This defines what it'll look like when a user clicks + drags to highlight text. Not declaring this just goes to system default */
+::selection {
+  color: #f8f8f8;
+  background: #f88000;
+}
+
+/* This declares a custom font. this is my favorite one, personally, and it fits the theme perfectly */
+@font-face {
+  font-family: OnliLight;
+  src: url(https://hazure03.neocities.org/fonts/OnliLight.woff); /* If there's an error here, just ignore it. IDK why it's there, but it hasn't given me issues, so.*/
+}
+
+/* I use this for declarations I want across the entire page. For example... */
+html {
+  font-family: OnliLight; /* The font used across the page */
+  color: #703000; /* The color of the text */
+  cursor: url(https://cur.cursors-4u.net/nature/nat-10/nat997.cur), auto; /* Custom cursor */
+  font-size: 15px; /* How big the text is in pixels */
+}
+
+/* I use this mainly to declare a background image */
+body {
+  background-image: url(https://hazure03.neocities.org/resources/layout-doggydays/boxbg.png)
+}
+
+/* The table is what makes up the entire layout. Think of it as the bones. Here I'm declaring the base visuals of the website's main layout */
+table {
+  width:600px; /* How wide the layout is */
+  height:500px; /* How tall the layout is */
+  margin: 10px auto; /* How much space is around the table. Having two values like this means the first one is appied to the top and bottom of an element, and the second is applied to the sides. Here, there's a 10px gap between the table and the top of the window. 'auto' in this context means the gap between the side edges of the table and the sides of the window are calculated to be even, hence centering the table. */
+  border: 1px solid #e0c898; /* The thickness, type, and color of the table's border */
+  background: #f8f8f8; /* The table's background color */
+}
+
+/* td stands for table data. Anything inside the <td> and </td> tags is the content of a table cell. Here I declared the basic behavior of content within all cells */
+td {
+  border: 1px solid #f0e8c8;
+  padding: 10px; /* The amount of space around the cells' content within its borders */
+  vertical-align:top; /* Making sure content starts from the top of a cell, rather than in the center. Cells will automatically center content vertically. */
+}
+
+/* This defines what the header image is and how it looks */
+#header {
+  width: 100%; /* Notice the % rather than px. This way, no matter how I change the tables' width, the header image will always take up 100% of its width */
+  height:100px;
+  padding: 0px; /* Basically making sure there are no gaps between the header image and the borders of the cell */
+  margin: 0px; /* ^ ditto */
+  background-image: url(https://hazure03.neocities.org/resources/layout-doggydays/header.jpg) /* Using background-image to specify the header image so I can ensure it takes up the entirety of the space without any weird behavior with gaps and whatnot.*/
+}
+
+/* h1, h2, and h3 are all header styles for text. Typically used for something like a big main header, subheader, and sub-subheader. I used h1 to act as headers for the menu links, aka the 2 headers that say LINKS above the links in the index's right-side menu. */
+h1 {
+  background:#e0c898; /* The background color here affects only the color behind the header text */
+  color:#703000; /* The font color for the header*/
+  margin:0px;
+  padding:3px;
+  text-align: center; /* Aligning the text to the center of its parent container (in this case, a cell) */
+  font-size: 15px;
+  letter-spacing: 5px; /* The gap size between letters. I like using these for stylistic stuff. */
+  border-radius: 10px 10px 0px 0px; /* This determines the round-ness border's corners. Even though we don't have a border, this still affects the background color. The higher the number, the rounder the corner. The 4 values declared here are assigned to the top-left, top-right, bottom-right, and bottom-left respectivley. Basically think of it as going clockwise. */
+}
+
+/* MAIN HEADER | This is the green-background header used for main content, for example "Guide" or "Introduction".*/
+h2 {
+  background:#d8e0d0;
+  color:#703000;
+  margin:0px;
+  padding:3px;
+  text-align: right;
+  font-size: 20px;
+  letter-spacing: 5px;
+  border-radius: 20px 0px 0px 20px; /* Here, instead of having rounded corners on the top like last example, this time the rounded corners are on the right side corners of the header's background color */
+}
+
+/* SUB HEADER | This is the orange-lettered sub-header used for main content, for example "How to Use" or "Welcome!"*/
+h3 {
+  color:#f88000;
+  margin:10px;
+  padding:0px;
+  font-size: 17px;
+}
+
+/* This is for the right-side menu in the index  */
+#menu {
+  margin: 0;
+  padding: 0;
+  width: 25%; /* Here, I have it so the menu takes up a quarter of the table's overall width */
+  vertical-align: top;
+}
+
+/* Here, I specify that I want these rules to *only* apply to unordered lists inside of the #menu tag. Since the menu cell / td has its id declared as "menu", the unordered list within the cell will follow these rules. Unordered lists outside of the menu cell will be unaffected.  */
+#menu ul {
+  margin: 0;
+  padding: 0;
+  list-style-type:none; /* Specifying how I dont want a square, circle, or dash in front of the links in the menu */
+  vertical-align: top;
+}
+
+/* Same as above, except I'm describing each individual list item, rather than the list as a whole. Note the background color and how each link has the same color as eachother */
+#menu li {
+  text-align:left; /* Making sure the text for the menu's links aren't centered */
+  padding:3px;
+  margin: 5px;
+  background: #f0e8c8;
+  border-radius: 0px 10px 10px 0px;
+}
+
+/* This says that before each list item, I want there to be an icon. This, combined with "list-style-type:none;", basically means I can create my own bullet points */
+#menu li::before {
+  content: url("https://hazure03.neocities.org/resources/layout-doggydays/paw.gif"); /* The actual content I want to be in front of the list item */
+  vertical-align:-25%; /* Fixing any weird off-set stuff*/
+  margin-right: 5px; /* Creating a small gap between the content / gif and the text to create more visual clarity */
+}
+
+/* Defines the very bottom cell of the table */
+#footer {
+  height: 25px;
+}
+
+/* Defining how hyperlinks look*/
+a {
+  color: #703000;
+  text-decoration:none;
+}
+
+/* Defining how hyperlinks look when the user hovers over them */
+a:hover {
+  font-style:italic;
+  color: #f88000;
+}
+
+/* Here, I defined what a <div> with the class "divider" would look like. If I wrote actual content inside the <div>, the content's bottom border would as described below. However, because I don't write anything inside the <div>, it gives me the bottom border and nothing else, giving me a nice flexible divider to use in between paragraphs and whatnot. It's a little difficult to describe via text, so I suggest playing around with it a bit and seeing what happens.  */
+.divider {
+  border-bottom: 1px dashed #a07068;
+  margin: 5px 0px;
+}
+
+/* Defining how the dog picture looks and behaves */
+.dogimg {
+  position: fixed; /* It's position being fixed ensures it stays in the same spot inside the window no matter what */
+  bottom: 0; /* Declaring no space between the dog and the bottom of the window */
+  right: 0;  /* Declaring no space between the dog and the right-side of the window */
+  width: 200px;
+}
+
+/* Defining the credit bit under the table */
+#credit {
+  color: #a07068;
+  font-size: 12px;
+  text-align:center;
+}
+
+#credit a {
+  color: #a07068;
+}
+
+#credit a:hover {
+  color: #703000;
+}</textarea>
+            </ol>
+        </li>
+        <li id="STEP2">STEP 2 | EDITING THE INDEX
+          <ol>
+            <li> Open up "index.html" again.</li>
+            <li> It's a good idea to read through the comments to understand where to start editing if you're new!</li>
+            <li> Apply style.css to the page. In between the &lt;head&gt; tags, include the link to your style.css file.</li>
+            <li> Make sure links are working the intended way. For example, if you wanted the first link on the right-side menu to go to your "page.html" subpage, the code would look a little like this:</li> <textarea><a href="https://YOURSITE.neocities.org/page.html" title="PAGE TITLE">Page</a></textarea>
+            <li> Add your own content! Replace the code between the specified &lt;td&gt; with your own text, images, whatever! Tutorials can be found in the "For Reference" section under "Coding Help".</li>
+          </ol>
+        </li>
+        <li id="STEP3">STEP 3 | EDITING THE SUB-PAGE</li>
+          <ol>
+            <li> Open up "page.html" (or whatever your new sub-page is titled).</li>
+            <li> The process is pretty much the same as Step 2 (including adding CSS!)</li>
+            <li> Make sure the link going back to the index is working as intended.</li>
+            <li> To replace content, make sure you delete the code only within the "REPLACE START" and "REPLACE END" comments</li>
+          </ol>
+        <li id="STEP4">STEP 4 | UNDERSTANDING CSS</li>
+          <ol>
+            <li> In the CSS code given above in Step 1.7, there's (of course) commentary going over various aspects of how I write CSS files. To understand how this specific layout works, I reccomend reading the CSS comments in tandem with the HTML files.</li>
+            <li> Proper learning resources are given in the "For Reference" section.</li>
+          </ol>
+      </ul>
+      </div>
+      
+      <h2 id="CONT">Continued</h2>
+      <h3 id="MUSIC">Adding Music</h3>
+        <ul>
+          <li>To add a song to the layout, copy &amp; paste this code right under the &lt;body&gt; tag in index.html. To customize it or to add songs, head over to <a href="https://www.scmplayer.net">www.scmplayer.net</a></li><textarea>
+<script type="text/javascript" src="https://www.scmplayer.net/script.js" 
+data-config="{'skin':'skins/simpleOrange/skin.css','volume':35,'autoplay':false,'shuffle':false,'repeat':1,'placement':'top','showplaylist':false,'playlist':[{'title':'%27Nintendogs Record%27 - Nintendogs OST','url':'https://youtu.be/Ns_N_4IGbXc?si=Y5ktYt5sQlyLEo-k'}]}" ></script></textarea>
+        </ul>
+    
+      <h3 id="CODE">Code Help</h3>
+      	<ul>
+        	<li><a href="https://www.w3schools.com/html/default.asp">www.w3schools.com</a><br> &nbsp;&nbsp;Super intuitive and easy-to-learn HTML, CSS, JS, and more</li>
+            <li><a href="https://www.reddit.com/r/neocities/">Neocities Subreddit / Discord</a><br>&nbsp;&nbsp;The Neocities sub-reddit has great resources, and the associated Discord server is full of people willing to help with whatever questions can't be answered on google search</li>
+        </ul>
+      
+      <h3 id="PAL">Color Palette</h3>
+      <div id="colors">
+        <ul style="list-style-type:none;">
+          <li style="background:#f8f8f8">#f8f8f8</li>
+          <li style="background:#f0e8c8">#f0e8c8</li>
+          <li style="background:#e0c898">#e0c898</li>
+          <li style="background:#f88000">#f88000</li>
+          <li style="background:#d8e0d0">#d8e0d0</li>
+          <li style="background:#703000;color:white;">#703000</li>
+          <li style="background:#a07068;color:white;">#a07068</li>
+      </ul>
+      </div>
+    </td> <!-- CONTENT END -->
+  </tr> <!-- MIDDLE END -->
+  
+        <tr> <!-- FOOTER START -->
+        <td id="footer" colspan="2">
+          Thanks for reading &lt;3 
+        </td>
+      </tr> <!-- FOOTER END -->
+      
+      
+</table>
+<!-- MAIN END -->
+
+<div id="credit">Original layout from <a href="https://hazure03.neocities.com">hazure03</a></div>
+
+<div style="position:relative;"> <!-- DOG IMAGE START -->
+        <img src="https://hazure03.neocities.org/resources/layout-doggydays/shiba.png" class="dogimg">
+      </div> <!-- DOG IMAGE END -->
+  </body>
+</html>

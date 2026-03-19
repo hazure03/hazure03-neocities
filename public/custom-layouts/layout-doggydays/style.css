@@ -1,0 +1,169 @@
+/* 
+
+▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄
+
+Welcome to the CSS page! Here I'll include comments going over what each declaration does / how it affects the HTML pages
+
+▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄
+
+*/
+
+/* This defines what it'll look like when a user clicks + drags to highlight text. Not declaring this just goes to system default */
+::selection {
+  color: #f8f8f8;
+  background: #f88000;
+}
+
+/* This declares a custom font. this is my favorite one, personally, and it fits the theme perfectly */
+@font-face {
+  font-family: OnliLight;
+  src: url(OnliLight.woff); /* If there's an error here, just ignore it. IDK why it's there, but it hasn't given me issues, so.*/
+}
+
+/* I use this for declarations I want across the entire page. For example... */
+html {
+  font-family: OnliLight; /* The font used across the page */
+  color: #703000; /* The color of the text */
+  cursor: url(https://cur.cursors-4u.net/nature/nat-10/nat997.cur), auto; /* Custom cursor */
+  font-size: 15px; /* How big the text is in pixels */
+}
+
+/* I use this mainly to declare a background image */
+body {
+  background-image: url(boxbg.png)
+}
+
+/* The table is what makes up the entire layout. Think of it as the bones. Here I'm declaring the base visuals of the website's main layout */
+table {
+  width:600px; /* How wide the layout is */
+  height:500px; /* How tall the layout is */
+  margin: 10px auto; /* How much space is around the table. Having two values like this means the first one is appied to the top and bottom of an element, and the second is applied to the sides. Here, there's a 10px gap between the table and the top of the window. 'auto' in this context means the gap between the side edges of the table and the sides of the window are calculated to be even, hence centering the table. */
+  border: 1px solid #e0c898; /* The thickness, type, and color of the table's border */
+  background: #f8f8f8; /* The table's background color */
+}
+
+/* td stands for table data. Anything inside the <td> and </td> tags is the content of a table cell. Here I declared the basic behavior of content within all cells */
+td {
+  border: 1px solid #f0e8c8;
+  padding: 10px; /* The amount of space around the cells' content within its borders */
+  vertical-align:top; /* Making sure content starts from the top of a cell, rather than in the center. Cells will automatically center content vertically. */
+}
+
+/* This defines what the header image is and how it looks */
+#header {
+  width: 100%; /* Notice the % rather than px. This way, no matter how I change the tables' width, the header image will always take up 100% of its width */
+  height:100px;
+  padding: 0px; /* Basically making sure there are no gaps between the header image and the borders of the cell */
+  margin: 0px; /* ^ ditto */
+  background-image: url(header.jpg) /* Using background-image to specify the header image so I can ensure it takes up the entirety of the space without any weird behavior with gaps and whatnot.*/
+}
+
+/* h1, h2, and h3 are all header styles for text. Typically used for something like a big main header, subheader, and sub-subheader. I used h1 to act as headers for the menu links, aka the 2 headers that say LINKS above the links in the index's right-side menu. */
+h1 {
+  background:#e0c898; /* The background color here affects only the color behind the header text */
+  color:#703000; /* The font color for the header*/
+  margin:0px;
+  padding:3px;
+  text-align: center; /* Aligning the text to the center of its parent container (in this case, a cell) */
+  font-size: 15px;
+  letter-spacing: 5px; /* The gap size between letters. I like using these for stylistic stuff. */
+  border-radius: 10px 10px 0px 0px; /* This determines the round-ness border's corners. Even though we don't have a border, this still affects the background color. The higher the number, the rounder the corner. The 4 values declared here are assigned to the top-left, top-right, bottom-right, and bottom-left respectivley. Basically think of it as going clockwise. */
+}
+
+/* MAIN HEADER | This is the green-background header used for main content, for example "Guide" or "Introduction".*/
+h2 {
+  background:#d8e0d0;
+  color:#703000;
+  margin:0px;
+  padding:3px;
+  text-align: right;
+  font-size: 20px;
+  letter-spacing: 5px;
+  border-radius: 20px 0px 0px 20px; /* Here, instead of having rounded corners on the top like last example, this time the rounded corners are on the right side corners of the header's background color */
+}
+
+/* SUB HEADER | This is the orange-lettered sub-header used for main content, for example "How to Use" or "Welcome!"*/
+h3 {
+  color:#f88000;
+  margin:10px;
+  padding:0px;
+  font-size: 17px;
+}
+
+/* This is for the right-side menu in the index  */
+#menu {
+  margin: 0;
+  padding: 0;
+  width: 25%; /* Here, I have it so the menu takes up a quarter of the table's overall width */
+  vertical-align: top;
+}
+
+/* Here, I specify that I want these rules to *only* apply to unordered lists inside of the #menu tag. Since the menu cell / td has its id declared as "menu", the unordered list within the cell will follow these rules. Unordered lists outside of the menu cell will be unaffected.  */
+#menu ul {
+  margin: 0;
+  padding: 0;
+  list-style-type:none; /* Specifying how I dont want a square, circle, or dash in front of the links in the menu */
+  vertical-align: top;
+}
+
+/* Same as above, except I'm describing each individual list item, rather than the list as a whole. Note the background color and how each link has the same color as eachother */
+#menu li {
+  text-align:left; /* Making sure the text for the menu's links aren't centered */
+  padding:3px;
+  margin: 5px;
+  background: #f0e8c8;
+  border-radius: 0px 10px 10px 0px;
+}
+
+/* This says that before each list item, I want there to be an icon. This, combined with "list-style-type:none;", basically means I can create my own bullet points */
+#menu li::before {
+  content: url("paw.gif"); /* The actual content I want to be in front of the list item */
+  vertical-align:-25%; /* Fixing any weird off-set stuff*/
+  margin-right: 5px; /* Creating a small gap between the content / gif and the text to create more visual clarity */
+}
+
+/* Defines the very bottom cell of the table */
+#footer {
+  height: 25px;
+}
+
+/* Defining how hyperlinks look*/
+a {
+  color: #703000;
+  text-decoration:none;
+}
+
+/* Defining how hyperlinks look when the user hovers over them */
+a:hover {
+  font-style:italic;
+  color: #f88000;
+}
+
+/* Here, I defined what a <div> with the class "divider" would look like. If I wrote actual content inside the <div>, the content's bottom border would as described below. However, because I don't write anything inside the <div>, it gives me the bottom border and nothing else, giving me a nice flexible divider to use in between paragraphs and whatnot. It's a little difficult to describe via text, so I suggest playing around with it a bit and seeing what happens.  */
+.divider {
+  border-bottom: 1px dashed #a07068;
+  margin: 5px 0px;
+}
+
+/* Defining how the dog picture looks and behaves */
+.dogimg {
+  position: fixed; /* It's position being fixed ensures it stays in the same spot inside the window no matter what */
+  bottom: 0; /* Declaring no space between the dog and the bottom of the window */
+  right: 0;  /* Declaring no space between the dog and the right-side of the window */
+  width: 200px;
+}
+
+/* Defining the credit bit under the table */
+#credit {
+  color: #a07068;
+  font-size: 12px;
+  text-align:center;
+}
+
+#credit a {
+  color: #a07068;
+}
+
+#credit a:hover {
+  color: #703000;
+}

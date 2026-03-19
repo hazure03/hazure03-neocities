@@ -4,6 +4,16 @@
     margin-top: 5px;
     border: none;
     background:none;
+    overflow:visible;
+}
+
+.pagedoll {
+    right:0;
+    left:inherit;
+    bottom:0;
+    position:fixed;
+    height:100px;
+    margin:20px;
 }
 
 .character-desc {
@@ -25,7 +35,7 @@
 .main-pic {
     background: none;
     width:200px;
-    overflow:show;
+    overflow:visible;
     height:350px;
 }
 
