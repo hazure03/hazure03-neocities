@@ -7,6 +7,8 @@
         <link href="mainstyle.css" rel="stylesheet" type="text/css" />
         <link href="fav-characters-style.css" rel="stylesheet" type="text/css" />
         <link href="tooltip.css" rel="stylesheet" type="text/css" />
+        <script src="https://cdn.jsdelivr.net/npm/theme-change@2.0.2/index.js"></script>
+        <link rel="stylesheet" href="https://cdn.cursors-4u.net/cursors/animated/flying-purple-butterfly-7e320b4f-32.css">
         <script src="layout.js"></script>
         <style>
 
@@ -17,6 +19,11 @@
                 --title-shadow: rgb(255, 255, 255);
                 --desc-bg: rgb(206, 255, 255);
                 --accent-color: rgb(255, 255, 255);
+            }
+
+            ::selection {
+                background-color: var(--title-text);
+                color: var(--desc-bg);
             }
 
             @font-face {

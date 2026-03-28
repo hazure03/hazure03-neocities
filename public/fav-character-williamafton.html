@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>.*[://haz_FAV-CHARACTERS_AFTON]*.</title>
+        <link rel="icon" type="image/x-icon" href="main-assets/main-images/favicon.ico">
+        <meta charset="utf-8" />
+        <link href="mainstyle.css" rel="stylesheet" type="text/css" />
+        <link href="fav-characters-style.css" rel="stylesheet" type="text/css" />
+        <link href="tooltip.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://cdn.cursors-4u.net/cursors/animated/hol155-6086c1ac-32.css">        <script src="layout.js"></script>
+        <style>
+
+            :root {
+                --desc-text: rgb(175, 58, 156);
+                --title-text: rgb(110, 14, 125);
+                --desc-shadow: rgb(255, 255, 255);
+                --title-shadow: rgb(255, 255, 255);
+                --desc-bg: rgb(206, 255, 255);
+                --accent-color: rgb(255, 255, 255);
+            }
+
+            ::selection {
+                background-color: var(--title-text);
+                color: var(--desc-bg);
+            }
+
+            @font-face {
+                font-family: 'FlutterFont'; /*a name to be used later*/
+                src: url(fav-characters-fonts/FredokaOne-Regular.ttf); /*URL to font*/
+            }
+
+            .maincontent {
+                background-image: url(images/fav-characters/flutter-bg.jpg);
+                background-size: cover;
+                font-family: 'FlutterFont';
+                
+            }
+
+            .title {
+                font-family: 'FlutterFont';
+                text-shadow: var(--title-shadow) 0px 0px 10px;
+                color: var(--title-text)
+            }
+
+            .character-table {
+                background-size: cover;
+                background-position: top;
+                color: var(--desc-text)
+            }
+
+             .main-pic img{
+                width:120%;
+                object-position:left;
+                margin-left: -10px;
+            }
+
+            .character-table td {
+                border:0px dashed rgba(245, 245, 220, 0.307);
+            }
+
+            .character-quote p{
+                font-family: 'FlutterFont';
+                font-size:20px;
+                color: var(--title-text);
+                text-shadow: var(--title-shadow) 0px 0px 10px;
+            }
+
+            .character-desc p {
+                color: var(--desc-text);
+                text-shadow: var(--desc-shadow) 0px 0px 10px;
+            }
+
+            .character-desc-bg {
+                mask-image: url("images/masks/mask-08.png");
+                background-color: var(--desc-bg);
+            }
+
+            h3 {
+                font-family: 'FlutterFont';
+                font-size:20px;
+                color: var(--title-text);
+                text-shadow: var(--title-shadow) 0px 0px 10px;
+            }
+
+            .divider {
+                border: 1px dashed var(--accent-color);
+            }
+        
+
+        </style>
+    </head>
+<body>
+    <img src="images/fav-characters/flutter-pic6.webp" class="pagedoll">
+    <div class="maincontent">
+        
+        <div class="subpage-header">
+            <img src="main-assets/main-icons/arrowleft.gif"><a href="/fav-characters.html" style="color:purple;">Go Back</a>
+        </div>
+
+        <table class="character-table">
+            <tr class="top-row">
+                <td class="main-pic">
+                    <img src="images/fav-characters/flutter-mainimg.webp">
+                </td>
+                <td class="character-desc">
+                    <div class="character-desc-bg"></div>
+                    <div class="desc-text">
+                        <div class="title">Flutter</div>
+                        <p>I'm not the best Dandy's World player, and to the disappointment of my team I always insist on playing Flutter. She's just the cutest ever, meta be damned!</p>
+                        <p>She's a such a diva, and I love how the devs were able to give her so much personality despite her being silent. It's shown that the others can understand what she's saying (for the most part), despite her only speaking in "!" or "?" or even "..."</p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="character-quote" colspan="2">
+                    <div class="divider"></div>
+                    <p>' ' ! ' '</p>
+                    <div class="stamps">
+                        <img src="images/fav-characters/flutter-stamp1.png">
+                        <img src="images/fav-characters/flutter-stamp2.png">
+                        <img src="images/fav-characters/flutter-stamp3.png">
+                        <img src="images/fav-characters/flutter-stamp4.png">
+                    </div>
+                    <div class="divider"></div>
+                </td>
+            </tr>
+            <tr>
+                <td class="character-pics" colspan="2">
+                    <h3>Gallery</h3>
+                    <div class="pic-with-comment">
+                        <img src="images/fav-characters/flutter-pic1.webp">
+                        <p>Flutter's model in-game</p>
+                    </div>
+                    <div class="pic-with-comment">
+                        <img src="images/fav-characters/flutter-pic2.webp">
+                        <p>In-game ":D" sticker</p>
+                    </div>
+                    <div class="pic-with-comment">
+                        <img src="images/fav-characters/flutter-pic3.webp">
+                        <p>In-game painting</p>
+                    </div>
+                    <div class="pic-with-comment">
+                        <img src="images/fav-characters/flutter-pic4.webp">
+                        <p>Flutter's initial concept art</p>
+                    </div>
+                    <div class="pic-with-comment">
+                        <img src="images/fav-characters/flutter-pic5.webp">
+                        <p>Flutter's "twisted" form</p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

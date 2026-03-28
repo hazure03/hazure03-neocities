@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>.*[://haz_FORM]*.</title>
+        <link rel="icon" type="image/x-icon" href="main-assets/main-images/favicon.ico">
+        <meta charset="utf-8" />
+        <link href="mainstyle.css" rel="stylesheet" type="text/css" />
+        <link href="tooltip.css" rel="stylesheet" type="text/css" />
+        <script src="layout.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/theme-change@2.0.2/index.js"></script>
+        
+        <style>
+
+            .form-block{
+                margin-bottom:10px;
+                padding:10px;
+                border-top:1px dashed var(--border-color);
+            }
+
+            .attatchment {
+                width: 190px;
+            }
+
+            .form-control {
+                width:300px;
+            }
+
+            .btn {
+                margin:10px;
+                color:yellowgreen;
+                background-color: black;
+                font-family: 'MainFont';
+                width:190px;
+                height:30px;
+                border:1px solid var(--border-color);
+            }
+
+            .btn:hover {
+                margin:10px;
+                color:yellowgreen;
+                background-color: rgb(17, 17, 17);
+                font-family: 'MainFont';
+                letter-spacing: 1px;;
+                color:white;
+                width:190px;
+                height:30px;
+                border:1px solid var(--border-color);
+                text-shadow: 1px 1px 10px yellowgreen;
+
+            }
+
+            textarea, input {
+                background-color: black;
+                color:white;
+                border:none;
+                border:1px solid var(--border-color);
+                font-family: "MainFont";
+                vertical-align: middle;
+                outline: none;
+            }
+
+            input:user-invalid {  
+                border-color: red;
+            }
+
+            
+
+            p, ul{
+                background-color: rgba(0, 0, 0, 0.5);
+            }
+            
+        </style>
+    </head>
+<body>
+
+    <!--CONTENT WRAPPER-->
+    <div class="maincontent">
+
+        <h1>Custom Badges</h1>
+
+        <h2>Commission Form</h2>
+
+        <form target="_blank" action="https://formsubmit.co/el/gurino" method="POST" enctype="multipart/form-data">
+
+            <!--Contact Inputs-->
+            <div class="form-block">
+                <p>What I should call you (will be displayed on Trello page unless specified not to)</p>
+                <input type="text" name="name" class="form-control" placeholder="Name *" required>
+            </div>
+            <div class="form-block">
+                <p>Email I can contact you through</p>
+                <input type="email" name="email" class="form-control" placeholder="Email Address *" required>
+            </div>
+            <div class="form-block">
+                <p>Discord account I can contact you through if desired</p>
+                <input type="discord" name="discord" class="form-control" placeholder="Discord">
+            </div>
+
+            <div class="form-block">
+                <p>Choose an option</p>
+                <input type="checkbox" id="badge1" name="vehicle1" value="Dangle">
+                <label for="vehicle1"> Dangle badge</label><br>
+                <input type="checkbox" id="badge2" name="vehicle2" value="Regular">
+                <label for="vehicle2"> Regular badge</label><br>
+            </div>
+
+            <div class="form-block" >
+                <!--Message Input-->
+                <p>Please include the following:</p>
+                    <p><span style="color:rgb(106, 106, 106)">----------</span> For All</p>
+                <ul>
+                    <li>1. Reference sheet link (or upload the files on their own)</li>
+                    <li>2. Character name</li>
+                    <li>3. Character species</li>
+                    <li>4. Deadline?</li>
+                    <li>5. Anything else?</li>
+                    <li>6. Permission to use your commission as an example? on my site?</li>
+                </ul>
+                    </br>
+                    <p><span style="color:rgb(106, 106, 106)">----------</span> For Dangle Badges</p>
+                <ul>
+                    <li>7a. Chibi or Standard</li>
+                    <li>8a. If Standard, please specify hanging or standing</li>
+                </ul>
+                    <br>
+                    <p><span style="color:rgb(106, 106, 106)">----------</span> For Regular Badges</p>
+                <ul>
+                    <li>7b. Text written on back (social media handles, etc.)</li>
+                </ul>
+                <textarea placeholder="... *" class="form-control" name="message" rows="7" required></textarea><br>
+
+                <input type="file" name="attachment" accept="image/png, image/jpeg" multiple><br>
+            </div>
+            <div class="form-block">
+                <input type="text" name="_honey" style="display:none">
+
+                <button type="submit" class="btn">Submit Form</button>
+            </div>
+        </form>
+
+    </div>
+    <!--CONTENT WRAPPER END-->
+    
+</body>
+</html>

@@ -68,7 +68,9 @@ const nesting = getNestingString();
 // Insert your header HTML inside these ``. You can use HTML as usual. 
 // You don't need to use the <header> element, but I recommend it.
 const headerEl = `
+
     <!--START TABLE-->
+
     <table id="master-container">
 
         <!--MAIN HEADER BOX-->
@@ -94,6 +96,15 @@ const footerEl = `
 
             <!--SIDE BOX MENU-->
             <td class="side-box">
+            <div class=theme-switcher>
+                <label>Change Theme</label>
+                <select data-choose-theme>
+                  <option value="">Kito - Dark</option>
+                  <option value="light-green">Valkyria - Light</option>
+                </select>
+                </div>
+
+                <div class="divider"></div>
 
                 <!--STATUS-->
                 <p class="nav-header" style="font-size:11px;"><span style="color:var(--second-text-color)">www.</span><span>WHO AM I</span><span style="color:var(--second-text-color);">/</span></p>
@@ -101,7 +112,7 @@ const footerEl = `
                     <img src="/main-assets/main-images/kito-icon.png" align="left" style="height:50px;margin-right:3px;""><p>Kito, 22mTX, owner of a cat and crested gecko. I love love love electronic music and fursuit making the most &lt; 3</p>
                     <iframe src="clock-frame.html" class="clock" title="clock-iframe"></iframe>
                     <div class="divider"></div>
-                    <p><b>I am feeling...</b><br><a href="https://www.imood.com/users/hazure03"><img src="https://moods.imood.com/display/uname-hazure03/fg-FFFFFF/bg-000000/imood.gif" alt="The current mood of hazure03 at www.imood.com" border="0""></a></p>
+                    <p><b>I am feeling...</b><br><a href="https://www.imood.com/users/hazure03"><img src="https://moods.imood.com/display/uname-hazure03/fg-808080/trans-1/imood.gif" alt="The current mood of hazure03 at www.imood.com" border="0""></a></p>
                     <p><b>listening to...</b><br>Parov Stelar</p>
                     <p><b>watching...</b><br>House M.D.</p>
                     <p><b>reading...</b><br>Wings of Fire: The Dragonet Prophecy</p>
@@ -125,8 +136,8 @@ const footerEl = `
                 <!--ARTWORK-->
                 <p class="nav-header"><span style="color:var(--second-text-color)">www.</span>ARTWORK<span style="color:var(--second-text-color)">/</span></p>
                 <ul class="td-side-list">
-                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/art.html">ILLUSTRATION<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">*Mostly* digital drawings</span></div></li>
-                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="example.com"><span class="link-no-access">FURSUITS</span></a><span class="tt-text">Fursuits I've made and / or am working on</span></div></li>
+                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/art.html">ILLUSTRATION<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">*Mostly* digital drawings</span><span class="blinking-text">&nbsp;NEW!</span></div></li>
+                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/fursuits.html">FURSUITS<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">Fursuits I've made and / or am working on</span><span class="blinking-text">&nbsp;NEW!</span></div></li>
                 </ul>
 
                 <!--MUSIC-->
@@ -134,18 +145,25 @@ const footerEl = `
                 <ul class="td-side-list">
                     <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/music-info.html">INFO</a><span class="tt-text">What is Babylon Bicarbonate?</span></div></li>
                     <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/music-bios.html">BIOS</a><span class="tt-text">The faces behind the music</span></div></li>
-                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/music-catalog.html">DISCOGRAPHY.</a><span class="tt-text">Finished songs / EPs / albums</span><span style="color:red;">NEW!</span></div></li>
+                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/music-catalog.html">DISCOGRAPHY</a><span class="tt-text">Finished songs / EPs / albums</div></li>
                     <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/music-extras.html"><span class="link-no-access">SCRAPS</span></a><span class="tt-text">Unfinished work, loops, and other cool sounds</span></div></li>
                     <!-- <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/music-cds.html"><span class="link-no-access">CDs</span></a><span class="tt-text">Physical CDs</span></div></li> -->
+                </ul>
 
+                <!--MEDIA ARCHIVES-->
+                <p class="nav-header"><span style="color:var(--second-text-color)"></span>MEDIA ARCHIVES<span style="color:var(--second-text-color)">/</span></p>
+                <ul class="td-side-list">
+                  <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/archive-wallpapers.html">WALLPAPERS</a><span class="tt-text">Official wallpapers from various pieces of media</span><span class="blinking-text">&nbsp;NEW!</span></div></li>
+                  <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/archive-scans.html" class="link-no-access">SCANS</a><span class="tt-text">Scans of print media I find in real-life</span></div></li>
+                  <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/archive-site.html" class="link-no-access">SITE_BASED</a><span class="tt-text">Site-related archive (old layouts, overhaul notes)</span></div></li>
                 </ul>
 
                 <!--FUN-->
                 <p class="nav-header"><span style="color:var(--second-text-color)">www.</span>FUN<span style="color:var(--second-text-color)">/</span></p>
                 <ul class="td-side-list">
                     <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/dressup.html">DRESS.UP_GAME</a><span class="tt-text">Dress-up my fursona!</span></div></li>
-                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/fav-characters.html">FAV_CHARACTERS.</a><span class="tt-text">Current favorite characters in fiction</span></div></li>
-                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/web-collection.html">WEB_COLLECTION.</a><span class="tt-text">Collection of cool stuff I find while browsing</span><span style="color:red;">NEW!</span></div></li>
+                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/fav-characters.html">FAV_CHARACTERS</a><span class="tt-text">Current favorite characters in fiction</span></div></li>
+                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/web-collection.html">WEB_COLLECTION</a><span class="tt-text">Collection of cool stuff I find while browsing</span></div></li>
                 </ul>
 
                 <!--CONTACT-->
@@ -161,7 +179,7 @@ const footerEl = `
         <tr>
           <td colspan="2">
             <div id="footer">
-              <a href="memorial.html" target="_blank">
+              <a href="memorial.html" target="_blank" class="memorial-link">
                 <img src="images/memorial/dachshund-letter-01.gif" style="float:right;">
               </a>
               <p>.: hazure03.neocities.org :.<br>.: est. 2024 :.</p>              
@@ -190,3 +208,4 @@ if(!document.all){ window.onload=dT; }else{ dT(); }
 
 <!-- Clock Part 2 - Ends Here  -->
 `;
+
