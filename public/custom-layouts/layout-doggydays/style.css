@@ -30,7 +30,7 @@ html {
 
 /* I use this mainly to declare a background image */
 body {
-  background-image: url(boxbg.png)
+  background-image: url(boxbg.png);
 }
 
 /* The table is what makes up the entire layout. Think of it as the bones. Here I'm declaring the base visuals of the website's main layout */

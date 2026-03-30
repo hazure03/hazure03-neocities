@@ -1,4 +1,6 @@
-/* COLORS */
+/** ▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄
+MAIN COLORS
+▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄ **/
 :root {
     --main-color: rgb(0, 0, 0);
     --border-color: rgb(67, 67, 67);
@@ -14,6 +16,12 @@
     --gradient-1: gray:
     --gradient-2: silver;
     --text-bg: rgba(0, 0, 0, 0.50);
+    --tooltip-bg-color: black;
+    --tooltip-text-color: honeydew;
+    --tooltip-shadow-color: black;
+    --home-image: url(/images/gifs/redbiohazard.gif);
+    --marquee-gif: url(/images/small-gifs/green-stars.gif);
+
 
     #td-header {
     background-image:url(main-assets/main-images/main-banner-3.0.png);
@@ -21,25 +29,36 @@
 
     .maincontent {
     background-image: url(main-assets/main-images/maincontent-bg.png);
-
+    }
 }
-}
 
-[data-theme='light-green'] {
+/** ▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄
+LIGHT THEME
+▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄ **/
+
+[data-theme='light'] {
     --main-color: snow;
     --border-color: rgb(181, 200, 212);
-    --accent-color: steelblue;
-    --accent-color-2: steelblue;
-    --text-color: steelblue;
-    --second-text-color: steelblue;
-    --third-text-color: steelblue;
+    --accent-color: rgb(228, 9, 9);
+    --accent-color-2: maroon;
+    --text-color: rgb(24, 76, 111);
+    --second-text-color: rgb(60, 93, 120);
+    --third-text-color: black;
     --p-color: steelblue;
     --link-color: steelblue;
-    --link-hover-color: steelblue;
-    --marquee: steelblue;
-    --gradient-1: pink;
-    --gradient-2: purple;
-    --text-bg: rgba(255, 255, 255, 1);
+    --link-hover-color: maroon;
+    --marquee: rgb(60, 93, 120);
+    --gradient-1: red;
+    --gradient-2: blue;
+    --text-bg: black;
+    --tooltip-bg-color: snow;
+    --tooltip-text-color: rgb(24, 76, 111);
+    --tooltip-shadow-color: rgb(181, 200, 212);
+    --marquee-gif: url("/images/small-gifs/pushpin.gif");
+
+    .link-list li{
+        background-color: rgba(255, 255, 255, 0.5);
+    }
 
     #td-header {
     background-image:url(main-assets/main-images/main-banner-3.0-b.png);
@@ -47,35 +66,146 @@
 
     .maincontent {
     background-image: url(main-assets/main-images/maincontent-bg-b.png);
-}
-}
+    }
 
-/* CURSORS */
-html {
-    cursor: url("cursors/ColourPointGreen1\(normal\).cur"), default, auto;
-}
-
-.link-no-access {
-    cursor: url("cursors/ColourPointGreen8\(unavailable\).cur"), not-allowed, auto;
+    .subpage-content {
+    background-image: url(main-assets/main-images/maincontent-bg-b.png);
+    }
 }
 
-a {
-    cursor: url("cursors/ColourPointGreen5\(precision\).cur"), crosshair, auto;
+/** ▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄
+DOGS COLORS
+▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄ **/
 
+[data-theme='dogs'] {
+    --main-color: #f8f8f8;
+    --border-color: #e0c898;
+    --accent-color: #f88000;
+    --accent-color-2: #f88000;
+    --text-color: #703000;
+    --second-text-color: #703000;
+    --third-text-color: #703000;
+    --p-color: #703000;
+    --link-color: #703000;
+    --link-hover-color: #f88000;
+    --marquee: #f88000;
+    --gradient-1: gray:
+    --gradient-2: silver;
+    --text-bg: rgba(0, 0, 0, 0.50);
+    --tooltip-bg-color: #f9f7ed;
+    --tooltip-text-color: #703000;
+    --tooltip-shadow-color: #e0c898;
+    --home-image: url(/images/gifs/nintendogs.gif);
+    --marquee-gif: url(/images/small-gifs/paw.gif);
+
+    ::selection {
+        color: #f8f8f8;
+        background: #f88000;
+    }
+
+    .link-list li{
+        background-color: transparent;
+    }
+
+    #td-header {
+        background-image:url(main-assets/main-images/main-banner-3.0-c.png);
+    }
+
+    .maincontent {
+        background-image: url(TEMP);
+    }
+
+    .maincontent a {
+        color:#f88000;
+    }
+
+    .maincontent a:hover {
+        color: #d8e0d0;
+    }
+
+    .td-side-list {
+        padding:3px;
+    }
+
+    .td-side-list li{
+        margin-bottom: 5px;
+        background: #f0e8c8;
+        border-radius: 0px 10px 10px 0px;
+        font-family: 'MainBold';
+        margin-left:16px;
+        height:15px;
+    }
+
+    .td-side-list li::before {
+        background-image: url(images/small-gifs/paw.gif);
+        background-color: #f0e8c8;
+        background-size:cover;
+        position: absolute;
+        left:15px;
+        display: inline-block;
+        height: 15px;
+        width: 15px;
+        content:'';
+    }
+
+    .td-side-list li::marker {content: none;}
+
+    .nav-header {
+        background:#e0c898; /* The background color here affects only the color behind the header text */
+        color:#703000; /* The font color for the header*/
+        margin:0px;
+        padding:3px;
+        text-align: center; /* Aligning the text to the center of its parent container (in this case, a cell) */
+        font-size: 15px;
+        letter-spacing: 5px; /* The gap size between letters. I like using these for stylistic stuff. */
+        border-radius: 10px 10px 0px 0px; 
+        font-family: 'MainBold', Courier, monospace;
+        width:96%;
+    }
+
+    h1 {
+         background:#d8e0d0;
+         border-radius: 20px 0px 0px 20px; 
+         font-family: 'MainBold', Courier, monospace;
+         font-size: 24px;
+         margin:10px;
+         border:none;
+    }
+
+    h2 {
+        background:#d8e0d0;
+        color:#703000;
+        margin:0px;
+        padding:3px;
+        text-align: right;
+        font-size: 20px;
+        letter-spacing: 5px;
+        border-radius: 20px 0px 0px 20px; 
+    }
+
+    h3 {
+        color:#f88000;
+    }
+
+    .subpage-content {
+    background-image: none;
+    }
+
+    .home-image {
+        width:200px;
+        height:200px;
+    }
+
+    .nav-header::before {content:"";}
+
+    .nav-header::after {content:"";}
 }
 
-p, h1, h2, h3, h4, ul, li, .blinking-text {
-    cursor: url("cursors/ColourPointGreen6\(text\).cur"), text, auto;
-}
+/** ▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄
 
-.hover-text {
-    cursor: url("cursors/ColourPointGreen2\(help\).cur"), help, auto;
-}
+MAIN STYLES
 
-::-webkit-scrollbar-thumb:hover {
-    cursor: url("cursors/ColourPointGreen9\(resize1\).cur"), ns-resize, auto;
-}
-
+▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄ **/
 
 ::selection {
   color: var(--main-color);
@@ -96,6 +226,7 @@ p, h1, h2, h3, h4, ul, li, .blinking-text {
 
 ::-webkit-scrollbar-thumb:hover {
     background: var(--text-color);
+    cursor: ns-resize;
 }
 
 @keyframes blink {
@@ -212,11 +343,12 @@ a {
     color: var(--link-color);
     font-style: italic;
     text-decoration: none;
+    cursor: crosshair;
 }
 
 /* LINKS HOVER */
 a:hover {
-    font-family: 'MainBold';
+    font-family: 'MainFont';
     color: var(--link-hover-color);
     text-decoration: underline;
     font-style:normal;
@@ -236,6 +368,23 @@ img {
     margin: 5px;
 }
 
+.home-image {
+    background-image: var(--home-image);
+    background-size: cover;
+    height:100px;
+    width:100px;
+    margin:auto;
+}
+
+.marquee-gif {
+    background-image: var(--marquee-gif);
+    background-size: cover;
+    height:15px;
+    width:15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 ul {
     margin:0px;
     padding-left:5px;
@@ -243,7 +392,7 @@ ul {
     color: var(--second-text-color);
 }
 
-li {
+ul li {
     text-align: left;
     letter-spacing:1px;
     margin-bottom:5px;
@@ -289,7 +438,7 @@ table {
 /* CUSTOM EASY DIVIDER */
 .divider {
     border-bottom: 1px dashed var(--border-color);
-    width: 80%;
+    width: 100%;
     margin:10px auto;
 }
 
@@ -338,7 +487,7 @@ table {
 /* SIDE NAV MENU BOX*/
 td.side-box {
     background-color: var(--main-color);
-    border-left: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color);
     list-style-type: none;
     text-decoration: none;
     width: 170px;
@@ -353,6 +502,13 @@ td.side-box {
     text-decoration: none;
     margin-bottom:0px;
     background-size:10%;
+    margin-left: 5px;
+}
+
+/* SIDE NAV LIST ENTRIES */
+.td-side-list li::marker {
+    content: ">";
+    color: var(--text-color)
 }
 
 /* SIDE NAV HEADER */
@@ -365,6 +521,18 @@ td.side-box {
     background: linear-gradient (var(--gradient-1)), (var(--gradient-1));
     letter-spacing: 4px;
     width:100%;
+}
+
+.nav-header::before {
+    content:"www.";
+    font-size:10px;
+    color: var(--second-text-color);
+}
+
+.nav-header::after {
+    content:"/";
+    font-size:10px;
+    color: var(--second-text-color);
 }
 
 /* FOOTER */
@@ -425,6 +593,13 @@ td.side-box {
 .link-no-access {
     text-decoration: line-through;
     color: var(--border-color);
+    cursor: not-allowed
+}
+
+.link-no-access:hover {
+    text-decoration: wavy;
+    text-decoration: line-through;
+    font-style: italic;
 }
 
 .art-entry {
@@ -461,7 +636,6 @@ td.side-box {
     filter: blur(5px);
 }
 
-/* NOTE: The old tooltip styling is now ONLY for the sidebar links */
 .hover-text {
     font-size: 12px;
     display: none;
@@ -471,9 +645,11 @@ td.side-box {
     max-width: 200px;
     text-align: left;
     padding: 5px;
-    background: black;
+    background: var(--tooltip-bg-color);
     border: 1px dashed var(--border-color);
-    color: white;
+    color: var(--tooltip-text-color);
+    box-shadow:5px 5px 10px var(--tooltip-shadow-color);
+    cursor: help;
 }
 
 .hover-subject:hover span.hover-text {
@@ -489,7 +665,6 @@ td.side-box {
     width:206px;
     margin-bottom:20px;
     display: inline-block;
-    background-color:rgba(0, 0, 0, 0.5);
 }
 
 .catalog-entry img {

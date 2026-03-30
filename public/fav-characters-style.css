@@ -35,7 +35,7 @@
 .main-pic {
     background: none;
     width:200px;
-    overflow:visible;
+    overflow:show;
     height:350px;
 }
 
@@ -70,8 +70,8 @@
 
 .desc-text {
     position: absolute;
-    top: 350px;
-    left: 250px;
+    top: 380px;
+    left: 440px;
     text-align: left;
     border: 0px solid white;
     width:350px;

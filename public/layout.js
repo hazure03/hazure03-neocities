@@ -80,34 +80,22 @@ const headerEl = `
         </tr>
 
         <!--MAIN CONTENT / SIDE BOX-->
+        
         <tr>
-            <!--MAIN CONTENT-->
-            <td>
-    
-      
-`;
-
-// Insert your footer HTML inside these ``. You can use HTML as usual. 
-// You don't need to use the <footer> element, but I recommend it.
-const footerEl = `
-
- </td>
-            <!--MAIN CONTENT END-->
-
-            <!--SIDE BOX MENU-->
+        <!--SIDE BOX MENU-->
             <td class="side-box">
             <div class=theme-switcher>
-                <label>Change Theme</label>
+                <label>Change Theme<br>(Refresh after choosing)</label>
                 <select data-choose-theme>
-                  <option value="">Kito - Dark</option>
-                  <option value="light-green">Valkyria - Light</option>
+                  <option value="">hazure - Dark (Main)</option>
+=                  <option value="dogs">Nintendogs - Light</option>
                 </select>
                 </div>
 
                 <div class="divider"></div>
 
                 <!--STATUS-->
-                <p class="nav-header" style="font-size:11px;"><span style="color:var(--second-text-color)">www.</span><span>WHO AM I</span><span style="color:var(--second-text-color);">/</span></p>
+                <p class="nav-header">WHO AM I</p>
                 <div id="status-wrapper">
                     <img src="/main-assets/main-images/kito-icon.png" align="left" style="height:50px;margin-right:3px;""><p>Kito, 22mTX, owner of a cat and crested gecko. I love love love electronic music and fursuit making the most &lt; 3</p>
                     <iframe src="clock-frame.html" class="clock" title="clock-iframe"></iframe>
@@ -123,62 +111,84 @@ const footerEl = `
                 <!--GIF DECOR-->
                 <div style="background-image:url('main-assets/main-images/eq.gif');background-size:contain;height:15px;""></div>
                 <!--INDEX-->
-                <p class="nav-header"><span style="color:var(--second-text-color)">www.</span>INDEX<span style="color:var(--second-text-color)">/</span></p>
+                <p class="nav-header">INDEX</p>
                 <ul class="td-side-list">
-                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/home.html">HOME</a><span class="tt-text">Where you began </span></div></li>
-                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/about.html">ABOUT</a><span class="tt-text">Who am I?</span></div></li>
-                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/links.html">LINKS</a><span class="tt-text">Where will you go next?</span></div></li>
-                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/index.html">SPLASH</a><span class="tt-text">Where you ACTUALLY began</span></div></li>
-                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="https://hazure03.atabook.org/">GUESTBOOK<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">Leave a message!</span></div></li>
-                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/credits.html">CREDITS</a><span class="tt-text">Credits</span></div></li>
+                    <li><div class="tt-content">&nbsp;<a href="/home.html">HOME</a><span class="tt-text">Where you began </span></div></li>
+                    <li><div class="tt-content">&nbsp;<a href="/about.html">ABOUT</a><span class="tt-text">Who am I?</span></div></li>
+                    <li><div class="tt-content">&nbsp;<a href="/links.html">LINKS</a><span class="tt-text">Where will you go next?</span></div></li>
+                    <li><div class="tt-content">&nbsp;<a href="/index.html">SPLASH</a><span class="tt-text">Where you ACTUALLY began</span></div></li>
+                    <li><div class="tt-content">&nbsp;<a href="https://hazure03.atabook.org/">GUESTBOOK<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">Leave a message!</span></div></li>
+                    <li><div class="tt-content">&nbsp;<a href="/credits.html">CREDITS</a><span class="tt-text">Credits</span></div></li>
                 </ul>
 
                 <!--ARTWORK-->
-                <p class="nav-header"><span style="color:var(--second-text-color)">www.</span>ARTWORK<span style="color:var(--second-text-color)">/</span></p>
+                <p class="nav-header">ARTWORK</p>
                 <ul class="td-side-list">
-                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/art.html">ILLUSTRATION<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">*Mostly* digital drawings</span><span class="blinking-text">&nbsp;NEW!</span></div></li>
-                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/fursuits.html">FURSUITS<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">Fursuits I've made and / or am working on</span><span class="blinking-text">&nbsp;NEW!</span></div></li>
+                    <li><div class="tt-content">&nbsp;<a href="/art.html">ILLUSTRATIONS<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">*Mostly* digital drawings</span></div></li>
+                    <li><div class="tt-content">&nbsp;<a href="/fursuits.html">FURSUITS<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">Fursuits I've made and / or am working on</span></div></li>
                 </ul>
 
                 <!--MUSIC-->
-                <p class="nav-header"><span style="color:var(--second-text-color)">www.</span>MUSIC<span style="color:var(--second-text-color)">/</span></p>
+                <p class="nav-header">MUSIC</p>
                 <ul class="td-side-list">
-                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/music-info.html">INFO</a><span class="tt-text">What is Babylon Bicarbonate?</span></div></li>
-                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/music-bios.html">BIOS</a><span class="tt-text">The faces behind the music</span></div></li>
-                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/music-catalog.html">DISCOGRAPHY</a><span class="tt-text">Finished songs / EPs / albums</div></li>
-                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/music-extras.html"><span class="link-no-access">SCRAPS</span></a><span class="tt-text">Unfinished work, loops, and other cool sounds</span></div></li>
-                    <!-- <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/music-cds.html"><span class="link-no-access">CDs</span></a><span class="tt-text">Physical CDs</span></div></li> -->
+                    <li><div class="tt-content">&nbsp;<a href="/music-info.html">INFO</a><span class="tt-text">What is Babylon Bicarbonate?</span></div></li>
+                    <li><div class="tt-content">&nbsp;<a href="/music-bios.html">BIOS</a><span class="tt-text">The faces behind the music</span></div></li>
+                    <li><div class="tt-content">&nbsp;<a href="/music-catalog.html">DISCOGRAPHY</a><span class="tt-text">Finished songs / EPs / albums</div></li>
+                    <li><div class="tt-content">&nbsp;<a href="/music-extras.html">EXTRAS</a><span class="tt-text">Unfinished work, loops, and other cool sounds</span><span class="blinking-text">&nbsp;NEW!</span></div></li>
+                </ul>
+
+                <!--CONVENTIONS-->
+                <p class="nav-header">CONVENTIONS</p>
+                <ul class="td-side-list">
+                    <li><div class="tt-content">&nbsp;<a href="/art.html" class="link-no-access">BLOG<span style="color:var(--second-text-color);"></span></a><span class="tt-text">Happenings on a day-by-day basis</span></div></li>
+                    <li><div class="tt-content">&nbsp;<a href="/art.html" class="link-no-access">PICS<span style="color:var(--second-text-color);"></span></a><span class="tt-text">Con pics</span></div></li>
+                    <li><div class="tt-content">&nbsp;<a href="/art.html" class="link-no-access">VIDEOS<span style="color:var(--second-text-color);"></span></a><span class="tt-text">Con vids</span></div></li>
                 </ul>
 
                 <!--MEDIA ARCHIVES-->
-                <p class="nav-header"><span style="color:var(--second-text-color)"></span>MEDIA ARCHIVES<span style="color:var(--second-text-color)">/</span></p>
+                <p class="nav-header"><span style="color:var(--second-text-color)"></span>ARCHIVES</p>
                 <ul class="td-side-list">
-                  <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/archive-wallpapers.html">WALLPAPERS</a><span class="tt-text">Official wallpapers from various pieces of media</span><span class="blinking-text">&nbsp;NEW!</span></div></li>
-                  <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/archive-scans.html" class="link-no-access">SCANS</a><span class="tt-text">Scans of print media I find in real-life</span></div></li>
-                  <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/archive-site.html" class="link-no-access">SITE_BASED</a><span class="tt-text">Site-related archive (old layouts, overhaul notes)</span></div></li>
+                  <li><div class="tt-content">&nbsp;<a href="/archive-wallpapers.html">WALLPAPERS</a><span class="tt-text">Official wallpapers from various pieces of media</span></div></li>
+                  <li><div class="tt-content">&nbsp;<a href="/archive-scans.html" class="link-no-access">SCANS</a><span class="tt-text">Scans of print media I find in real-life</span></div></li>
+                  <li><div class="tt-content">&nbsp;<a href="/archive-site.html">SITE_BASED</a><span class="tt-text">Site-related archive (old layouts, overhaul notes)</span><span class="blinking-text">&nbsp;NEW!</span></div></li>
                 </ul>
 
                 <!--FUN-->
-                <p class="nav-header"><span style="color:var(--second-text-color)">www.</span>FUN<span style="color:var(--second-text-color)">/</span></p>
+                <p class="nav-header">FUN</p>
                 <ul class="td-side-list">
-                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/dressup.html">DRESS.UP_GAME</a><span class="tt-text">Dress-up my fursona!</span></div></li>
-                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/fav-characters.html">FAV_CHARACTERS</a><span class="tt-text">Current favorite characters in fiction</span></div></li>
-                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="/web-collection.html">WEB_COLLECTION</a><span class="tt-text">Collection of cool stuff I find while browsing</span></div></li>
+                    <li><div class="tt-content">&nbsp;<a href="/dressup.html">DRESS.UP_GAME</a><span class="tt-text">Dress-up my fursona!</span></div></li>
+                    <li><div class="tt-content">&nbsp;<a href="/fav-characters.html">FAV_CHARACTERS</a><span class="tt-text">Current favorite characters in fiction</span></div></li>
+                    <li><div class="tt-content">&nbsp;<a href="/web-collection.html">WEB_COLLECTION</a><span class="tt-text">Collection of cool stuff I find while browsing</span></div></li>
                 </ul>
 
                 <!--CONTACT-->
-                <p class="nav-header"><span style="color:var(--second-text-color)">www.</span>CONTACT<span style="color:var(--second-text-color)">/</span></p>
-                <ul>
-                    <li><div class="tt-content"><span style="color: var(--text-color)">></span>&nbsp;<a href="mailto:splutterguttss.info@gmail.com">e_MAIL<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">Need something?</span></div></li>
+                <p class="nav-header">CONTACT</p>
+                <ul class="td-side-list">
+                    <li><div class="tt-content">&nbsp;<a href="mailto:splutterguttss.info@gmail.com">e_MAIL<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">Need something?</span></div></li>
                 </ul>
             </td>
             <!--SIDE BOX MENU END-->
+            <!--MAIN CONTENT-->
+            <td>
+    
+      
+`;
+
+// Insert your footer HTML inside these ``. You can use HTML as usual. 
+// You don't need to use the <footer> element, but I recommend it.
+const footerEl = `
+
+ </td>
+            <!--MAIN CONTENT END-->
+
+            
         </tr>
         <!--MAIN CONTENT / SIDE BOX END-->
 
         <tr>
           <td colspan="2">
             <div id="footer">
+            <img src="images/gifs/dontfeedai.gif" style="float:left;">
               <a href="memorial.html" target="_blank" class="memorial-link">
                 <img src="images/memorial/dachshund-letter-01.gif" style="float:right;">
               </a>

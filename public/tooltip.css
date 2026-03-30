@@ -1,8 +1,8 @@
 .tt-text {
     display: none;
-    color:honeydew;
-    border: 1px dashed gray;
-    background: black;
+    color:var(--tooltip-text-color);
+    border: 1px dashed var(--border-color);
+    background: var(--tooltip-bg-color);
     padding: 5px;
     z-index: 1000;
     max-width:200px;
@@ -10,6 +10,7 @@
     white-space: wrap;
     margin: 10px 30px 20px 0px;
     position: relative;
+    box-shadow:5px 5px 10px var(--tooltip-shadow-color);
 }
 
 .tt-content {
