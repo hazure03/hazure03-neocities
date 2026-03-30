@@ -140,9 +140,9 @@ const headerEl = `
                 <!--CONVENTIONS-->
                 <p class="nav-header">CONVENTIONS</p>
                 <ul class="td-side-list">
-                    <li><div class="tt-content">&nbsp;<a href="/art.html" class="link-no-access">BLOG<span style="color:var(--second-text-color);"></span></a><span class="tt-text">Happenings on a day-by-day basis</span></div></li>
-                    <li><div class="tt-content">&nbsp;<a href="/art.html" class="link-no-access">PICS<span style="color:var(--second-text-color);"></span></a><span class="tt-text">Con pics</span></div></li>
-                    <li><div class="tt-content">&nbsp;<a href="/art.html" class="link-no-access">VIDEOS<span style="color:var(--second-text-color);"></span></a><span class="tt-text">Con vids</span></div></li>
+                    <li><div class="tt-content">&nbsp;<a href="/TEMP.html" class="link-no-access">BLOG</a><span class="tt-text">Happenings on a day-by-day basis</span></div></li>
+                    <li><div class="tt-content">&nbsp;<a href="/TEMP.html" class="link-no-access">PICS</a><span class="tt-text">Con pics</span></div></li>
+                    <li><div class="tt-content">&nbsp;<a href="/TEMP.html" class="link-no-access">VIDEOS</a><span class="tt-text">Con vids</span></div></li>
                 </ul>
 
                 <!--MEDIA ARCHIVES-->
@@ -169,7 +169,7 @@ const headerEl = `
             </td>
             <!--SIDE BOX MENU END-->
             <!--MAIN CONTENT-->
-            <td>
+            <td style="height:100%">
     
       
 `;
