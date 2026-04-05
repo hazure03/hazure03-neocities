@@ -85,7 +85,7 @@ const headerEl = `
         <!--SIDE BOX MENU-->
             <td class="side-box">
             <div class=theme-switcher>
-                <label>Change Theme<br>(Refresh after choosing)</label>
+                <label>Change Theme<br><span style="color:var(--secnd-text-color);">(Refresh after choosing)</span></label>
                 <select data-choose-theme>
                   <option value="">hazure - Dark (Main)</option>
 =                  <option value="dogs">Nintendogs - Light</option>
@@ -97,14 +97,15 @@ const headerEl = `
                 <!--STATUS-->
                 <p class="nav-header">WHO AM I</p>
                 <div id="status-wrapper">
-                    <img src="/main-assets/main-images/kito-icon.png" align="left" style="height:50px;margin-right:3px;""><p>Kito, 22mTX, owner of a cat and crested gecko. I love love love electronic music and fursuit making the most &lt; 3</p>
+                    <img src="/main-assets/main-images/suit-icon.jpg" align="left" style="height:50px;margin-right:3px;margin-left:3px;"">
+                    <p>Kito, 22mTX, dog lover, horror fan, and multi-media (mostly furry) artist. Destroyer of cakes.</p>
                     <iframe src="clock-frame.html" class="clock" title="clock-iframe"></iframe>
                     <div class="divider"></div>
                     <p><b>I am feeling...</b><br><a href="https://www.imood.com/users/hazure03"><img src="https://moods.imood.com/display/uname-hazure03/fg-808080/trans-1/imood.gif" alt="The current mood of hazure03 at www.imood.com" border="0""></a></p>
                     <p><b>listening to...</b><br>Parov Stelar</p>
                     <p><b>watching...</b><br>House M.D.</p>
                     <p><b>reading...</b><br>Wings of Fire: The Dragonet Prophecy</p>
-                    <p><b>playing...</b><br>Viva Piñata</p>
+                    <p><b>playing...</b><br>Silent Hill 3</p>
 
                 </div>
 
@@ -117,7 +118,6 @@ const headerEl = `
                     <li><div class="tt-content">&nbsp;<a href="/about.html">ABOUT</a><span class="tt-text">Who am I?</span></div></li>
                     <li><div class="tt-content">&nbsp;<a href="/links.html">LINKS</a><span class="tt-text">Where will you go next?</span></div></li>
                     <li><div class="tt-content">&nbsp;<a href="/index.html">SPLASH</a><span class="tt-text">Where you ACTUALLY began</span></div></li>
-                    <li><div class="tt-content">&nbsp;<a href="https://hazure03.atabook.org/">GUESTBOOK<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">Leave a message!</span></div></li>
                     <li><div class="tt-content">&nbsp;<a href="/credits.html">CREDITS</a><span class="tt-text">Credits</span></div></li>
                 </ul>
 
@@ -126,6 +126,7 @@ const headerEl = `
                 <ul class="td-side-list">
                     <li><div class="tt-content">&nbsp;<a href="/art.html">ILLUSTRATIONS<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">*Mostly* digital drawings</span></div></li>
                     <li><div class="tt-content">&nbsp;<a href="/fursuits.html">FURSUITS<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">Fursuits I've made and / or am working on</span></div></li>
+                    <li><div class="tt-content">&nbsp;<a href="/TEMP.html" class="link-no-access">COMMISSIONS</a><span class="tt-text">Interested in a custom piece?</span></div></li>
                 </ul>
 
                 <!--MUSIC-->
@@ -134,7 +135,7 @@ const headerEl = `
                     <li><div class="tt-content">&nbsp;<a href="/music-info.html">INFO</a><span class="tt-text">What is Babylon Bicarbonate?</span></div></li>
                     <li><div class="tt-content">&nbsp;<a href="/music-bios.html">BIOS</a><span class="tt-text">The faces behind the music</span></div></li>
                     <li><div class="tt-content">&nbsp;<a href="/music-catalog.html">DISCOGRAPHY</a><span class="tt-text">Finished songs / EPs / albums</div></li>
-                    <li><div class="tt-content">&nbsp;<a href="/music-extras.html">EXTRAS</a><span class="tt-text">Unfinished work, loops, and other cool sounds</span><span class="blinking-text">&nbsp;NEW!</span></div></li>
+                    <li><div class="tt-content">&nbsp;<a href="/music-extras.html">EXTRAS</a><span class="tt-text">Unfinished work, loops, and other cool sounds</span></div></li>
                 </ul>
 
                 <!--CONVENTIONS-->
@@ -145,26 +146,22 @@ const headerEl = `
                     <li><div class="tt-content">&nbsp;<a href="/TEMP.html" class="link-no-access">VIDEOS</a><span class="tt-text">Con vids</span></div></li>
                 </ul>
 
-                <!--MEDIA ARCHIVES-->
-                <p class="nav-header"><span style="color:var(--second-text-color)"></span>ARCHIVES</p>
-                <ul class="td-side-list">
-                  <li><div class="tt-content">&nbsp;<a href="/archive-wallpapers.html">WALLPAPERS</a><span class="tt-text">Official wallpapers from various pieces of media</span></div></li>
-                  <li><div class="tt-content">&nbsp;<a href="/archive-scans.html" class="link-no-access">SCANS</a><span class="tt-text">Scans of print media I find in real-life</span></div></li>
-                  <li><div class="tt-content">&nbsp;<a href="/archive-site.html">SITE_BASED</a><span class="tt-text">Site-related archive (old layouts, overhaul notes)</span><span class="blinking-text">&nbsp;NEW!</span></div></li>
-                </ul>
-
                 <!--FUN-->
-                <p class="nav-header">FUN</p>
+                <p class="nav-header">MISC.</p>
                 <ul class="td-side-list">
                     <li><div class="tt-content">&nbsp;<a href="/dressup.html">DRESS.UP_GAME</a><span class="tt-text">Dress-up my fursona!</span></div></li>
                     <li><div class="tt-content">&nbsp;<a href="/fav-characters.html">FAV_CHARACTERS</a><span class="tt-text">Current favorite characters in fiction</span></div></li>
                     <li><div class="tt-content">&nbsp;<a href="/web-collection.html">WEB_COLLECTION</a><span class="tt-text">Collection of cool stuff I find while browsing</span></div></li>
+                    <li><div class="tt-content">&nbsp;<a href="/archive-wallpapers.html">WALLPAPERS</a><span class="tt-text">Official wallpapers from various pieces of media</span></div></li>
+                    <li><div class="tt-content">&nbsp;<a href="/archive-site.html">SITE_ARCHIVE</a><span class="tt-text">Site-related archive (old layouts, overhaul notes)</span><span class="blinking-text">&nbsp;NEW!</span></div></li>
+
                 </ul>
 
                 <!--CONTACT-->
                 <p class="nav-header">CONTACT</p>
                 <ul class="td-side-list">
                     <li><div class="tt-content">&nbsp;<a href="mailto:splutterguttss.info@gmail.com">e_MAIL<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">Need something?</span></div></li>
+                    <li><div class="tt-content">&nbsp;<a href="https://hazure03.atabook.org/">GUESTBOOK<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">Leave a message!</span></div></li>
                 </ul>
             </td>
             <!--SIDE BOX MENU END-->
