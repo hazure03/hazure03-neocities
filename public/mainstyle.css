@@ -5,11 +5,11 @@ MAIN COLORS
     --main-color: rgb(0, 0, 0);
     --main-color-trans: rgba(0, 0, 0, 0.75);
     --border-color: rgb(67, 67, 67);
-    --accent-color: rgb(237, 255, 186);
+    --accent-color: honeydew;
     --accent-color-2: red;
     --text-color: honeydew;
     --second-text-color: rgb(207, 207, 207);
-    --third-text-color: rgb(214, 38, 38);
+    --third-text-color: rgb(113, 113, 113);
     --p-color: honeydew;
     --link-color: rgb(178, 255, 35);
     --link-hover-color: lightgoldenrodyellow;
@@ -85,7 +85,7 @@ DOGS COLORS
     --accent-color-2: #f88000;
     --text-color: #703000;
     --second-text-color: #703000;
-    --third-text-color: #703000;
+    --third-text-color: #989f90;
     --p-color: #703000;
     --link-color: #703000;
     --link-hover-color: #f88000;
@@ -410,7 +410,7 @@ marquee {
     color: var(--marquee);
     height: 23px;
     width:100%;
-    margin:3px 0px 0px 0px;
+    margin:10px 0px 0px 0px;
     padding:0px;
     direction: left;
     letter-spacing: 3px;

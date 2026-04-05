@@ -189,7 +189,7 @@ const footerEl = `
               <a href="memorial.html" target="_blank" class="memorial-link">
                 <img src="images/memorial/dachshund-letter-01.gif" style="float:right;">
               </a>
-              <p>.: hazure03.neocities.org :.<br>.: est. 2024 :.</p>              
+              <p>.: はずれ [ha̠zɨᵝɾe̞] 1. end, verge 2. miss, failure :.<br>.: est. 2024 :.</p>              
             </div>
           </td>
         </tr>
