@@ -99,13 +99,19 @@ const headerEl = `
                 <div id="status-wrapper">
                     <img src="/main-assets/main-images/suit-icon.jpg" align="left" style="height:50px;margin-right:3px;margin-left:3px;"">
                     <p>Kito, 22mTX, dog lover, horror fan, and multi-media (mostly furry) artist. Destroyer of cakes.</p>
+
                     <iframe src="clock-frame.html" class="clock" title="clock-iframe"></iframe>
+
                     <div class="divider"></div>
                     <p><b>I am feeling...</b><br><a href="https://www.imood.com/users/hazure03"><img src="https://moods.imood.com/display/uname-hazure03/fg-808080/trans-1/imood.gif" alt="The current mood of hazure03 at www.imood.com" border="0""></a></p>
                     <p><b>listening to...</b><br>Parov Stelar</p>
                     <p><b>watching...</b><br>House M.D.</p>
                     <p><b>reading...</b><br>Wings of Fire: The Dragonet Prophecy</p>
                     <p><b>playing...</b><br>Silent Hill 3</p>
+
+                    <div id="dogperson-clique">
+                  <a href="https://dogspit.nekoweb.org/dogperson.html">dogperson</a> - <img src="main-assets/main-images/dogpersonclique.png"> Dachshund
+                </div>
 
                 </div>
 
@@ -151,8 +157,8 @@ const headerEl = `
                 <ul class="td-side-list">
                     <li><div class="tt-content">&nbsp;<a href="/dressup.html">DRESS.UP_GAME</a><span class="tt-text">Dress-up my fursona!</span></div></li>
                     <li><div class="tt-content">&nbsp;<a href="/fav-characters.html">FAV_CHARACTERS</a><span class="tt-text">Current favorite characters in fiction</span></div></li>
-                    <li><div class="tt-content">&nbsp;<a href="/web-collection.html">WEB_COLLECTION</a><span class="tt-text">Collection of cool stuff I find while browsing</span></div></li>
-                    <li><div class="tt-content">&nbsp;<a href="/archive-wallpapers.html">WALLPAPERS</a><span class="tt-text">Official wallpapers from various pieces of media</span></div></li>
+                    <li><div class="tt-content">&nbsp;<a href="/web-collection.html">WEB_COLLECTION</a><span class="tt-text">Collection of cool stuff I find while browsing</span><span class="blinking-text">&nbsp;NEW!</span></div></li>
+                    <li><div class="tt-content">&nbsp;<a href="/wallpapers.html">WALLPAPERS</a><span class="tt-text">Official wallpapers from various pieces of media</span></div></li>
                     <li><div class="tt-content">&nbsp;<a href="/archive-site.html">SITE_ARCHIVE</a><span class="tt-text">Site-related archive (old layouts, overhaul notes)</span><span class="blinking-text">&nbsp;NEW!</span></div></li>
 
                 </ul>
@@ -163,6 +169,7 @@ const headerEl = `
                     <li><div class="tt-content">&nbsp;<a href="mailto:splutterguttss.info@gmail.com">e_MAIL<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">Need something?</span></div></li>
                     <li><div class="tt-content">&nbsp;<a href="https://hazure03.atabook.org/">GUESTBOOK<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">Leave a message!</span></div></li>
                 </ul>
+
             </td>
             <!--SIDE BOX MENU END-->
             <!--MAIN CONTENT-->
@@ -191,6 +198,7 @@ const footerEl = `
               </a>
               <p>.: はずれ [ha̠zɨᵝɾe̞] 1. end, verge 2. miss, failure :.<br>.: est. 2024 :.</p>              
             </div>
+            
           </td>
         </tr>
     </table>

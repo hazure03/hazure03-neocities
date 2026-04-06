@@ -122,6 +122,7 @@ DOGS COLORS
 
     .maincontent a:hover {
         color: #d8e0d0;
+        -webkit-text-fill-color: var(--link-hover-color);
     }
 
     .td-side-list {
@@ -132,7 +133,7 @@ DOGS COLORS
         margin-bottom: 5px;
         background: #f0e8c8;
         border-radius: 0px 10px 10px 0px;
-        font-family: 'MainBold';
+        font-family: 'MainBold', Courier, monospace;
         margin-left:16px;
         height:15px;
     }
@@ -289,7 +290,7 @@ p {
 
 /* BIG TITLE HEADERS */
 h1 {
-    font-family: 'AccentFont';
+    font-family: 'AccentFont', Courier, monospace;
     letter-spacing: 10px;
     font-size: 40px;
     margin:0px;
@@ -300,7 +301,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'MainBold';
+    font-family: 'MainBold', Courier, monospace;
     font-size: 24px;
     margin: 5px;
     margin-top: 20px;
@@ -310,7 +311,7 @@ h2 {
 }
 
 h3 {
-    font-family: 'MainBold';
+    font-family: 'MainBold', Courier, monospace;
     font-size:12px;
     margin:5px;
     margin-top: 15px;
@@ -322,7 +323,7 @@ h3 {
 }
 
 summary {
-    font-family: 'MainBold';
+    font-family: 'MainBold', Courier, monospace;
     font-size:16px;
     margin:5px;
     margin-top: 15px;
@@ -335,7 +336,7 @@ summary {
 
 /* BOLD TEXT */
 b {
-    font-family: 'MainBold';
+    font-family: 'MainBold', Courier, monospace;
     font-size: 12px;
     margin:0px;
     padding: 0px;
@@ -352,8 +353,9 @@ a {
 
 /* LINKS HOVER */
 a:hover {
-    font-family: 'MainFont';
+    font-family: 'MainFont', Courier, monospace;
     color: var(--link-hover-color);
+    -webkit-text-fill-color: var(--link-hover-color);
     text-decoration: underline;
     font-style:normal;
 }
@@ -516,9 +518,13 @@ td.side-box {
 }
 
 /* SIDE NAV LIST ENTRIES */
-.td-side-list li::marker {
+.td-side-list li::before {
     content: ">";
-    color: var(--text-color)
+    color: var(--text-color);
+    -webkit-text-fill-color: var(--text-color);
+    margin-right: 10px;
+    position: absolute;
+    left:7px;
 }
 
 /* SIDE NAV HEADER */
@@ -568,9 +574,12 @@ td.side-box {
 /* CLOCK IFRAME */
 .clock {
     height:11px;
-    width:165px;
-    border:0px solid red;
-    margin: 3px;
+    width:100%;
+    border:0px solid blue;
+    padding:0px;
+    margin:0px;
+    padding-top:5px;
+    left:0px;
 }
 
 .subpage-table {
@@ -603,11 +612,30 @@ td.side-box {
 .link-no-access {
     text-decoration: line-through;
     color: var(--border-color);
+    -webkit-text-fill-color: var(--border-color);
     cursor: not-allowed
 }
 
 .link-no-access:hover {
+    text-decoration: line-through;
+    font-style: italic;
     color: var(--border-color);
+    -webkit-text-fill-color: var(--border-color);
+}
+
+#dogperson-clique {
+    border: 0px solid red;
+    text-align:center;
+    padding-top:5px;
+    padding-bottom:10px;
+}
+
+#dogperson-clique img {
+    vertical-align: middle;
+}
+
+#dogperson-clique a {
+    font-family: 'MainBold', Courier, monospace;
 }
 
 .art-entry {
