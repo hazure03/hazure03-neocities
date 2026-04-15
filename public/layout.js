@@ -98,7 +98,7 @@ const headerEl = `
                 <p class="nav-header">WHO AM I</p>
                 <div id="status-wrapper">
                     <img src="/main-assets/main-images/suit-icon.jpg" align="left" style="height:50px;margin-right:3px;margin-left:3px;"">
-                    <p>Kito, 22mTX, dog lover, horror fan, and multi-media (mostly furry) artist. Destroyer of cakes.</p>
+                    <p>Kito, 22mTX, dog lover, horror fan, and multi-media (mostly furry) artist. Destroyer of sweets.</p>
 
                     <iframe src="clock-frame.html" class="clock" title="clock-iframe"></iframe>
 
@@ -107,7 +107,7 @@ const headerEl = `
                     <p><b>listening to...</b><br>Parov Stelar</p>
                     <p><b>watching...</b><br>House M.D.</p>
                     <p><b>reading...</b><br>Wings of Fire: The Dragonet Prophecy</p>
-                    <p><b>playing...</b><br>Silent Hill 3</p>
+                    <p><b>playing...</b><br>Silent Hill (PSX)</p>
 
                     <div id="dogperson-clique">
                   <a href="https://dogspit.nekoweb.org/dogperson.html">dogperson</a> - <img src="main-assets/main-images/dogpersonclique.png"> Dachshund
@@ -147,8 +147,8 @@ const headerEl = `
                 <!--CONVENTIONS-->
                 <p class="nav-header">CONVENTIONS</p>
                 <ul class="td-side-list">
-                    <li><div class="tt-content">&nbsp;<a href="/TEMP.html" class="link-no-access">BLOG</a><span class="tt-text">Happenings on a day-by-day basis</span></div></li>
-                    <li><div class="tt-content">&nbsp;<a href="/TEMP.html" class="link-no-access">PICS</a><span class="tt-text">Con pics</span></div></li>
+                    <li><div class="tt-content">&nbsp;<a href="/conventions-blog-home.html">BLOG</a><span class="tt-text">Happenings on a day-by-day basis</span></div></li>
+                    <li><div class="tt-content">&nbsp;<a href="/conventions-pics.html">PICS</a><span class="tt-text">Con pics</span><span class="blinking-text">&nbsp;NEW!</span></div></li>
                     <li><div class="tt-content">&nbsp;<a href="/TEMP.html" class="link-no-access">VIDEOS</a><span class="tt-text">Con vids</span></div></li>
                 </ul>
 
@@ -157,9 +157,9 @@ const headerEl = `
                 <ul class="td-side-list">
                     <li><div class="tt-content">&nbsp;<a href="/dressup.html">DRESS.UP_GAME</a><span class="tt-text">Dress-up my fursona!</span></div></li>
                     <li><div class="tt-content">&nbsp;<a href="/fav-characters.html">FAV_CHARACTERS</a><span class="tt-text">Current favorite characters in fiction</span></div></li>
-                    <li><div class="tt-content">&nbsp;<a href="/web-collection.html">WEB_COLLECTION</a><span class="tt-text">Collection of cool stuff I find while browsing</span><span class="blinking-text">&nbsp;NEW!</span></div></li>
+                    <li><div class="tt-content">&nbsp;<a href="/web-collection.html">WEB_COLLECTION</a><span class="tt-text">Collection of cool stuff I find while browsing</span></div></li>
                     <li><div class="tt-content">&nbsp;<a href="/wallpapers.html">WALLPAPERS</a><span class="tt-text">Official wallpapers from various pieces of media</span></div></li>
-                    <li><div class="tt-content">&nbsp;<a href="/archive-site.html">SITE_ARCHIVE</a><span class="tt-text">Site-related archive (old layouts, overhaul notes)</span><span class="blinking-text">&nbsp;NEW!</span></div></li>
+                    <li><div class="tt-content">&nbsp;<a href="/archive-site.html">SITE_ARCHIVE</a><span class="tt-text">Site-related archive (old layouts, overhaul notes)</span></div></li>
 
                 </ul>
 

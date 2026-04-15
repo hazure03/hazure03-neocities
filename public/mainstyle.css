@@ -23,7 +23,6 @@ MAIN COLORS
     --home-image: url(/images/gifs/redbiohazard.gif);
     --marquee-gif: url(/images/small-gifs/green-stars.gif);
 
-
     #td-header {
     background-image:url(main-assets/main-images/main-banner-3.0.png);
     }
@@ -584,7 +583,7 @@ td.side-box {
 
 .subpage-table {
     height:700px;
-    width:900px;
+    width:800px;
     border:none;
 }
 
