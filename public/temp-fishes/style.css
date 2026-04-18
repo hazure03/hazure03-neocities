@@ -1,11 +1,16 @@
 :root {
-    --page-bg: #00aaa0; 
-    --container-bg: #8ed2c9;
-    --container-block-bg: #fcf4d9; 
-    --border-color: #d9806a; 
-    --text-color: #fcf4d9; 
-    --link-color: #00aaa0; 
-    --link-color-2: #fcf4d9;
+    --page-bg: url(/temp-fishes/images/background-texture.jpg); 
+    --page-bg-color: black;
+    --container-bg: #28251f;
+    --container-block-bg: #302f2d; 
+    --border-color: #645f5a; 
+    --text-color: #8a9688; 
+    --text-bg-color: #44423b;
+    --header-color: #75927e;
+    --link-header-color: #9f846d;
+    --link-color: #aca79e; 
+    --link-color-2: #75927e;
+    --link-hover-bg: #645d5a;
     --font-size: 100%;
 }
 
@@ -15,37 +20,95 @@
 ::-webkit-scrollbar-thumb:hover { background-color: var(--border-color); }
 
 body {
-    background-color: var(--page-bg);
+    background-image: var(--page-bg);
+    background-color: var(--page-bg-color);
     background-attachment: fixed;
     color: var(--text-color);
     font-family:Arial, Helvetica, sans-serif;
 }
 
 p {
-    margin:0.25rem;
-    padding:0.5rem;
-    background-color: var(--border-color);
+    margin:0rem;
+    padding:0rem;
     border-radius: 5px;
 }
 
+/* Menu links header */
 h1 {
     font-size: var(--font-size);
     text-align: center;
-    background-color: var(--border-color);
-    color: var(--text-color);
+    background-color: var(--text-bg-color);
+    color: var(--link-header-color);
     margin:0px;
+    padding: 5px 0px;
     border-radius: 5px 5px 0px 0px;
     font-family: "Bungee", sans-serif;
 }
 
+/* Content header */
 h2 {
     font-size: 250%;
-    color: var(--page-bg);
+    color: var(--header-color);
     font-family: "Bungee", sans-serif;
-    margin: 0px;
+    margin:0rem;
+    margin-bottom: 1rem;
     text-align: left;
     transform: rotate(0deg);
-    padding:0.5rem;
+    padding:0rem;
+}
+
+/* Sub content header */
+h3 {
+    font-size:120%;
+    font-family: "Bungee",sans-serif;
+    color: var(--link-header-color);
+    margin:1rem;
+    padding:0px;
+    text-align: right;
+    border-bottom: 1px solid var(--link-header-color);
+}
+
+hr {
+    height:2px;
+    border-width:0;
+    margin: 2rem 0rem 2rem 0rem;
+    background-color:var(--border-color);
+}
+
+a {
+    color: var(--link-color);
+    transition: 0.15s;
+}
+
+a:hover {
+    color: var(--link-color-2);
+}
+
+table {
+    border-collapse: collapse;
+    min-width: 75%;
+    margin:0.5rem auto;
+}
+
+td, th {
+    border:1px solid var(--border-color);
+    padding: 5px;
+}
+
+th {
+    color: var(--link-header-color)
+}
+
+.content ul {
+    border:0px solid blue;
+    margin: 0px;
+    padding:10px;
+    list-style: inside;
+}
+
+.content li {
+    border: 0px solid red;
+    margin-bottom: 5px;
 }
 
 .container {
@@ -57,7 +120,8 @@ h2 {
     gap: 0.5rem;
     background-color: var(--container-bg);
     padding: 0.5rem;
-    border: 0px solid var(--border-color);
+    border: 1px solid var(--border-color);
+    border-radius: 15px;
     margin:2rem;
     margin-top:0.5rem;
 }
@@ -78,7 +142,7 @@ h2 {
     grid-area: left-side;
     background: none;
     border:0px solid black;
-    height:520px;
+    height:580px;
     padding:0px;
     padding:0px;
     overflow: hidden;
@@ -153,6 +217,11 @@ h2 {
     justify-self: center;
 }
 
+.container div.content img {
+    display: block;
+    margin: auto;
+}
+
 .container div.content-deco {
     grid-area: content;
     font-size: var(--font-size);
@@ -186,8 +255,12 @@ h2 {
 .container div.extra-space {
     font-size: var(--font-size);
     overflow-y: scroll;
-    padding:0px;
+    padding:1rem;
     overflow:hidden;
+}
+
+.container div.extra-space p {
+    background-color: transparent;
 }
 
 .container div.footer {
@@ -195,6 +268,10 @@ h2 {
     text-align: center;
     font-size:var(--font-size);
     padding:0.1rem;
+}
+
+.container div.footer p {
+    background-color: transparent;
 }
 
 .side-menu {
@@ -208,6 +285,7 @@ h2 {
     border-bottom:1px dashed var(--border-color);
     padding:0px;
     margin:0px;
+    text-align: center;
 }
 
 .side-menu img {
@@ -220,7 +298,6 @@ h2 {
 .side-menu a {
     color:var(--link-color);
     text-decoration: none;
-    transition: 0.25s;
     background-color: var(--container-block-bg);
     display:block;
     margin:0rem;
@@ -235,19 +312,26 @@ h2 {
     color:var(--link-color-2);
     letter-spacing: 0.25rem;
     font-weight: bolder;
-    background-color: var(--page-bg);
+    background-color: var(--link-hover-bg);
 }
 
-@media screen and (max-width: 650px) {
+.text-container {
+    background-color: var(--text-bg-color) !important;
+    border: 0px solid red !important; 
+    margin:10px;
+    padding:0px;
+}
+
+@media screen and (max-width: 745px) {
 
     details[open] summary ~ * {
-  animation: sweep .25s ease-in-out;
-}
+        animation: sweep .25s ease-in-out;
+    }
 
-@keyframes sweep {
-  0%    {opacity: 0; margin-top: -20px}
-  100%  {opacity: 1; margin-top: 0px}
-}
+    @keyframes sweep {
+        0%    {opacity: 0; margin-top: -20px}
+        100%  {opacity: 1; margin-top: 0px}
+    }
 
     .container {
         display: grid;
@@ -258,7 +342,7 @@ h2 {
         gap: 5px;
         background-color: var(--container-bg);
         padding: 5px;
-        border: 0px solid var(--border-color);
+        border: 1px solid var(--border-color);
     }
 
     .container div.left-side {
