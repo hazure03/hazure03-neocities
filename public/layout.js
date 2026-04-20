@@ -75,8 +75,7 @@ const headerEl = `
 
         <!--MAIN HEADER BOX-->
         <tr>
-            <td id="td-header" colspan="2">
-            </td>
+          <td id="td-header" colspan="2"></td>
         </tr>
 
         <!--MAIN CONTENT / SIDE BOX-->
@@ -148,7 +147,7 @@ const headerEl = `
                 <p class="nav-header">CONVENTIONS</p>
                 <ul class="td-side-list">
                     <li><div class="tt-content">&nbsp;<a href="/conventions-blog-home.html">BLOG</a><span class="tt-text">Happenings on a day-by-day basis</span></div></li>
-                    <li><div class="tt-content">&nbsp;<a href="/conventions-pics.html">PICS</a><span class="tt-text">Con pics</span><span class="blinking-text">&nbsp;NEW!</span></div></li>
+                    <li><div class="tt-content">&nbsp;<a href="/conventions-pics.html">PICS</a><span class="tt-text">Con pics</span></div></li>
                     <li><div class="tt-content">&nbsp;<a href="/TEMP.html" class="link-no-access">VIDEOS</a><span class="tt-text">Con vids</span></div></li>
                 </ul>
 
@@ -198,9 +197,8 @@ const footerEl = `
               </a>
               <p>.: はずれ [ha̠zɨᵝɾe̞] 1. end, verge 2. miss, failure :.<br>.: est. 2024 :.</p>              
             </div>
-            
           </td>
-        </tr>
+        <tr>
     </table>
     <!--TABLE END-->
 

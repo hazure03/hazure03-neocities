@@ -8,6 +8,7 @@ MAIN COLORS
     --accent-color: honeydew;
     --accent-color-2: red;
     --text-color: honeydew;
+    --text-color-trans: rgba(240, 255, 240, 0.509);
     --second-text-color: rgb(207, 207, 207);
     --third-text-color: rgb(113, 113, 113);
     --p-color: honeydew;
@@ -79,6 +80,7 @@ DOGS COLORS
     --accent-color: #f88000;
     --accent-color-2: #f88000;
     --text-color: #703000;
+    --text-color-trans: #70310081;
     --second-text-color: #703000;
     --third-text-color: #989f90;
     --p-color: #703000;
@@ -307,13 +309,14 @@ h2 {
     margin: 5px;
     margin-top: 20px;
     padding: 0px;
-    text-align: left;
+    text-align: right;
     color: var(--accent-color);
 }
 
+
 h3 {
     font-family: 'Times New Roman', Courier, monospace;
-    font-size:12px;
+    font-size:13px;
     margin:5px;
     margin-top: 15px;
     padding: 0px 3px;
