@@ -26,10 +26,6 @@ MAIN COLORS
     #td-header {
     background-image:url(main-assets/main-images/main-banner-3.0.png);
     }
-
-    .maincontent {
-    background-image: url(main-assets/main-images/maincontent-bg.png);
-    }
 }
 
 /** ▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄
@@ -103,6 +99,10 @@ DOGS COLORS
         background: #f88000;
     }
 
+    body {
+    background-image: none;
+    }
+
     .link-list li{
         background-color: transparent;
     }
@@ -120,8 +120,9 @@ DOGS COLORS
     }
 
     .maincontent a:hover {
-        color: #d8e0d0;
-        -webkit-text-fill-color: var(--link-hover-color);
+        color: #d8e0d0 !important;
+        -webkit-text-fill-color: var(--border-color);
+        text-decoration: none;
     }
 
     .td-side-list {
@@ -133,20 +134,18 @@ DOGS COLORS
         background: #f0e8c8;
         border-radius: 0px 10px 10px 0px;
         font-family: 'MainBold', Courier, monospace;
-        margin-left:16px;
+        margin-left:10px;
         height:15px;
     }
 
     .td-side-list li::before {
-        background-image: url(images/small-gifs/paw.gif);
         background-color: #f0e8c8;
         background-size:cover;
         position: absolute;
-        left:6px;
+        left:5px;
+        height:15px;
         display: inline-block;
-        height: 15px;
-        width: 15px;
-        content:'';
+        content: "+";
     }
 
     .td-side-list li::marker {content: none;}
@@ -279,7 +278,10 @@ html {
 
 body {
     margin:0px;
-}
+    background-image: url(main-assets/main-images/maincontent-bg-flip.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    }
 
 p {
     letter-spacing:1px;
@@ -292,7 +294,7 @@ h1 {
     font-family: 'AccentFont', Courier, monospace;
     letter-spacing: 10px;
     font-size: 40px;
-    margin:0px;
+    margin:3px;
     padding:0px 20px;
     text-align: right;
     border-bottom: 1px dashed var(--border-color);
@@ -310,7 +312,7 @@ h2 {
 }
 
 h3 {
-    font-family: 'MainBold', Courier, monospace;
+    font-family: 'Times New Roman', Courier, monospace;
     font-size:12px;
     margin:5px;
     margin-top: 15px;
@@ -351,7 +353,7 @@ a {
 }
 
 /* LINKS HOVER */
-a:hover {
+.td-side-list a:hover {
     font-family: 'MainFont', Courier, monospace;
     color: var(--link-hover-color);
     -webkit-text-fill-color: var(--link-hover-color);
@@ -403,7 +405,6 @@ ul li {
     margin-bottom:5px;
     list-style-type: none;
     background-color: var(--text-bg-color);
-
 }
 
 /* SCROLLING TEXT */
@@ -425,10 +426,10 @@ marquee img {
 
 /* MAIN TABLE - TO FIT A 800w X 600h SCREEN */
 table {
-    background-color: var(--main-color);
+    background-color: transparent;
     width: 800px;
     height: 600px;
-    border:1px solid var(--border-color);
+    border:0px solid var(--border-color);
     table-layout:auto;
     border-collapse: collapse;
     overflow:hidden;
@@ -457,7 +458,7 @@ table {
 
 /* MAIN CONTENT */
 .maincontent {
-    background-color: var(--main-color);
+    background-color: transparent;
     background-position: bottom;
     background-repeat: no-repeat;
     width:630px;
@@ -476,6 +477,20 @@ table {
     margin:7px 5px 3px 5px;
     background-color: var(--text-bg-color);
 }
+
+.maincontent ul a, .maincontent a {
+    color:var(--link-color);
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.maincontent a:hover {
+    color:var(--link-hover-color);
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+    font-style:normal;
+}
+
 
 /*STAUTS WRAPPER TEXT*/
 #status-wrapper p {
@@ -518,12 +533,12 @@ td.side-box {
 
 /* SIDE NAV LIST ENTRIES */
 .td-side-list li::before {
-    content: ">";
+    content: "+";
     color: var(--text-color);
     -webkit-text-fill-color: var(--text-color);
     margin-right: 10px;
     position: absolute;
-    left:7px;
+    left:5px;
 }
 
 /* SIDE NAV HEADER */
@@ -540,7 +555,7 @@ td.side-box {
 
 .nav-header::before {
     content:"www.";
-    font-size:10px;
+    font-size:7px;
     color: var(--second-text-color);
 }
 
@@ -585,12 +600,16 @@ td.side-box {
     height:700px;
     width:800px;
     border:none;
+    background-color: transparent;
+    background-image: none;
 }
 
 .subpage-iframe {
     height: 700px;
     width: 500px;
     border:none;
+    background-color: transparent;
+    background-image: none;
 }
 
 .subpage-header img {
@@ -598,14 +617,11 @@ td.side-box {
 }
 
 .subpage-content {
-    background-color: var(--main-color);
-    background-image: url(main-assets/main-images/subpage-bg.png);
-    background-size: contain;
-    background-position: bottom;
-    background-repeat: no-repeat;
     width:20%;
     vertical-align: top;
-    border:1px solid var(--border-color);
+    border:0px solid var(--border-color);
+    background-color: transparent;
+    background-image: none;
 }
 
 .link-no-access {
