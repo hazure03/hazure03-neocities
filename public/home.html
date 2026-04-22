@@ -13,9 +13,35 @@
             .to-do {
                 padding:0px;
                 border:0px solid red;
-                height:600px;
-                margin:auto;
+                height:250px;
+                width:200px;
+                float:left;
             }
+
+            .latest-art {
+                padding:0px;
+                border:0px solid red;
+                height:250px;
+                width:420px;
+                margin: auto;
+                float:right;
+            }
+
+            .latest-art img {
+                max-height:175px;
+                margin: auto;
+                display: block;
+            }
+
+            .latest-vid {
+                width:100%;
+            }
+
+            .latest-vid iframe {
+                margin:auto;
+                display: block;
+            }
+
         </style>
     </head>
 <body>
@@ -28,27 +54,45 @@
         <marquee><div class="marquee-gif"></div> WELCOME TO hazure03.neocities.org v.3.0! <div class="marquee-gif"></div></marquee>
 
         <div style="margin:auto;width:90%">
-            
-        <p>Just came back from Disneyland! Finished Silent Hill 3 on the plane home, and started Silent Hill (original PSX) late last night.</p>
-        <br>
-        <p style="text-align:right;color:var(--second-text-color);">(Updated Apr.15)</p>
+            <p>Just came back from Disneyland! Finished Silent Hill 3 on the plane home, and started Silent Hill (original PSX) late last night.</p>
+            <br>
+            <p style="text-align:right;color:var(--second-text-color);">(Updated Apr.15)</p>
         </div>
 
         <div class="home-image"></div>
 
         <div class="divider"></div>
 
-        <div class="columns-container"></div>
-        <div class="to-do">
-            <h2>Latest Update</h2>
-            <h3>@Apr.20 11:57am</h3>
-            <ul>
-                <li>> New Website Inspo list in Links section</li>
-                <li>> Added new Silent Hill 3 Wallpapers</li>
-            </ul>
+        <div style="height:270px;">
+            <div class="to-do">
+                <h2>Latest Update</h2>
+                <h3>@Apr.22 2:09pm</h3>
+                <ul>
+                    <li>> New Artwork </li>
+                    <li>> New YouTube video posted</li>
+                    <li>> Added new Fanlistings</li>
+                    <li>> Adjusted "NEW!" blinking text</li>
+                    <li>> Adjusted Home page layout to include new elements</li>
+                </ul>
+            </div>
+
+            <div class="latest-art">
+                <h2>Latest Artwork</h2>
+                <h3>@Apr.22 2:09pm</h3>
+                <img src="images/art/digital-original/bytecute-bow.png">
+            </div>
         </div>
 
+        <div class="divider"></div>
+
+        <div>
+            <div class="latest-vid">
+                <h2>Latest Video</h2>
+                <h3>Apr. 21, 2026</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/BFJbEimYQSA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
         </div>
+
     </div>
     <!--CONTENT WRAPPER END-->
     

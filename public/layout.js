@@ -129,7 +129,7 @@ const headerEl = `
                 <!--ARTWORK-->
                 <p class="nav-header">ARTWORK</p>
                 <ul class="td-side-list">
-                    <li><div class="tt-content">&nbsp;<a href="/art.html">ILLUSTRATIONS<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">*Mostly* digital drawings</span></div></li>
+                    <li><div class="tt-content">&nbsp;<a href="/art.html">ILLUSTRATIONS<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">*Mostly* digital drawings</span><span class="blinking-text">&nbsp;NEW!</span></div></li>
                     <li><div class="tt-content">&nbsp;<a href="/fursuits.html">FURSUITS<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">Fursuits I've made and / or am working on</span></div></li>
                     <li><div class="tt-content">&nbsp;<a href="/TEMP.html" class="link-no-access">COMMISSIONS</a><span class="tt-text">Interested in a custom piece?</span></div></li>
                 </ul>
