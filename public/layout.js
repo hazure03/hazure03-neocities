@@ -87,7 +87,7 @@ const headerEl = `
                 <label>Change Theme<br><span style="color:var(--secnd-text-color);">(Refresh after choosing)</span></label>
                 <select data-choose-theme>
                   <option value="">hazure - Dark (Main)</option>
-=                  <option value="dogs">Nintendogs - Light</option>
+                  <option value="dogs">Nintendogs - Light</option>
                 </select>
                 </div>
 
@@ -106,7 +106,7 @@ const headerEl = `
                     <p><b>listening to...</b><br>Parov Stelar</p>
                     <p><b>watching...</b><br>House M.D.</p>
                     <p><b>reading...</b><br>Wings of Fire: The Dragonet Prophecy</p>
-                    <p><b>playing...</b><br>Silent Hill (PSX)</p>
+                    <p><b>playing...</b><br>The Outlast Trials</p>
 
                     <div id="dogperson-clique">
                   <a href="https://dogspit.nekoweb.org/dogperson.html">dogperson</a> - <img src="main-assets/main-images/dogpersonclique.png"> Dachshund
@@ -129,7 +129,7 @@ const headerEl = `
                 <!--ARTWORK-->
                 <p class="nav-header">ARTWORK</p>
                 <ul class="td-side-list">
-                    <li><div class="tt-content">&nbsp;<a href="/art.html">ILLUSTRATIONS<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">*Mostly* digital drawings</span></div></li>
+                    <li><div class="tt-content">&nbsp;<a href="/art.html">ILLUSTRATIONS<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">*Mostly* digital drawings</span></div></li><span class="blinking-text">&nbsp;NEW!</span>
                     <li><div class="tt-content">&nbsp;<a href="/fursuits.html">FURSUITS<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">Fursuits I've made and / or am working on</span><span class="blinking-text">&nbsp;NEW!</span></div></li>
                     <li><div class="tt-content">&nbsp;<a href="/TEMP.html" class="link-no-access">COMMISSIONS</a><span class="tt-text">Interested in a custom piece?</span></div></li>
                 </ul>

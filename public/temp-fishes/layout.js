@@ -83,7 +83,7 @@ const headerEl = `
           </a>
         </li>
         <li>
-          <a href="template.html">
+          <a href="sub-page.html">
             Template
           </a>
         </li>
@@ -154,6 +154,19 @@ const headerEl = `
     <div class="mobile-menu">
     <details>
       <summary>MENU</summary>
+      <h1>INDEX</h1>
+      <ul class="side-menu">
+        <li>
+          <a href="index.html">
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="sub-page.html">
+            Template
+          </a>
+        </li>
+      </ul>
       <h1>COSPLAY</h1>
       <ul class="side-menu">
         <li>

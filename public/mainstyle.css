@@ -204,6 +204,84 @@ DOGS COLORS
 }
 
 /** ▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄
+TOPAZZ COLORS
+▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄ **/
+[data-theme='topazz'] {
+    --main-color: #fffeeb;
+    --main-color-trans: #f8f8f887;
+    --border-color: #c3e4ca;
+    --accent-color: #000000;
+    --accent-color-2: #000000;
+    --text-color: #53b0b8;
+    --text-color-trans: #53b0b8;
+    --second-text-color: #f55f5d;
+    --third-text-color: #53b0b8;
+    --p-color: #53b0b8;
+    --link-color: #c3e4ca;
+    --link-hover-color: #d9f93f;
+    --marquee: #f55f5d;
+    --gradient-1: gray:
+    --gradient-2: silver;
+    --text-bg: rgba(0, 0, 0, 0.50);
+    --tooltip-bg-color: #c3e4ca;
+    --tooltip-text-color: #000000;
+    --tooltip-shadow-color: #53b0b8;
+    --home-image: url(/main-assets/main-images/TopazzDoll.png);
+    --marquee-gif: url(/images/small-gifs/paw.gif);
+
+    ::selection {
+        color: #ffffff;
+        background: #c3e4ca;
+    }
+
+    body {
+    background-image: none;
+    }
+
+    #td-header {
+        background-image:url(main-assets/main-images/main-banner-3.0-d.png);
+    }
+
+    .td-side-list li{
+        font-family: 'MainBold', Courier, monospace;
+        height:15px;
+        background-color:#000000;
+        margin-bottom:5px;
+        border-radius: 0px 10px 10px 0px;
+    }
+
+    .home-image {
+        width:250px;
+        height:200px;
+    }
+
+    h1 {
+         background:#000000;
+         border-radius: 20px 0px 0px 20px; 
+         font-family: 'MainBold', Courier, monospace;
+         font-size: 24px;
+         margin:10px;
+         border:none;
+         color: #c3e4ca;
+    }
+
+    h2 {
+        background: #000000;
+        color:#c3e4ca;
+        margin:0px;
+        padding:3px;
+        text-align: right;
+        font-size: 20px;
+        letter-spacing: 5px;
+        border-radius: 20px 0px 0px 20px; 
+    }
+
+    .nav-header::before {content:"";}
+
+    .nav-header::after {content:"";}
+}
+
+/** ▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄
 MAIN STYLES
 ▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄ **/
 ::selection {
