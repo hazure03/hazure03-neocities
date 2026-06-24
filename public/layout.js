@@ -155,7 +155,7 @@ const headerEl = `
                 <p class="nav-header">MURKOFF</p>
                 <ul class="td-side-list">
                   <li><div class="tt-content">&nbsp;<a href="/TEMP" class="link-no-access">T.O.T._FANLISTING</a><span class="tt-text">Fanlisting for The Outlast Trials</span></div></li>
-                  <li><div class="tt-content">&nbsp;<a href="/TEMP" class="link-no-access">LET_IT_SHINE</a><span class="tt-text">Leland Coyle shrine</span></div></li>
+                  <li><div class="tt-content">&nbsp;<a href="/lelandcoyle.html" class="link-no-access">LET_IT_SHINE</a><span class="tt-text">Leland Coyle shrine</span></div></li>
 
                 <!--FUN-->
                 <p class="nav-header">MISC.</p>
