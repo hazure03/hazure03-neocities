@@ -1,0 +1,102 @@
+// initLayout() is called once the DOM (the HTML content of your website) has been loaded.
+document.addEventListener("DOMContentLoaded", function () {
+  // The layout will be loaded on all pages that do NOT have the "no-layout" class in the <body> element.
+  if (document.body.classList.contains("no-layout")) return;
+
+  // wrapping header and footer around
+document.body.innerHTML = headerEl + document.body.innerHTML + footerEl;
+
+  // Other initializations:
+  initActiveLinks();
+
+  // your code here...
+});
+
+/* ********************************* */
+
+/**
+ *  F U N C T I O N S
+ */
+
+function initActiveLinks() {
+  // This function adds the class "active" to any link that links to the current page.
+  // This is helpful for styling the active menu item.
+
+  const pathname = window.location.pathname;
+  [...document.querySelectorAll("a")].forEach((el) => {
+    const elHref = el.getAttribute("href").replace(".html", "").replace("/public", "");
+
+    if (pathname == "/") {
+      // homepage
+      if (elHref == "/" || elHref == "/index.html") el.classList.add("active");
+    } else {
+      // other pages
+      if (window.location.href.includes(elHref)) el.classList.add("active");
+    }
+  });
+}
+
+function getNestingString() {
+  // This function prepares the "nesting" variable for your header and footer (see below).
+  // Only change this function if you know what you're doing.
+  const currentUrl = window.location.href.replace("http://", "").replace("https://", "").replace("/public/", "/");
+  const numberOfSlahes = currentUrl.split("/").length - 1;
+  if (numberOfSlahes == 1) return ".";
+  if (numberOfSlahes == 2) return "..";
+  return ".." + "/..".repeat(numberOfSlahes - 2);
+}
+
+/* ********************************* */
+
+/**
+ *  H T M L
+ */
+
+const nesting = getNestingString();
+
+/**
+  Use ${nesting} to output a . or .. or ../.. etc according to the current page's folder depth.
+  Example:
+    <img src="${nesting}/images/example.jpg" />
+  will output
+  	 <img src="./images/example.jpg" /> on a page that isn't in any folder.
+    <img src="../images/example.jpg" /> on a page that is in a folder.
+    <img src="../../images/example.jpg" /> on a page that is in a sub-folder.
+    etc.
+ */
+
+// Insert your header HTML inside these ``. You can use HTML as usual. 
+// You don't need to use the <header> element, but I recommend it.
+const headerEl = `
+<div class="header"></div>
+<table>
+    <tr>
+        <td>
+    
+      
+`;
+
+// Insert your footer HTML inside these ``. You can use HTML as usual. 
+// You don't need to use the <footer> element, but I recommend it.
+const footerEl = `
+
+ </td>
+        <td>
+            <div class="menu">
+                <ul class="nav-menu">
+                    <li><a href="/lelandcoyle-home.html">HOME</a></li>
+                    <li><a href="/lelandcoyle-history.html">HISTORY</a></li>
+                    <li><a href="TEMP" class="link-no-access">DESIGN</a></li>
+                    <li><a href="TEMP" class="link-no-access">PERSONALITY</a></li>
+                    <li><a href="TEMP" class="link-no-access">VOICE</a></li>
+                    <li><a href="TEMP" class="link-no-access">CONCEPT&nbsp;ART</a></li>
+                    <li><a href="TEMP" class="link-no-access">FANART</a></li>
+                    <li><a href="TEMP" class="link-no-access">ABOUT SITE</a></li>
+                    <li><a href="/lelandcoyle.html">SPLASH</a></li>
+                </ul>
+            </div>
+        </td>
+    </tr>
+</table>
+`;
+

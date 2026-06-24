@@ -137,19 +137,25 @@ const headerEl = `
                 <!--MUSIC-->
                 <p class="nav-header">MUSIC</p>
                 <ul class="td-side-list">
-                    <li><div class="tt-content">&nbsp;<a href="/music-info.html">INFO</a><span class="tt-text">What is Babylon Bicarbonate?</span></div></li>
-                    <li><div class="tt-content">&nbsp;<a href="/music-bios.html">BIOS</a><span class="tt-text">The faces behind the music</span></div></li>
-                    <li><div class="tt-content">&nbsp;<a href="/music-catalog.html">DISCOGRAPHY</a><span class="tt-text">Finished songs / EPs / albums</div></li>
-                    <li><div class="tt-content">&nbsp;<a href="/music-extras.html">EXTRAS</a><span class="tt-text">Unfinished work, loops, and other cool sounds</span></div></li>
+                  <li><div class="tt-content">&nbsp;<a href="/music-info.html">INFO</a><span class="tt-text">What is Babylon Bicarbonate?</span></div></li>
+                  <li><div class="tt-content">&nbsp;<a href="/music-bios.html">BIOS</a><span class="tt-text">The faces behind the music</span></div></li>
+                  <li><div class="tt-content">&nbsp;<a href="/music-catalog.html">DISCOGRAPHY</a><span class="tt-text">Finished songs / EPs / albums</div></li>
+                  <li><div class="tt-content">&nbsp;<a href="/music-extras.html">EXTRAS</a><span class="tt-text">Unfinished work, loops, and other cool sounds</span></div></li>
                 </ul>
 
                 <!--CONVENTIONS-->
                 <p class="nav-header">CONVENTIONS</p>
                 <ul class="td-side-list">
-                    <li><div class="tt-content">&nbsp;<a href="/conventions-blog-home.html">BLOG</a><span class="tt-text">Happenings on a day-by-day basis</span></div></li>
-                    <li><div class="tt-content">&nbsp;<a href="/conventions-pics.html">PICS</a><span class="tt-text">Con pics</span></div></li>
-                    <li><div class="tt-content">&nbsp;<a href="/TEMP.html" class="link-no-access">VIDEOS</a><span class="tt-text">Con vids</span></div></li>
+                  <li><div class="tt-content">&nbsp;<a href="/conventions-blog-home.html">BLOG</a><span class="tt-text">Happenings on a day-by-day basis</span></div></li>
+                  <li><div class="tt-content">&nbsp;<a href="/conventions-pics.html">PICS</a><span class="tt-text">Con pics</span></div></li>
+                  <li><div class="tt-content">&nbsp;<a href="/TEMP.html" class="link-no-access">VIDEOS</a><span class="tt-text">Con vids</span></div></li>
                 </ul>
+
+                <!-- OUTLAST -->
+                <p class="nav-header">MURKOFF</p>
+                <ul class="td-side-list">
+                  <li><div class="tt-content">&nbsp;<a href="/TEMP" class="link-no-access">T.O.T._FANLISTING</a><span class="tt-text">Fanlisting for The Outlast Trials</span></div></li>
+                  <li><div class="tt-content">&nbsp;<a href="/TEMP" class="link-no-access">LET_IT_SHINE</a><span class="tt-text">Leland Coyle shrine</span></div></li>
 
                 <!--FUN-->
                 <p class="nav-header">MISC.</p>
