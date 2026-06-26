@@ -85,13 +85,14 @@ const footerEl = `
             <div class="menu">
                 <ul class="nav-menu">
                     <li><a href="/lelandcoyle-home.html">HOME</a></li>
-                    <li><a href="/lelandcoyle-history.html" class="link-no-access">HISTORY</a></li>
-                    <li><a href="/lelandcoyle-design.html" class="link-no-access">DESIGN</a></li>
-                    <li><a href="/lelandcoyle-personality.html" class="link-no-access">PERSONALITY</a></li>
-                    <li><a href="/lelandcoyle-voice.html" class="link-no-access">VOICE</a></li>
-                    <li><a href="/lelandcoyle-conceptart.html" class="link-no-access">CONCEPT&nbsp;ART</a></li>
+                    <li><a href="/lelandcoyle-news.html">NEWS</a></li>
+                    <li><a href="/lelandcoyle-basicinfo.html">BASIC INFO</a></li>
+                    <li><a href="/lelandcoyle-TEMP.html" class="link-no-access">HISTORY</a></li>
+                    <li><a href="/lelandcoyle-design.html">DESIGN</a></li>
+                    <li><a href="/lelandcoyle-TEMP.html" class="link-no-access">PERSONALITY</a></li>
+                    <li><a href="/lelandcoyle-conceptart.html">CONCEPT&nbsp;ART</a></li>
                     <li><a href="/lelandcoyle-fanart.html">FANART</a></li>
-                    <li><a href="/lelandcoyle-misc.html" class="link-no-access">MISC</a></li>
+                    <li><a href="/lelandcoyle-misc.html">MISC</a></li>
                     <li><a href="/lelandcoyle-about.html">ABOUT SITE</a></li>
                     <li><a href="/lelandcoyle.html">SPLASH</a></li>
                 </ul>

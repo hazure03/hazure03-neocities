@@ -4,5 +4,6 @@
     "chat.sendElementsToChat.enabled": false,
     "editor.autoClosingBrackets": "never",
     "editor.autoSurround": "never",
-    "html.autoClosingTags": false
+    "html.autoClosingTags": false,
+    "editor.autoClosingQuotes": "never"
 }
