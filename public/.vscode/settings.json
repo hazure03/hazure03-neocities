@@ -5,5 +5,6 @@
     "editor.autoClosingBrackets": "never",
     "editor.autoSurround": "never",
     "html.autoClosingTags": false,
-    "editor.autoClosingQuotes": "never"
+    "editor.autoClosingQuotes": "never",
+    "html.autoCreateQuotes": false
 }

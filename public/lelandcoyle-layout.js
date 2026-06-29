@@ -87,11 +87,12 @@ const footerEl = `
                     <li><a href="/lelandcoyle-home.html">HOME</a></li>
                     <li><a href="/lelandcoyle-news.html">NEWS</a></li>
                     <li><a href="/lelandcoyle-basicinfo.html">BASIC INFO</a></li>
-                    <li><a href="/lelandcoyle-TEMP.html" class="link-no-access">HISTORY</a></li>
+                    <li><a href="/lelandcoyle-history.html">HISTORY</a></li>
                     <li><a href="/lelandcoyle-design.html">DESIGN</a></li>
-                    <li><a href="/lelandcoyle-TEMP.html" class="link-no-access">PERSONALITY</a></li>
+                    <li><a href="/lelandcoyle-personality.html">PERSONALITY</a></li>
                     <li><a href="/lelandcoyle-conceptart.html">CONCEPT&nbsp;ART</a></li>
                     <li><a href="/lelandcoyle-fanart.html">FANART</a></li>
+                    <li><a href="/lelandcoyle-gifs.html">GIFS</a></li>
                     <li><a href="/lelandcoyle-misc.html">MISC</a></li>
                     <li><a href="/lelandcoyle-about.html">ABOUT SITE</a></li>
                     <li><a href="/lelandcoyle.html">SPLASH</a></li>

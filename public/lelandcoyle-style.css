@@ -9,6 +9,9 @@ MAIN COLORS
 --color4: #00324c;
 --color5: #800a0a;
 --color6: #d12604;
+--tooltip-text-color: var(--color6);
+--tooltip-bg-color: black;
+--border-color: var(--color5);
 
 ::selection {
     color: var(--color6);
@@ -40,7 +43,7 @@ body {
 }
 
 .aside {
-    color: var(--color3)
+    color: var(--color3);
 }
 
 .comment {
@@ -147,7 +150,7 @@ p {
 .menu {
     border: 1px dashed var(--color5);
     width: 110px;
-    height: 290px;
+    height: 315px;
     margin-left: -20px;
     background-color: var(--bg-color);
     top:200px;
@@ -196,13 +199,28 @@ ul li::before {
 }
 
 .divider {
-    border-top:1px dashed var(--color3);
-    width: 250px;
-    height: 50px;
+    border-top:1px dashed var(--color6);
+    width: 150px;
+    height: 30px;
     margin:auto;
 }
 
 .main-content img {
     max-width:250px;
     margin-left:30px;
+}
+
+.tt-content {
+    color: var(--color6);
+}
+
+.deco-quote {
+    font-family: 'AccentFont';
+    font-size:12px;
+    letter-spacing: 15px;
+    margin-top: -0px;
+    margin-left:0px;
+    text-align:left;
+    transform: rotate(-5deg);
+    color: var(--color5);
 }
