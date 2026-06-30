@@ -98,7 +98,7 @@ const footerEl = `
                     <li><a href="/lelandcoyle-misc.html">MISC</a></li>
                     <h3>Site</h3>
                     <li><a href="/lelandcoyle-about.html">ABOUT SITE</a></li>
-                    <li><a href="/lelandcoyle-linkback.html" class="link-no-access">LINK OUT</a></li>
+                    <li><a href="/lelandcoyle-linkback.html">LINK OUT</a></li>
                     <li><a href="/lelandcoyle.html">SPLASH</a></li>
                 </ul>
             </div>
