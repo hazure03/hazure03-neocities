@@ -1,0 +1,78 @@
+textarea {
+    margin:auto;
+    display: block;
+    width:400px;
+    height: 100px;
+}
+
+h1 {
+    text-align: right;
+    letter-spacing: 15px;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+a:hover {
+    color:red;
+}
+
+#header {
+    margin: 0px;
+    padding:0px;
+    height:100px;
+}
+
+#main-table {
+    width:600px;
+    margin:auto;
+    border-collapse: collapse;
+}
+
+#main-table td {
+    border: 1px solid;
+}
+
+#webringulist table {
+    border:1px solid;
+    border-collapse: collapse;
+    margin:auto;
+}
+
+#webringulist td, #webringulist th {
+    border:1px solid;
+}
+
+#webringulist td {
+    padding:10px;
+}
+
+#nav-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+#nav-menu ul li {
+    float: left;
+}
+
+#nav-menu ul li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#nav-menu ul li a:hover {
+    letter-spacing: 1px;
+    text-decoration: underline;
+}
+
+.main-content {
+    padding:10px;
+}
