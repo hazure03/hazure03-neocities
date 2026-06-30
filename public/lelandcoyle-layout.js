@@ -84,8 +84,10 @@ const footerEl = `
         <td>
             <div class="menu">
                 <ul class="nav-menu">
+                    <h3>Index</h3>
                     <li><a href="/lelandcoyle-home.html">HOME</a></li>
                     <li><a href="/lelandcoyle-news.html">NEWS</a></li>
+                    <h3>Sgt. Coyle</h3>
                     <li><a href="/lelandcoyle-basicinfo.html">BASIC INFO</a></li>
                     <li><a href="/lelandcoyle-history.html">HISTORY</a></li>
                     <li><a href="/lelandcoyle-design.html">DESIGN</a></li>
@@ -94,8 +96,9 @@ const footerEl = `
                     <li><a href="/lelandcoyle-fanart.html">FANART</a></li>
                     <li><a href="/lelandcoyle-gifs.html">GIFS</a></li>
                     <li><a href="/lelandcoyle-misc.html">MISC</a></li>
+                    <h3>Site</h3>
                     <li><a href="/lelandcoyle-about.html">ABOUT SITE</a></li>
-                    <li><a href="/lelandcoyle-linkback.html">LINK OUT</a></li>
+                    <li><a href="/lelandcoyle-linkback.html" class="link-no-access">LINK OUT</a></li>
                     <li><a href="/lelandcoyle.html">SPLASH</a></li>
                 </ul>
             </div>

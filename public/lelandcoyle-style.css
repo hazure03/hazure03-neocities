@@ -150,7 +150,7 @@ p {
 .menu {
     border: 1px dashed var(--color5);
     width: 110px;
-    height: 315px;
+    height: 410px;
     margin-left: -20px;
     background-color: var(--bg-color);
     top:200px;
@@ -180,6 +180,12 @@ p {
     left:5px;
     height:15px;
     display: inline-block;
+}
+
+.menu h3 {
+    font-size:10px;
+    color: var(--color6);
+    background: linear-gradient(90deg,rgba(128, 10, 10, 1) 0%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 1) 100%);
 }
 
 li {
