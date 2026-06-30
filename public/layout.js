@@ -129,8 +129,8 @@ const headerEl = `
                 <!--ARTWORK-->
                 <p class="nav-header">ARTWORK</p>
                 <ul class="td-side-list">
-                    <li><div class="tt-content">&nbsp;<a href="/art.html">ILLUSTRATIONS<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">*Mostly* digital drawings</span></div></li><span class="blinking-text">&nbsp;NEW!</span>
-                    <li><div class="tt-content">&nbsp;<a href="/fursuits.html">FURSUITS<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">Fursuits I've made and / or am working on</span><span class="blinking-text">&nbsp;NEW!</span></div></li>
+                    <li><div class="tt-content">&nbsp;<a href="/art.html">ILLUSTRATIONS<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">*Mostly* digital drawings</span></div></li>
+                    <li><div class="tt-content">&nbsp;<a href="/fursuits.html">FURSUITS<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">Fursuits I've made and / or am working on</span></div></li>
                     <li><div class="tt-content">&nbsp;<a href="/TEMP.html" class="link-no-access">COMMISSIONS</a><span class="tt-text">Interested in a custom piece?</span></div></li>
                 </ul>
 
@@ -155,7 +155,8 @@ const headerEl = `
                 <p class="nav-header">MURKOFF</p>
                 <ul class="td-side-list">
                   <li><div class="tt-content">&nbsp;<a href="/thesleeproom.html" target="_blank" class="link-no-access">THE_SLEEP_ROOM</a><span class="tt-text">Webring for The Outlast Trials</span></div></li>
-                  <li><div class="tt-content">&nbsp;<a href="/lelandcoyle.html" target="_blank">SPECIAL_KILLER</a><span class="tt-text">Leland Coyle shrine</span></div></li>
+                  <li><div class="tt-content">&nbsp;<a href="/lelandcoyle.html" target="_blank">SPECIAL_KILLER</a><span class="tt-text">Leland Coyle shrine</span></div><span class="blinking-text">&nbsp;NEW!</span></li>
+                </ul>
 
                 <!--FUN-->
                 <p class="nav-header">MISC.</p>
