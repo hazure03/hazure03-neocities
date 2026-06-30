@@ -154,8 +154,8 @@ const headerEl = `
                 <!-- OUTLAST -->
                 <p class="nav-header">MURKOFF</p>
                 <ul class="td-side-list">
-                  <li><div class="tt-content">&nbsp;<a href="/TEMP" class="link-no-access">T.O.T._FANLISTING</a><span class="tt-text">Fanlisting for The Outlast Trials</span></div></li>
-                  <li><div class="tt-content">&nbsp;<a href="/lelandcoyle.html">SPECIAL_KILLER</a><span class="tt-text">Leland Coyle shrine</span></div></li>
+                  <li><div class="tt-content">&nbsp;<a href="/thesleeproom.html" target="_blank" class="link-no-access">THE_SLEEP_ROOM</a><span class="tt-text">Webring for The Outlast Trials</span></div></li>
+                  <li><div class="tt-content">&nbsp;<a href="/lelandcoyle.html" target="_blank">SPECIAL_KILLER</a><span class="tt-text">Leland Coyle shrine</span></div></li>
 
                 <!--FUN-->
                 <p class="nav-header">MISC.</p>
