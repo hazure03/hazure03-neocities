@@ -1,3 +1,17 @@
+body {
+    background-color: #121a19;
+    color:rgb(222, 237, 212);
+    background: linear-gradient(0deg,rgba(197, 235, 181, 1) 0%, rgba(18, 26, 25, 1) 100%);
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color:rgb(197, 235, 181);
+}
+
 textarea {
     margin:auto;
     display: block;
@@ -8,26 +22,33 @@ textarea {
 h1 {
     text-align: right;
     letter-spacing: 15px;
+    color:rgb(197, 235, 181);
 }
 
 h2 {
     text-decoration: underline;
 }
 
-a:hover {
-    color:red;
+p {
+    width:400px;
+    margin: auto;
+    text-align: center;
 }
 
 #header {
     margin: 0px;
     padding:0px;
     height:100px;
+    background-image: url(images/thesleeproom/Window_next_to_Pharmacy.webp);
+    background-size: cover;
+    background-position: center;
 }
 
 #main-table {
     width:600px;
     margin:auto;
     border-collapse: collapse;
+    background-color: #121A19;
 }
 
 #main-table td {
@@ -38,6 +59,7 @@ a:hover {
     border:1px solid;
     border-collapse: collapse;
     margin:auto;
+    text-align: center;
 }
 
 #webringulist td, #webringulist th {
