@@ -4,7 +4,6 @@
 }
 
 body {
-    background-color: #121a19;
     color:#deedd4;
     background: linear-gradient(0deg,rgba(197, 235, 181, 1) 0%, rgba(18, 26, 25, 1) 100%);
     font-family: 'Courier New', Courier, monospace;
@@ -83,7 +82,7 @@ p {
 }
 
 #webringulist td, #webringulist th {
-    border:1px solid rgb(44, 65, 30);
+    border:1px solid #2c411e;
 }
 
 #webringulist td {
@@ -117,4 +116,18 @@ p {
 
 .main-content {
     padding:10px;
+}
+
+.footer {
+    padding:10px;
+    background-color:#deedd4;
+    color:#323a2a;
+}
+
+.footer a {
+    color:rgb(168, 169, 115);
+}
+
+.footer a:hover {
+    color:#ffffff;
 }
