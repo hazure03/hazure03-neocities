@@ -11,6 +11,19 @@
     border-radius: 15px;
     margin:2rem;
     margin-top:0.5rem;
+    width:800px;
+    margin:auto;
+}
+
+.container div.header {
+    padding:0px;
+    background-image: url('/temp-fishes/images/FISHCRAFTS_CORNER.png');
+    background-size: cover;
+    background-position:center ;
+    width: 630px;
+    height: 130px;
+    margin:auto;
+    margin-bottom:10px;
 }
 
 

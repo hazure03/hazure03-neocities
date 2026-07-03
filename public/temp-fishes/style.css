@@ -122,8 +122,9 @@ th {
     padding: 0.5rem;
     border: 1px solid var(--border-color);
     border-radius: 15px;
-    margin:2rem;
+    margin:auto;
     margin-top:0.5rem;
+    width:800px;
 }
 
 .container div {
@@ -200,14 +201,14 @@ th {
 }
 
 .container div.header {
-    grid-area: header;
     padding:0px;
-    background-image: url('/images/decor/weiner1-trans.png');
+    background-image: url('/temp-fishes/images/FISHCRAFTS_CORNER.png');
     background-size: cover;
-    height:150px;
-    width:500px;
+    background-position:center ;
+    width: 460px;
+    height:100px;
     margin:auto;
-    margin-bottom:1rem;
+    margin-bottom:10px;
 }
 
 .container div.content {
@@ -389,5 +390,16 @@ th {
         text-align:center;
         color: var(--link-color);
         font-family: "Bungee", sans-serif;
+    }
+
+    .container div.header {
+    padding:0px;
+    background-image: url('/temp-fishes/images/FISHCRAFTS_CORNER.png');
+    background-size: cover;
+    background-position:center ;
+    width: 495px;
+    height:100px;
+    margin:auto;
+    margin-bottom:10px;
     }
 }

@@ -758,6 +758,9 @@ td.side-box {
     width: 500px;
     padding: 0px;
     margin:0px;
+    background-color: transparent;
+    background-image: none;
+    background: none;
 }
 
 .blur {

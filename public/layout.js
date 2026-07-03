@@ -122,14 +122,14 @@ const headerEl = `
                     <li><div class="tt-content">&nbsp;<a href="/home.html">HOME</a><span class="tt-text">Where you began </span></div></li>
                     <li><div class="tt-content">&nbsp;<a href="/about.html">ABOUT</a><span class="tt-text">Who am I?</span></div></li>
                     <li><div class="tt-content">&nbsp;<a href="/links.html">LINKS</a><span class="tt-text">Where will you go next?</span></div></li>
-                    <li><div class="tt-content">&nbsp;<a href="/index.html">SPLASH</a><span class="tt-text">Where you ACTUALLY began</span></div></li>
+                    <li><div class="tt-content">&nbsp;<a href="/index.html">SPLASH<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">Where you ACTUALLY began</span></div></li>
                     <li><div class="tt-content">&nbsp;<a href="/credits.html">CREDITS</a><span class="tt-text">Credits</span></div></li>
                 </ul>
 
                 <!--ARTWORK-->
                 <p class="nav-header">ARTWORK</p>
                 <ul class="td-side-list">
-                    <li><div class="tt-content">&nbsp;<a href="/art.html">ILLUSTRATIONS<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">*Mostly* digital drawings</span></div></li>
+                    <li><div class="tt-content">&nbsp;<a href="/art.html">DIGITAL/TRAD<span style="color:var(--second-text-color);">&crarr;</span><span class="blinking-text">&nbsp;NEW!</span></a><span class="tt-text">*Mostly* digital drawings</span></div></li>
                     <li><div class="tt-content">&nbsp;<a href="/fursuits.html">FURSUITS<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">Fursuits I've made and / or am working on</span></div></li>
                     <li><div class="tt-content">&nbsp;<a href="/TEMP.html" class="link-no-access">COMMISSIONS</a><span class="tt-text">Interested in a custom piece?</span></div></li>
                 </ul>
@@ -146,8 +146,8 @@ const headerEl = `
                 <!--CONVENTIONS-->
                 <p class="nav-header">CONVENTIONS</p>
                 <ul class="td-side-list">
-                  <li><div class="tt-content">&nbsp;<a href="/conventions-blog-home.html">BLOG</a><span class="tt-text">Happenings on a day-by-day basis</span></div></li>
-                  <li><div class="tt-content">&nbsp;<a href="/conventions-pics.html">PICS</a><span class="tt-text">Con pics</span></div></li>
+                  <li><div class="tt-content">&nbsp;<a href="/conventions-blog-home.html">BLOG<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">Happenings on a day-by-day basis</span></div></li>
+                  <li><div class="tt-content">&nbsp;<a href="/conventions-pics.html">PICS<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">Con pics</span></div></li>
                   <li><div class="tt-content">&nbsp;<a href="/TEMP.html" class="link-no-access">VIDEOS</a><span class="tt-text">Con vids</span></div></li>
                 </ul>
 

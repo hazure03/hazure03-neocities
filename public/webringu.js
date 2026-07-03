@@ -68,7 +68,7 @@ function createMembersList(el) {
         <th>Site Name</th>
         <th>Website</th>
         ${hasDescription ? `<th>Description</th>` : ""}
-        <th>Fav Ex-Pop(s)</th>
+        <th>Fav(s)</th>
       </tr>
     </thead>
     <tbody>`;

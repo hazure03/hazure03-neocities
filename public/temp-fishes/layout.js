@@ -123,6 +123,11 @@ const headerEl = `
             Autism
           </a>
         </li>
+        <li>
+          <a href="francobarbi.html">
+            Franco Barbi
+          </a>
+        </li>
       </ul>
       <h1>OTHER</h1>
       <ul class="side-menu">
