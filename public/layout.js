@@ -155,7 +155,7 @@ const headerEl = `
                 <p class="nav-header">MURKOFF</p>
                 <ul class="td-side-list">
                   <li><div class="tt-content">&nbsp;<a href="/thesleeproom.html" target="_blank">THE_SLEEP_ROOM<span class="blinking-text">&nbsp;NEW!</span></a><span class="tt-text">Webring for The Outlast Trials</span></div></li>
-                  <li><div class="tt-content">&nbsp;<a href="/lelandcoyle.html" target="_blank">SPECIAL_KILLER<span class="blinking-text">&nbsp;NEW!</span></a><span class="tt-text">Leland Coyle shrine</span></div></li>
+                  <li><div class="tt-content">&nbsp;<a href="/lelandcoyle.html" target="_blank">SPECIAL_KILLER<span class="blinking-text">&nbsp;NEW!</span></a><span class="tt-text"><span style="color:red;">18+</span> | Leland Coyle shrine</span></div></li>
                 </ul>
 
                 <!--FUN-->
