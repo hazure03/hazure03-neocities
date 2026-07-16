@@ -230,3 +230,18 @@ ul li::before {
     transform: rotate(-5deg);
     color: var(--color5);
 }
+
+@keyframes blink {
+    0% {
+        color:var(--color4);
+    }
+
+    100% {
+        color:var(--color6);
+    }
+}
+
+.blinking-text {
+    text-align: center;
+    animation: blink 0.25s infinite;
+}

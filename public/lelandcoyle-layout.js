@@ -93,9 +93,9 @@ const footerEl = `
                     <li><a href="/lelandcoyle-design.html">DESIGN</a></li>
                     <li><a href="/lelandcoyle-personality.html">PERSONALITY</a></li>
                     <li><a href="/lelandcoyle-conceptart.html">CONCEPT&nbsp;ART</a></li>
-                    <li><a href="/lelandcoyle-fanart.html">FANART</a></li>
+                    <li><a href="/lelandcoyle-fanart.html">FANART</a><span class="blinking-text">&nbsp;NEW!</span></li>
                     <li><a href="/lelandcoyle-gifs.html">GIFS</a></li>
-                    <li><a href="/lelandcoyle-misc.html">MISC</a></li>
+                    <li><a href="/lelandcoyle-misc.html">MISC</a><span class="blinking-text">&nbsp;NEW!</span></li>
                     <h3>Site</h3>
                     <li><a href="/lelandcoyle-about.html">ABOUT SITE</a></li>
                     <li><a href="/lelandcoyle-linkback.html">LINK OUT</a></li>
