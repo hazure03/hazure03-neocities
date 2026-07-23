@@ -6,5 +6,6 @@
     "editor.autoSurround": "never",
     "html.autoClosingTags": false,
     "editor.autoClosingQuotes": "never",
-    "html.autoCreateQuotes": false
+    "html.autoCreateQuotes": false,
+    "editor.lineHeight": 3
 }

@@ -89,13 +89,15 @@ const footerEl = `
                     <li><a href="/lelandcoyle-news.html">NEWS</a></li>
                     <h3>Sgt. Coyle</h3>
                     <li><a href="/lelandcoyle-basicinfo.html">BASIC INFO</a></li>
-                    <li><a href="/lelandcoyle-history.html">HISTORY</a></li>
-                    <li><a href="/lelandcoyle-design.html">DESIGN</a></li>
-                    <li><a href="/lelandcoyle-personality.html">PERSONALITY</a></li>
+                    <li><a href="/lelandcoyle-history.html">HISTORY</a><span class="blinking-text">&nbsp;!</span></li>
+                    <li><a href="/lelandcoyle-personality.html">PERSONALITY</a><span class="blinking-text">!</span></li>
+                    <li><a href="/lelandcoyle-design.html">DESIGN</a><span class="blinking-text">&nbsp;!</span></li>
+                    <li><a href="/lelandcoyle-images.html">IMAGES</a><span class="blinking-text">&nbsp;!</span></li>
                     <li><a href="/lelandcoyle-conceptart.html">CONCEPT&nbsp;ART</a></li>
-                    <li><a href="/lelandcoyle-fanart.html">FANART</a><span class="blinking-text">&nbsp;NEW!</span></li>
+                    <li><a href="/lelandcoyle-documents.html">DOCUMENTS</a><span class="blinking-text">&nbsp;!</span></li>
+                    <li><a href="/lelandcoyle-fanart.html">FANART</a></li>
                     <li><a href="/lelandcoyle-gifs.html">GIFS</a></li>
-                    <li><a href="/lelandcoyle-misc.html">MISC</a><span class="blinking-text">&nbsp;NEW!</span></li>
+                    <li><a href="/lelandcoyle-misc.html">MISC</a></li>
                     <h3>Site</h3>
                     <li><a href="/lelandcoyle-about.html">ABOUT SITE</a></li>
                     <li><a href="/lelandcoyle-linkback.html">LINK OUT</a></li>
