@@ -153,10 +153,10 @@ const headerEl = `
                 </ul>
 
                 <!-- SHRINES -->
-                <p class="nav-header">SHRINES</p>
+                <p class="nav-header">WEB SHRINES</p>
                 <ul class="td-side-list">
                   <li><div class="tt-content">&nbsp;<a href="/lelandcoyle.html" target="_blank">SPECIAL_KILLER</a><span class="tt-text"><span style="color:red;">18+</span> | Leland Coyle shrine</span><span class="blinking-text">&nbsp;NEW!</span></div></li>
-                  <li><div class="tt-content">&nbsp;<a href="*" target="_blank" class="link-no-access">SONIC_DRAGOLGO</a><span class="tt-text">TBA</span></div></li>
+                  <li><div class="tt-content">&nbsp;<a href="*" target="_blank" class="link-no-access">###</a><span class="tt-text">TBA</span></div></li>
                 </ul>
 
                 <!--FUN-->
