@@ -103,8 +103,8 @@ const headerEl = `
 
                     <div class="divider"></div>
                     <p><b>I am feeling...</b><br><a href="https://www.imood.com/users/hazure03"><img src="https://moods.imood.com/display/uname-hazure03/fg-808080/trans-1/imood.gif" alt="The current mood of hazure03 at www.imood.com" border="0""></a></p>
-                    <p><b>listening to...</b><br>REPO: The Genetic Opera</p>
-                    <p><b>watching...</b><br>House M.D.</p>
+                    <p><b>listening to...</b><br>Chemlab</p>
+                    <p><b>watching...</b><br>REPO: The Genetic Opera</p>
                     <p><b>reading...</b><br>Wings of Fire: The Dragonet Prophecy</p>
                     <p><b>playing...</b><br>The Outlast Trials</p>
 
@@ -121,7 +121,7 @@ const headerEl = `
                 <ul class="td-side-list">
                     <li><div class="tt-content">&nbsp;<a href="/home.html">HOME</a><span class="tt-text">Where you began </span></div></li>
                     <li><div class="tt-content">&nbsp;<a href="/about.html">ABOUT</a><span class="tt-text">Who am I?</span></div></li>
-                    <li><div class="tt-content">&nbsp;<a href="/links.html">LINKS</a><span class="tt-text">Where will you go next?</span><span class="blinking-text">&nbsp;NEW!</span></div></li>
+                    <li><div class="tt-content">&nbsp;<a href="/links.html">LINKS</a><span class="tt-text">Where will you go next?</span></div></li>
                     <li><div class="tt-content">&nbsp;<a href="/index.html">SPLASH<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">Where you ACTUALLY began</span></div></li>
                     <li><div class="tt-content">&nbsp;<a href="/credits.html">CREDITS</a><span class="tt-text">Credits</span></div></li>
                 </ul>
