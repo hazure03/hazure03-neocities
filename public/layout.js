@@ -103,7 +103,7 @@ const headerEl = `
 
                     <div class="divider"></div>
                     <p><b>I am feeling...</b><br><a href="https://www.imood.com/users/hazure03"><img src="https://moods.imood.com/display/uname-hazure03/fg-808080/trans-1/imood.gif" alt="The current mood of hazure03 at www.imood.com" border="0""></a></p>
-                    <p><b>listening to...</b><br>Parov Stelar</p>
+                    <p><b>listening to...</b><br>REPO: The Genetic Opera</p>
                     <p><b>watching...</b><br>House M.D.</p>
                     <p><b>reading...</b><br>Wings of Fire: The Dragonet Prophecy</p>
                     <p><b>playing...</b><br>The Outlast Trials</p>
