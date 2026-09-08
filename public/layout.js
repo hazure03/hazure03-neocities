@@ -154,12 +154,12 @@ const headerEl = `
                 <!--FUN-->
                 <p class="nav-header">MISC.</p>
                 <ul class="td-side-list">
-                <li><div class="tt-content">&nbsp;<a href="/conventions-home.html">HOME<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">Latest updates + con history</span></div></li>
-                    <li><div class="tt-content">&nbsp;<a href="/thesleeproom.html" target="_blank">THE_SLEEP_ROOM</a><span class="tt-text">Webring for The Outlast Trials</span></div></li>
-                    <li><div class="tt-content">&nbsp;<a href="/dressup.html">DRESS.UP_GAME</a><span class="tt-text">Dress-up my fursona!</span></div></li>
-                    <li><div class="tt-content">&nbsp;<a href="/web-collection.html">WEB_COLLECTION</a><span class="tt-text">Collection of cool stuff I find while browsing</span><span class="blinking-text">&nbsp;NEW!</span></div></li>
-                    <li><div class="tt-content">&nbsp;<a href="/wallpapers.html">WALLPAPERS</a><span class="tt-text">Official wallpapers from various pieces of media</span></div></li>
-                    <li><div class="tt-content">&nbsp;<a href="/archive-site.html">SITE_ARCHIVE</a><span class="tt-text">Site-related archive (old layouts, overhaul notes)</span></div></li>
+                  <li><div class="tt-content">&nbsp;<a href="/conventions-home.html">CONVENTIONS<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">Latest updates + con history</span><span class="blinking-text">&nbsp;NEW!</span></div></li>
+                  <li><div class="tt-content">&nbsp;<a href="/thesleeproom.html" target="_blank">THE_SLEEP_ROOM<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">Webring for The Outlast Trials</span></div></li>
+                  <li><div class="tt-content">&nbsp;<a href="/dressup.html">DRESS.UP_GAME</a><span class="tt-text">Dress-up my fursona!</span></div></li>
+                  <li><div class="tt-content">&nbsp;<a href="/web-collection.html">WEB_COLLECTION</a><span class="tt-text">Collection of cool stuff I find while browsing</span></div></li>
+                  <li><div class="tt-content">&nbsp;<a href="/wallpapers.html">WALLPAPERS</a><span class="tt-text">Official wallpapers from various pieces of media</span></div></li>
+                  <li><div class="tt-content">&nbsp;<a href="/archive-site.html">SITE_ARCHIVE</a><span class="tt-text">Site-related archive (old layouts, overhaul notes)</span></div></li>
 
                 </ul>
 
