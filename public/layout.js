@@ -131,7 +131,7 @@ const headerEl = `
                 <ul class="td-side-list">
                     <li><div class="tt-content">&nbsp;<a href="/art.html">DIGITAL/TRAD<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">*Mostly* digital drawings</span></div></li>
                     <li><div class="tt-content">&nbsp;<a href="/fursuits.html">FURSUITS<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">Fursuits I've made and / or am working on</span></div></li>
-                    <li><div class="tt-content">&nbsp;<a href="/photography.html">PHOTOGRAPHY<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">Photos I've taken</span><span class="blinking-text">&nbsp;NEW!</span></div></li>
+                    <li><div class="tt-content">&nbsp;<a href="/photography.html">PHOTOGRAPHY<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">Photos I've taken</span></div></li>
                     <li><div class="tt-content">&nbsp;<a href="/TEMP.html" class="link-no-access">COMMISSIONS</a><span class="tt-text">Interested in a custom piece?</span></div></li>
                 </ul>
 
@@ -144,27 +144,20 @@ const headerEl = `
                   <li><div class="tt-content">&nbsp;<a href="/music-extras.html">EXTRAS</a><span class="tt-text">Unfinished work, loops, and other cool sounds</span></div></li>
                 </ul>
 
-                <!--CONVENTIONS-->
-                <p class="nav-header">CONVENTIONS</p>
-                <ul class="td-side-list">
-                  <li><div class="tt-content">&nbsp;<a href="/conventions-blog-home.html">BLOG<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">Happenings on a day-by-day basis</span></div></li>
-                  <li><div class="tt-content">&nbsp;<a href="/conventions-pics.html">PICS<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">Con pics</span></div></li>
-                  <li><div class="tt-content">&nbsp;<a href="/TEMP.html" class="link-no-access">VIDEOS</a><span class="tt-text">Con vids</span></div></li>
-                </ul>
-
                 <!-- SHRINES -->
                 <p class="nav-header">WEB SHRINES</p>
                 <ul class="td-side-list">
-                  <li><div class="tt-content">&nbsp;<a href="/lelandcoyle.html" target="_blank">SPECIAL_KILLER</a><span class="tt-text"><span style="color:red;">18+</span> | Leland Coyle shrine</span><span class="blinking-text">&nbsp;NEW!</span></div></li>
+                  <li><div class="tt-content">&nbsp;<a href="/lelandcoyle.html" target="_blank">SPECIAL_KILLER</a><span class="tt-text"><span style="color:red;">18+</span> | Leland Coyle shrine</span></div></li>
                   <li><div class="tt-content">&nbsp;<a href="*" target="_blank" class="link-no-access">###</a><span class="tt-text">TBA</span></div></li>
                 </ul>
 
                 <!--FUN-->
                 <p class="nav-header">MISC.</p>
                 <ul class="td-side-list">
-                    <li><div class="tt-content">&nbsp;<a href="/thesleeproom.html" target="_blank">THE_SLEEP_ROOM</a><span class="tt-text">Webring for The Outlast Trials</span><span class="blinking-text">&nbsp;NEW!</span></div></li>
+                <li><div class="tt-content">&nbsp;<a href="/conventions-home.html">HOME<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">Latest updates + con history</span></div></li>
+                    <li><div class="tt-content">&nbsp;<a href="/thesleeproom.html" target="_blank">THE_SLEEP_ROOM</a><span class="tt-text">Webring for The Outlast Trials</span></div></li>
                     <li><div class="tt-content">&nbsp;<a href="/dressup.html">DRESS.UP_GAME</a><span class="tt-text">Dress-up my fursona!</span></div></li>
-                    <li><div class="tt-content">&nbsp;<a href="/web-collection.html">WEB_COLLECTION</a><span class="tt-text">Collection of cool stuff I find while browsing</span></div></li>
+                    <li><div class="tt-content">&nbsp;<a href="/web-collection.html">WEB_COLLECTION</a><span class="tt-text">Collection of cool stuff I find while browsing</span><span class="blinking-text">&nbsp;NEW!</span></div></li>
                     <li><div class="tt-content">&nbsp;<a href="/wallpapers.html">WALLPAPERS</a><span class="tt-text">Official wallpapers from various pieces of media</span></div></li>
                     <li><div class="tt-content">&nbsp;<a href="/archive-site.html">SITE_ARCHIVE</a><span class="tt-text">Site-related archive (old layouts, overhaul notes)</span></div></li>
 
@@ -175,6 +168,8 @@ const headerEl = `
                 <ul class="td-side-list">
                     <li><div class="tt-content">&nbsp;<a href="mailto:splutterguttss.info@gmail.com">e_MAIL<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">Need something?</span></div></li>
                     <li><div class="tt-content">&nbsp;<a href="https://hazure03.atabook.org/">GUESTBOOK<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">Leave a message!</span></div></li>
+                    <li><div class="tt-content">&nbsp;TELEGRAM_[@hazure03]</a></div></li>
+                    <li><div class="tt-content">&nbsp;DISCORD_[@hazure03]</a></div></li>
                 </ul>
 
             </td>
