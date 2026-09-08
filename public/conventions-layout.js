@@ -77,33 +77,19 @@ const headerEl = `
         <tr>
             <td id="sidebar" rowspan="2">
                 <a href="/home.html"><< BACK TO MAIN PAGE</a>
-                <div id="blog-header"><p>Convention Blog</p></div>
+                <div id="blog-header"><p>CONVENTIONS</p></div>
 
-                <div class="sidebar-paper" style="height:175px;margin-bottom:20px;">
+                <div class="sidebar-paper">
                     <div id="sidebar-header">
-                        <h1 style="text-align: center;">BLOG<br>INDEX</h1>
+                        <h1 style="text-align: center;">NAVIGATION</h1>
                     </div>
                     <ul>
-                        <li><a href="conventions-blog-home.html">Home</a></li>
-                        <li><a href="conventions-pics.html">Pics</a><span class="blinking-text">&nbsp;NEW!</span></li>
-                        <li class="link-no-access"><a href="conventions-vids.html">Videos/Vlog</a></li>
-                        <li><a href="conventions-blog-test.html">Test Page</a></li>
+                        <li><a href="conventions-home.html">Home</a></li>
+                        <li><a href="conventions-pics.html">Photos</a></li>
+                        <li><a href="conventions-vids.html">Videos</a></li>
                         <br><br><br><br>
                     </ul>
                 </div>
-
-                <div class="sidebar-paper" style="transform: rotate(356deg);">
-                    <div id="sidebar-header">
-                        <h1 style="text-align: center;">Stratosfur<br>2026</h1>
-                    </div>
-                    <ul>
-                        <li class="link-no-access"><a href="TEMP">SF'26 - Thu.</a></li>
-                        <li class="link-no-access"><a href="TEMP">SF'26 - Fri.</a></li>
-                        <li class="link-no-access"><a href="TEMP">SF'26 - Sat.</a></li>
-                        <li class="link-no-access"><a href="TEMP">SF'26 - Sun.</a></li>
-                    </ul>
-                </div>
-
             </td>
             <td id="right">
     

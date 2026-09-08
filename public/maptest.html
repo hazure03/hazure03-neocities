@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+<title>MAP TEST</title>
+<link rel="icon" type="image/x-icon" href="images/#">
+<meta charset="utf-8" />
+<link rel="stylesheet" href="#">
+<script src="#"></script>
+<style>
+    #map {
+        background-image: url(images/maptest.jpg);
+        width:500px;
+        height:500px;
+        background-size: contain;
+        margin: auto;
+    }
+
+    .map-name {
+        display: none;
+        position: relative;
+        left:-50px;
+        top:-70px;
+    }
+    .map-menu {
+        font-size: 14px;
+        display: none;
+        color:brown;
+        border: 1px dashed saddlebrown;
+        background-color: burlywood;
+        padding: 5px;
+        z-index: 1000;
+        width:100px;
+        white-space: wrap;
+        margin: 10px 30px 20px 0px;
+        position: relative;
+        box-shadow:5px 5px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .map-menu li {
+        background-color: antiquewhite;
+        padding: 0%;
+        margin-bottom:5px;
+        list-style-type: none;
+    }
+
+    .map-menu ul {
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .hover-area {
+        display: block;
+        background-color: rgba(255, 0, 0, 0.474);
+        height:100px;
+        width: 100px;
+        position:relative;
+        cursor:crosshair;
+    }
+
+    .hover-area:hover .map-menu {
+        display: block;
+        position:absolute;
+    }
+
+        .hover-area:hover .map-name {
+        display: block;
+        position:absolute;
+    }
+
+    .map-menu:hover {
+        display: block;
+    }
+</style>
+</head>
+<body>
+    <div id="map">
+        <div class="hover-area" style="left:90px;top:120px">
+            <div class="map-name">
+                <h2>Artisans</h2>
+            </div>
+            <div class="map-menu" style="left:90px;top:20px;">
+                <ul>
+                    <h3>Go to...</h3>
+                    <li><a href="#">Artisans Hub</a></li>
+                    <li><a href="#">Stone Hill</a></li>
+                    <li><a href="#">Dark Hollow</a></li>
+                    <li><a href="#">Town Square</a></li>
+                    <li><a href="#">Toasty</a></li>
+                    <li><a href="#">Sunny Flight</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="hover-area" style="left:300px;top:110px">
+            <div class="map-name">
+                <h2>Peace Keepers</h2>
+            </div>
+            <div class="map-menu" style="left:90px;top:20px;">
+                <ul>
+                    <h3>Go to...</h3>
+                    <li><a href="#">Peace Keepers Hub</a></li>
+                    <li><a href="#">Cliff Town</a></li>
+                    <li><a href="#">Ice Cavern</a></li>
+                    <li><a href="#">Dry Canyon</a></li>
+                    <li><a href="#">Dr. Shemp</a></li>
+                    <li><a href="#">Night Flight</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="hover-area" style="left:140px;top:110px">
+            <div class="map-name">
+                <h2>Magic Crafters</h2>
+            </div>
+            <div class="map-menu" style="left:90px;top:20px;">
+                <ul>
+                    <h3>Go to...</h3>
+                    <li><a href="#">Magic Crafters Hub</a></li>
+                    <li><a href="#">Wizard Peak</a></li>
+                    <li><a href="#">Alpine Ridge</a></li>
+                    <li><a href="#">High Caves</a></li>
+                    <li><a href="#">Blowhard</a></li>
+                    <li><a href="#">Crystal Flight</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -77,8 +77,8 @@
 
             #sidebar-header h1 {
                 font-family: 'AccentFont';
-                transform: rotate(357deg);
-                font-size: 16px;
+                transform: rotate(2deg);
+                font-size: 15px;
                 width:80%;
                 text-align: left;
                 padding:0px;
@@ -98,9 +98,10 @@
             }
 
             .sidebar-paper a {
+                font-family: 'AccentFont', Courier, monospace;
                 color: rgb(142, 94, 53);
                 text-decoration: none;
-                font-size:16px;
+                font-size:20px;
             }
 
             .sidebar-paper a:hover {
@@ -113,15 +114,17 @@
                 width:100px;
                 margin-left: 15px;
                 padding:0px;
+                line-height: 50px;
                 list-style-type: none;
-                line-height: 25px;
+                margin-top:5px;
             }
 
             #sidebar li::before {
-                content: "> ";
+                content: "[ ";
                 display: show;
                 margin:0px;
                 padding:0px;
+                top:10px;
                 color: rgb(179, 152, 117);
             }
 
@@ -187,12 +190,14 @@
             #blog-header {
                 font-family: 'AccentFont';
                 text-align: center;
+                font-size:18px;
                 background-image: url(images/conventions/header-pape2.png);
                 background-size: 100%;
                 background-repeat: no-repeat;
                 margin:0px;
                 margin-top:10px;
-                padding: 20px;
+                padding-top: 25px;
+                padding-bottom:10px;
                 height:35px;
             }
 
@@ -249,6 +254,19 @@
                 width: 160px;
             }
             
+            .vid {
+                margin:auto;
+                display: block;
+                border:0px solid red;
+                width: 384px;
+                margin-bottom: 50px;
+            }
+
+            .vid iframe {
+                width:384px;
+                height:216px;
+                margin: auto;
+            }
 
             .gears {
                 position:absolute;
@@ -323,5 +341,6 @@
         }
         .blinking-text {
             text-align: center;
+            font-size:14px;
             animation: blink 0.5s infinite;
         }
