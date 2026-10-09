@@ -1,11 +1,11 @@
 {
     "chat.sendElementsToChat.attachCSS": false,
-    "chat.sendElementsToChat.attachImages": false,
     "chat.sendElementsToChat.enabled": false,
     "editor.autoClosingBrackets": "never",
     "editor.autoSurround": "never",
     "html.autoClosingTags": false,
     "editor.autoClosingQuotes": "never",
     "html.autoCreateQuotes": false,
-    "editor.lineHeight": 3
+    "editor.lineHeight": 3,
+    "workbench.browser.sendElementsToChat.attachImages": false
 }

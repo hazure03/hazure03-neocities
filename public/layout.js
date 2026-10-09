@@ -147,14 +147,14 @@ const headerEl = `
                 <!-- SHRINES -->
                 <p class="nav-header">WEB SHRINES</p>
                 <ul class="td-side-list">
-                  <li><div class="tt-content">&nbsp;<a href="/lelandcoyle.html" target="_blank">SPECIAL_KILLER</a><span class="tt-text"><span style="color:red;">18+</span> | Leland Coyle shrine</span></div></li>
+                  <li><div class="tt-content">&nbsp;<a href="/lelandcoyle.html" target="_blank">SPECIAL_KILLER</a><span class="tt-text"><span style="color:red;">18+</span> | Leland Coyle shrine</span><span class="blinking-text">&nbsp;NEW!</span></div></li>
                   <li><div class="tt-content">&nbsp;<a href="*" target="_blank" class="link-no-access">###</a><span class="tt-text">TBA</span></div></li>
                 </ul>
 
                 <!--FUN-->
                 <p class="nav-header">MISC.</p>
                 <ul class="td-side-list">
-                  <li><div class="tt-content">&nbsp;<a href="/conventions-home.html">CONVENTIONS<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">Latest updates + con history</span><span class="blinking-text">&nbsp;NEW!</span></div></li>
+                  <li><div class="tt-content">&nbsp;<a href="/conventions-home.html">CONVENTIONS<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">Latest updates + con history</span></div></li>
                   <li><div class="tt-content">&nbsp;<a href="/thesleeproom.html" target="_blank">THE_SLEEP_ROOM<span style="color:var(--second-text-color);">&crarr;</span></a><span class="tt-text">Webring for The Outlast Trials</span></div></li>
                   <li><div class="tt-content">&nbsp;<a href="/dressup.html">DRESS.UP_GAME</a><span class="tt-text">Dress-up my fursona!</span></div></li>
                   <li><div class="tt-content">&nbsp;<a href="/web-collection.html">WEB_COLLECTION</a><span class="tt-text">Collection of cool stuff I find while browsing</span></div></li>
